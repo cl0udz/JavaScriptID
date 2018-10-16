@@ -129,14 +129,7 @@
                     <regexp>\.newCall\(|Request.Builder\(\)</regexp>
                 </regmatch>
             </rule>
-        </function>
-	<function>
-            <rule name='DataSource'>
-                <regmatch>
-                    <regexp>\.getConnection\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
+        </function> 
     </javaid>
     <javaid vultype='FileUpload'>
         <function>
@@ -182,29 +175,6 @@
             <rule name='ModelAttribute'>
                 <regmatch>
                     <regexp>@ModelAttribute</regexp>
-                </regmatch>
-            </rule>
-        </function>
-    </javaid>
-    <javaid vultype='URL-Redirect'>
-        <function>
-            <rule name='sendRedirect'>
-                <regmatch>
-                    <regexp>sendRedirect\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='setHeader'>
-                <regmatch>
-                    <regexp>setHeader\(\"refresh</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='forward'>
-                <regmatch>
-                    <regexp>forward\(</regexp>
                 </regmatch>
             </rule>
         </function>

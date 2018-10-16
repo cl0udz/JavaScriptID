@@ -62,6 +62,7 @@ class javaid(object):
         self._dir = dir
         self._filename = ''
         self._vultype = ''
+
     def _run(self):
         try:
             self.banner()
@@ -99,6 +100,7 @@ class javaid(object):
         f.close() 
         #print 'read over file:' + fileName
         #print '------------------------'
+
     def function_search_line(self):
         fl = open(self._filename, 'r') 
         self._line =0
@@ -120,6 +122,7 @@ class javaid(object):
                 self.report_line()
                 continue
         fl.close()
+
     def regexp_search(self,rule_dom,content):
 
         regmatch_dom = rule_dom[0].xpath("regmatch")
@@ -132,6 +135,7 @@ class javaid(object):
                     self.function_search_line()
 
         return True
+
     def check_regexp(self, content):
         if not content:
             return
@@ -147,10 +151,13 @@ class javaid(object):
                 self.regexp_search(rule_dom,content)
                 #print "check_regexp search ..."
         return True
+        
     def remove_comment(self,content):
         return content
     def banner(self):
         print "[-]【JavaID】 Danger function identify tool"
+
+
 if __name__ == '__main__':
     parser = optparse.OptionParser('usage: python %prog [options](eg: python %prog -d /user/java/demo)')
     parser.add_option('-d', '--dir', dest = 'dir', type = 'string', help = 'source code file dir')
