@@ -62,20 +62,22 @@ class javaid(object):
         self._dir = dir
         self._filename = ''
         self._vultype = ''
+        self.cur_id = ''
 
     def _run(self):
         try:
             self.banner()
             self.handlePath(self._dir)
-            print "[-]【JavaID】identify danger function Finished!"    
+            #print "[-]【JavaID】identify danger function Finished!"    
         except:
             raise
 
     def report_id(self,vul):
-        print "[+]【"+vul+"】identify danger function ["+self._function+"] in file ["+self._filename+"]"
+        self.cur_id = self._filename
+        # print "[+]【"+vul+"】identify danger function ["+self._function+"] in file "+self._filename,
 
     def report_line(self):
-        print " --> [+] on line : "+ str(self._line)
+        print "[" + self._function + "]  " + self._filename + "@"+ str(self._line)
 
     def handlePath(self, path):
         dirs = os.listdir(path) 
@@ -155,7 +157,8 @@ class javaid(object):
     def remove_comment(self,content):
         return content
     def banner(self):
-        print "[-]【JavaID】 Danger function identify tool"
+        #print "[-]【JavaID】 Danger function identify tool"
+        pass
 
 
 if __name__ == '__main__':
