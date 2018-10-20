@@ -72,12 +72,20 @@ class javaid(object):
         except:
             raise
 
+    def getClassName(self, filepath):
+        try:
+            pattern = re.compile(r'.*/src/main/java/')
+            tmpClassName = re.sub(pattern, '', filepath)
+            return tmpClassName.replace("/", ".")
+        except:
+            return filepath
+
     def report_id(self,vul):
         self.cur_id = self._filename
         # print "[+]【"+vul+"】identify danger function ["+self._function+"] in file "+self._filename,
 
     def report_line(self):
-        print "[" + self._function + "]  " + self._filename + "@"+ str(self._line)
+        print "[" + self._function + "]  " + self.getClassName(self._filename) + "@"+ str(self._line)
 
     def handlePath(self, path):
         dirs = os.listdir(path) 
