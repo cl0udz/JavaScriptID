@@ -125,7 +125,7 @@ class javaid(object):
         #print '------------------------'
 
     def function_search_line(self):
-        methodFullPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final|\s){0,}\\s{0,}([a-zA-Z0-9<>\\.,]){1,}\\s{0,}([a-zA-Z0-9]){1,}\\s?\\(')
+        methodFullPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final|\s){0,}\\s{0,}([a-zA-Z0-9<>\\[\\]\\.,]){1,}\\s{0,}([a-zA-Z0-9]){1,}\\s?\\(')
         methodPreffixPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final|\s){0,}\\s{0,}([\\w<>,\\.\\[\\]]+)\\s{0,}')
 
         classFullPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final){0,}\\s{0,}(class)\\s{0,}([a-zA-Z0-9]){1,}')
