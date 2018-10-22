@@ -79,13 +79,13 @@
                 </regmatch>
             </rule>
         </function>
-        <function>
+        <!-- <function>
             <rule name='Yaml'>
                 <regmatch>
                     <regexp>.load\(</regexp>
                 </regmatch>
             </rule>
-        </function>
+        </function> -->
     </javaid>
     <javaid vultype='SSRF'>
         <function>

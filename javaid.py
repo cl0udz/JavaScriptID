@@ -124,7 +124,7 @@ class javaid(object):
         #print 'read over file:' + fileName
         #print '------------------------'
 
-    def function_search_line(self):
+    def function_search_line(self, expPattern):
         methodFullPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final|\s){0,}\\s{0,}([a-zA-Z0-9<>\\[\\]\\.,]){1,}\\s{0,}([a-zA-Z0-9]){1,}\\s?\\(')
         methodPreffixPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final|\s){0,}\\s{0,}([\\w<>,\\.\\[\\]]+)\\s{0,}')
 
@@ -171,8 +171,10 @@ class javaid(object):
                 tmpMethodName = re.search(methodFullPattern, line).group(0)
                 self.cur_method = re.sub(methodPreffixPattern, '', tmpMethodName)[:-1]
 
-            if self._function in line:
+            if expPattern.search(line):
+            #if self._function in line:
                 #print 'find danger function on line :' + str(line)
+                #print ("_function %s --- line %s ---" % (self._function, line[:-1]))
                 self.report_line()
                 continue
 
@@ -189,7 +191,7 @@ class javaid(object):
                     self.cur_id = self._filename
 
                     #self.report_id(self._vultype)
-                    self.function_search_line()
+                    self.function_search_line(exp_pattern)
 
         return True
 
