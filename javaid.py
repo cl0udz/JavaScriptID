@@ -98,7 +98,7 @@ class javaid(object):
         #print "[" + self._function + "]  " + self.getJAVAPath(self._filename) + "@"+ str(self._line)
         javaPath = self.getJAVAPath(self._filename)
         #print ("[%s] class name: %s, method name: %s, inner class: %s, java path: %s" % (self._function, self.cur_class, self.cur_method, self.inner_class, javaPath))
-        print ( "[%s] %s#%s@%s" %(self._function, javaPath, self.cur_method, self._line))
+        print ( "[%s] %s#%s@{%s-%s}" %(self._function, javaPath, self.cur_method, self.start_line, self.end_line))
 
     def handlePath(self, path):
         dirs = os.listdir(path) 
@@ -172,6 +172,13 @@ class javaid(object):
                 self.cur_method = re.sub(methodPreffixPattern, '', tmpMethodName)[:-1]
 
             if expPattern.search(line):
+                self.start_line = self._line
+                self.end_line = self._line
+
+                while line.find(";") == -1 and line[-3:].find("{") == -1:
+                    line = fl.readline()
+                    self._line += 1
+                    self.end_line += 1
             #if self._function in line:
                 #print 'find danger function on line :' + str(line)
                 #print ("_function %s --- line %s ---" % (self._function, line[:-1]))
