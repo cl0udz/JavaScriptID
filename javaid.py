@@ -86,6 +86,9 @@ class javaid(object):
             else:
                 javaPath = tmpjavaPath + "." + self.cur_class + "." + self.inner_class
 
+            pattern = re.compile(r'.*org.onosproject')
+            javaPath = re.sub(pattern, 'org.onosproject', javaPath)
+
             return javaPath
         except:
             return filepath
