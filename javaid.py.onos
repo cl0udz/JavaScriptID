@@ -92,6 +92,11 @@ class javaid(object):
             pattern = re.compile(r'.*org.onlab')
             javaPath = re.sub(pattern, 'org.onlab', javaPath)
 
+            if(javaPath.__contains__("org.onosproject") or javaPath.__contains__("org.onlab")):
+                return javaPath
+            else:
+                return ""
+
             return javaPath
         except:
             return filepath
@@ -103,6 +108,8 @@ class javaid(object):
     def report_line(self):
         #print "[" + self._function + "]  " + self.getJAVAPath(self._filename) + "@"+ str(self._line)
         javaPath = self.getJAVAPath(self._filename)
+        if(javaPath == ""):
+            return
         #print ("[%s] class name: %s, method name: %s, inner class: %s, java path: %s" % (self._function, self.cur_class, self.cur_method, self.inner_class, javaPath))
         print ( "[%s] %s#%s@{%s-%s}" %(self._function, javaPath, self.cur_method, self.start_line, self.end_line))
 

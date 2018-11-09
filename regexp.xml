@@ -17,7 +17,7 @@
         <function>
             <rule name='GET'>
                 <regmatch>
-                    <regexp>public Response .*</regexp>
+                    <regexp>.*public Response .*</regexp>
                 </regmatch>
             </rule>
         </function>
