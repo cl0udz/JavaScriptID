@@ -1,63 +1,63 @@
 <root>
     <javaid vultype='JID'>
         <function>
-            <rule name='Files'>
+            <rule name='$fs::. -> write $var_'>
                 <regmatch>
                     <regexp>write\(</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='toByteArray'>
+            <rule name='$fs::. -> write $var_'>
                 <regmatch>
                     <regexp>toByteArray\(</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='GET'>
+            <rule name='$http_api::. -> write $var_'>
                 <regmatch>
                     <regexp>.*public Response .*</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='sql'>
+            <rule name='$db::. -> exec $var_'>
                 <regmatch>
                     <regexp>executeQuery\(</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='applyflows'>
+            <rule name='$net_svc::flow -> write $var_'>
                 <regmatch>
                     <regexp>applyFlowRules\(</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='removeflows'>
+            <rule name='$net_svc::flow -> write $var_'>
                 <regmatch>
                     <regexp>removeFlowRules\(</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='pushflow'>
+            <rule name='$net_svc::flow -> write $var_'>
                 <regmatch>
                     <regexp>pushFlowMetrics\(</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='applyflow'>
+            <rule name='$net_svc::flow -> write $var_'>
                 <regmatch>
                     <regexp>applyFlowRule\(</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='applyrule'>
+            <rule name='$net_svc::flow -> write $var_'>
                 <regmatch>
                     <regexp>applyRule\(</regexp>
                 </regmatch>
@@ -66,42 +66,42 @@
     </javaid>
     <javaid vultype='XXE'>
         <function>
-            <rule name='SAXReader'>
+            <rule name='$fs::. -> read $var_'>
                 <regmatch>
                     <regexp>new\s+SAXReader\(\)</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='SAXBuilder'>
+            <rule name='$fs::. -> read $var_'>
                 <regmatch>
                     <regexp>new\s+SAXBuilder\(\)</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='SAXParser'>
+            <rule name='$fs::. -> read $var_'>
                 <regmatch>
                     <regexp>new\s+SAXParser\(</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='XMLReader'>
+            <rule name='$fs::. -> read $var_'>
                 <regmatch>
                     <regexp>createXMLReader\(</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='DocumentBuilder'>
+            <rule name='$fs::. -> read $var_'>
                 <regmatch>
                     <regexp>newDocumentBuilder\(</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='XMLStreamReader'>
+            <rule name='$fs::. -> read $var_'>
                 <regmatch>
                     <regexp>createXMLStreamReader\(</regexp>
                 </regmatch>
@@ -200,28 +200,28 @@
     </javaid> -->
     <javaid vultype='File'>
         <function>
-            <rule name='createNewFile'>
+            <rule name='$fs::. -> write $var_'>
                 <regmatch>
                     <regexp>\.createNewFile\(|FileOutputStream\(</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='FileInputStream'>
+            <rule name='$fs::. -> write $var_'>
                 <regmatch>
                     <regexp>new\sFileInputStream\(</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='BufferedReader'>
+            <rule name='$fs::. -> read $var_'>
                 <regmatch>
                     <regexp>readline</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='BufferedInputStream'>
+            <rule name='$fs::. -> write var#i'>
                 <regmatch>
                     <regexp>new\sBufferedInputStream</regexp>
                 </regmatch>
@@ -246,21 +246,21 @@
     </javaid> -->
     <javaid vultype='EXEC'>
         <function>
-            <rule name='getRuntime'>
+            <rule name='$sys_process::. -> exec $var_'>
                 <regmatch>
                     <regexp>getRuntime\(\)\.exec\(</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='ProcessBuilder'>
+            <rule name='$sys_process::. -> exec $var_'>
                 <regmatch>
                     <regexp>ProcessBuilder|ProcessBuilder\.start</regexp>
                 </regmatch>
             </rule>
         </function>
         <function>
-            <rule name='GroovyShell'>
+            <rule name='$sys_process::. -> exec $var_'>
                 <regmatch>
                     <regexp>GroovyShell\.evaluate</regexp>
                 </regmatch>
@@ -269,7 +269,7 @@
     </javaid>
     <javaid vultype='SQLi'>
         <function>
-            <rule name='select'>
+            <rule name='$db::. -> read $var_'>
                 <regmatch>
                     <regexp>(into|where)[^\$]*(\$\{[^,#=\s]+\})</regexp>
                 </regmatch>
