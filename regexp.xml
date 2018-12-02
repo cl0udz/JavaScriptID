@@ -14,13 +14,32 @@
                 </regmatch>
             </rule>
         </function>
+
+
+
+
         <function>
+            <rule name='$http_api::. -> write $var_'>
+                <regmatch>
+                    <regexp>@Get</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <!--<function>
+            <rule name='$fs::. -> write $var_'>
+                <regmatch>
+                    <regexp>public String store(String json)</regexp>
+                </regmatch>
+            </rule>
+        </function> -->
+
+        <!-- <function>
             <rule name='$http_api::. -> write $var_'>
                 <regmatch>
                     <regexp>.*public Response .*</regexp>
                 </regmatch>
             </rule>
-        </function>
+        </function> -->
         <function>
             <rule name='$db::. -> exec $var_'>
                 <regmatch>
@@ -28,14 +47,14 @@
                 </regmatch>
             </rule>
         </function>
-        <function>
+        <!-- <function>
             <rule name='$net_svc::flow -> write $var_'>
                 <regmatch>
                     <regexp>applyFlowRules\(</regexp>
                 </regmatch>
             </rule>
-        </function>
-        <function>
+        </function> -->
+        <!-- <function>
             <rule name='$net_svc::flow -> write $var_'>
                 <regmatch>
                     <regexp>removeFlowRules\(</regexp>
@@ -62,7 +81,7 @@
                     <regexp>applyRule\(</regexp>
                 </regmatch>
             </rule>
-        </function>
+        </function> -->
     </javaid>
     <javaid vultype='XXE'>
         <function>
@@ -228,22 +247,6 @@
             </rule>
         </function>
     </javaid>
-    <!-- <javaid vultype='Autobinding'>
-        <function>
-            <rule name='SessionAttributes'>
-                <regmatch>
-                    <regexp>@SessionAttributes</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='ModelAttribute'>
-                <regmatch>
-                    <regexp>@ModelAttribute</regexp>
-                </regmatch>
-            </rule>
-        </function>
-    </javaid> -->
     <javaid vultype='EXEC'>
         <function>
             <rule name='$sys_process::. -> exec $var_'>
@@ -276,15 +279,4 @@
             </rule>
         </function>
     </javaid>
-	<!--
-	<javaid vultype='XXE'>
-        <function>
-            <rule name='SAXReader'>
-                <regmatch>
-                    <regexp>new\s+SAXReader\(\)</regexp>
-                </regmatch>
-            </rule>
-        </function>
-    </javaid>
-	-->
 </root>
