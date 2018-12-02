@@ -92,7 +92,10 @@ class javaid(object):
             pattern = re.compile(r'.*org.onlab')
             javaPath = re.sub(pattern, 'org.onlab', javaPath)
 
-            if(javaPath.__contains__("org.onosproject") or javaPath.__contains__("org.onlab")):
+            pattern = re.compile(r'.*net.floodlightcontroller')
+            javaPath = re.sub(pattern, 'net.floodlightcontroller', javaPath)
+
+            if(javaPath.__contains__("org.onosproject") or javaPath.__contains__("org.onlab") or javaPath.__contains__("net.floodlightcontroller")):
                 return javaPath
             else:
                 return ""
