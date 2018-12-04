@@ -19,7 +19,7 @@
 
 
         <function>
-            <rule name='$fs::. -> write $var_'>
+            <rule name='$http_api::. -> write $var_'>
                 <regmatch>
                     <regexp>@Get</regexp>
                 </regmatch>

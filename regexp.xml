@@ -25,13 +25,13 @@
                 </regmatch>
             </rule>
         </function>
-        <!--<function>
-            <rule name='$fs::. -> write $var_'>
+        <function>
+            <rule name='$dp::push_rules -> write $var_'>
                 <regmatch>
                     <regexp>public String store(String json)</regexp>
                 </regmatch>
             </rule>
-        </function> -->
+        </function>
 
         <!-- <function>
             <rule name='$http_api::. -> write $var_'>

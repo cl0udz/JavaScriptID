@@ -120,6 +120,8 @@ class javaid(object):
         dirs = os.listdir(path) 
 
         for d in dirs:
+            if(d == "tests"):
+                continue
             subpath = os.path.join(path, d) 
             if os.path.isfile(subpath):
                 if os.path.splitext(subpath)[1] == '.java' or os.path.splitext(subpath)[1] == '.xml':
@@ -141,10 +143,10 @@ class javaid(object):
         #print '------------------------'
 
     def function_search_line(self, expPattern):
-        methodFullPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final|\s){0,}\\s{0,}([a-zA-Z0-9<>\\[\\]\\.,]){1,}\\s{0,}([a-zA-Z0-9]){1,}\\s?\\(')
-        methodPreffixPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final|\s){0,}\\s{0,}([\\w<>,\\.\\[\\]]+)\\s{0,}')
+        methodFullPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final|\\s){0,}\\s{0,}([\\w_,\\.\\[\\]]+\\s{0,}(<.*>){0,})\\s{0,}([a-zA-Z0-9_]){1,}\\s?\\(')
+        methodPreffixPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final|\\s){0,}\\s{0,}([\\w_,\\.\\[\\]]+\\s{0,}(<.*>){0,})\\s{0,}')
 
-        classFullPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final){0,}\\s{0,}(class)\\s{0,}([a-zA-Z0-9]){1,}')
+        classFullPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final){0,}\\s{0,}(class)\\s{0,}([a-zA-Z0-9_]){1,}')
         classPreffixPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final){0,}\\s{0,}(class)\\s{0,}')
 
         self.cur_method = ''
@@ -171,7 +173,7 @@ class javaid(object):
                 continue
 
             # match class name or inner class name
-            if re.match(classFullPattern, line):
+            if re.search(classFullPattern, line):
                 tmpClassName = re.search(classFullPattern, line).group(0)
 
                 if self.cur_class == '':
@@ -191,13 +193,19 @@ class javaid(object):
                 self.start_line = self._line
                 self.end_line = self._line
 
-                while line.find(";") == -1 and line[-3:].find("{") == -1:
+                while line.find(";") == -1 and line.replace(" ", "")[-2:].find("{") == -1:
                     line = fl.readline()
                     self._line += 1
                     self.end_line += 1
             #if self._function in line:
                 #print 'find danger function on line :' + str(line)
                 #print ("_function %s --- line %s ---" % (self._function, line[:-1]))
+
+                if(expPattern.pattern == "@Get"):
+                    if re.match(methodFullPattern, line):
+                        tmpMethodName = re.search(methodFullPattern, line).group(0)
+                        self.cur_method = re.sub(methodPreffixPattern, '', tmpMethodName)[:-1]
+                    
                 self.report_line()
                 continue
 
@@ -235,7 +243,11 @@ class javaid(object):
         return True
         
     def remove_comment(self,content):
+        comment_pattern = re.compile("/\\*[\s\S]*\\*/")
+        content = re.sub(comment_pattern, '', content)
+
         return content
+
     def banner(self):
         #print "[-]【JavaID】 Danger function identify tool"
         pass
