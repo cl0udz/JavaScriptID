@@ -120,7 +120,7 @@ class javaid(object):
         dirs = os.listdir(path) 
 
         for d in dirs:
-            if(d == "tests"):
+            if(d.__contains__("test")):
                 continue
             subpath = os.path.join(path, d) 
             if os.path.isfile(subpath):
@@ -146,8 +146,8 @@ class javaid(object):
         methodFullPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final|\\s){0,}\\s{0,}([\\w_,\\.\\[\\]]+\\s{0,}(<.*>){0,})\\s{0,}([a-zA-Z0-9_]){1,}\\s?\\(')
         methodPreffixPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final|\\s){0,}\\s{0,}([\\w_,\\.\\[\\]]+\\s{0,}(<.*>){0,})\\s{0,}')
 
-        classFullPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final){0,}\\s{0,}(class)\\s{0,}([a-zA-Z0-9_]){1,}')
-        classPreffixPattern = re.compile('\\s{0,}(public|private|protected)\\s{0,}(static|synchronized|final){0,}\\s{0,}(class)\\s{0,}')
+        classFullPattern = re.compile('\\s{0,}(public|private|protected)?\\s{0,}(static|synchronized|final){0,}\\s{0,}(class)\\s{0,}([a-zA-Z0-9_]){1,}')
+        classPreffixPattern = re.compile('\\s{0,}(public|private|protected)?\\s{0,}(static|synchronized|final){0,}\\s{0,}(class)\\s{0,}')
 
         self.cur_method = ''
         self.cur_class = ''
