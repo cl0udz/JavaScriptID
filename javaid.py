@@ -8,6 +8,7 @@ import os
 import optparse
 import sys
 from lxml.html import etree
+import StringIO
 
 '''
 XXE:
@@ -161,6 +162,7 @@ class javaid(object):
 
 
         #print "function_search_line"+self._filename
+        comment_flag = False
         while True:
             line = fl.readline() 
             if not line:  
@@ -168,6 +170,16 @@ class javaid(object):
                 break
 
             self._line += 1
+
+            if line.__contains__("*/"):
+                comment_flag = False
+
+            if comment_flag:
+                continue
+
+            if line.__contains__("/*"):
+                comment_flag = True
+                continue
 
             if exp_pattern.search(line):
                 continue
@@ -243,7 +255,7 @@ class javaid(object):
         return True
         
     def remove_comment(self,content):
-        comment_pattern = re.compile("/\\*[\s\S]*\\*/")
+        comment_pattern = re.compile("/\\*([\\d\\D]*)\\*/")
         content = re.sub(comment_pattern, '', content)
 
         return content
