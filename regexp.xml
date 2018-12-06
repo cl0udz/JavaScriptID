@@ -28,7 +28,56 @@
         <function>
             <rule name='$dp::push_rules -> write $var_'>
                 <regmatch>
-                    <regexp>public String store(String json)</regexp>
+                    <regexp>public String store\(String json\)</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <function>
+            <rule name='$db::table -> read $var_'>
+                <regmatch>
+                    <regexp>\.getTable\(</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <function>
+            <rule name='$db::row -> read $var_'>
+                <regmatch>
+                    <regexp>\.getRow\(</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <function>
+            <rule name='$db::row -> write $var_'>
+                <regmatch>
+                    <regexp>\.insertRows\(</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <function>
+            <rule name='$db::row -> write $var_'>
+                <regmatch>
+                    <regexp>\.updateRows\(</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <function>
+            <rule name='$db::row -> write $var_'>
+                <regmatch>
+                    <regexp>\.deleteRows\(</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <function>
+            <rule name='$db::row -> write $var_'>
+                <regmatch>
+                    <regexp>\.deleteRowsImpl\(</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <function>
+            <rule name='$db::row -> write $var_'>
+                <regmatch>
+                    <regexp>\.updateRowsImpl\(</regexp>
                 </regmatch>
             </rule>
         </function>
