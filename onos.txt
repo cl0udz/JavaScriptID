@@ -1,1314 +1,771 @@
-[$http_api::. -> write $var_] org.onosproject.ui.impl.LogoutResource#logout@{39-39}
-[$fs::. -> write $var_] org.onosproject.ui.impl.MainNavResource#getNavigation@{68-68}
-[$http_api::. -> write $var_] org.onosproject.ui.impl.MainNavResource#getNavigation@{64-64}
-[$fs::. -> write $var_] org.onosproject.ui.impl.FooResource#decodeAndMark@{71-71}
-[$fs::. -> write $var_] org.onosproject.ui.impl.FooResource#decodeAndMark@{72-72}
-[$fs::. -> write $var_] org.onosproject.ui.impl.FooResource#getBinResource@{89-89}
-[$http_api::. -> write $var_] org.onosproject.ui.impl.FooResource#getBinResource@{78-79}
-[$http_api::. -> write $var_] org.onosproject.ui.impl.ApplicationResource#upload@{51-52}
-[$http_api::. -> write $var_] org.onosproject.ui.impl.ApplicationResource#download@{74-74}
-[$http_api::. -> write $var_] org.onosproject.ui.impl.ApplicationResource#getIcon@{87-87}
-[$fs::. -> write $var_] org.onosproject.ui.impl.MainIndexResource#getMainIndex@{83-83}
-[$http_api::. -> write $var_] org.onosproject.ui.impl.MainIndexResource#getMainIndex@{69-69}
-[$fs::. -> write $var_] org.onosproject.ui.impl.MainModuleResource#getMainModule@{55-55}
-[$http_api::. -> write $var_] org.onosproject.ui.impl.MainModuleResource#getMainModule@{52-52}
-[$http_api::. -> write $var_] org.onosproject.ui.impl.TopologyResource#getGeoLocations@{64-64}
-[$http_api::. -> write $var_] org.onosproject.ui.impl.TopologyResource#setSprites@{117-117}
-[$http_api::. -> write $var_] org.onosproject.ui.impl.MainViewResource#getViewResource@{43-44}
-[$fs::. -> write $var_] org.onosproject.ui.impl.birds.BirdEncoderTest.Encoding#writeBufferToFile@{218-218}
-[$fs::. -> write $var_] org.onosproject.ui.impl.birds.BirdEncoderTest.Encoding#encodePng@{193-193}
-[$fs::. -> write $var_] org.onosproject.ui.impl.birds.BirdEncoderTest.Encoding#writeBufferToFile@{217-217}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.PathsWebResource#getPath@{71-72}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.PathsWebResource#getDisjointPath@{90-91}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.GroupsWebResource#getGroups@{91-91}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.GroupsWebResource#getGroupsByDeviceId@{113-113}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.GroupsWebResource#getGroupByDeviceIdAndAppCookie@{132-133}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.GroupsWebResource#createGroup@{159-160}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.GroupsWebResource#deleteGroupByDeviceIdAndAppCookie@{197-198}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.GroupsWebResource#addBucket@{252-254}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.GroupsWebResource#deleteBuckets@{308-310}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.SystemInfoWebResource#getSystemInfo@{64-64}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.TopologyWebResource#getTopology@{57-57}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.TopologyWebResource#getClusters@{72-72}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.TopologyWebResource#getCluster@{90-90}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.TopologyWebResource#getClusterDevices@{114-114}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.TopologyWebResource#getClusterLinks@{138-138}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.TopologyWebResource#getConnectPointBroadcast@{188-188}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.TopologyWebResource#getConnectPointInfrastructure@{213-213}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.NetworkConfigWebResource#download@{90-90}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.NetworkConfigWebResource#download@{111-111}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.NetworkConfigWebResource#download@{132-133}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.NetworkConfigWebResource#download@{157-159}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.NetworkConfigWebResource#upload@{209-209}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.NetworkConfigWebResource#upload@{242-243}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.NetworkConfigWebResource#upload@{269-271}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.NetworkConfigWebResource#upload@{300-303}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.NetworkConfigWebResource#delete@{357-357}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.NetworkConfigWebResource#delete@{372-372}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.NetworkConfigWebResource#delete@{392-393}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.NetworkConfigWebResource#delete@{413-415}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowsWebResource#getFlows@{87-87}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowsWebResource#getPendingFlows@{110-110}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowsWebResource#createFlows@{141-141}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowsWebResource#getFlowByDeviceId@{178-178}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowsWebResource#getFlowByDeviceIdAndFlowId@{203-204}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowsWebResource#getFlowByAppId@{230-230}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowsWebResource#removeFlowByAppId@{250-250}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowsWebResource#createFlow@{274-276}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowsWebResource#deleteFlowByDeviceIdAndFlowId@{315-316}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowsWebResource#deleteFlows@{337-337}
-[$net_svc::flow -> write $var_] org.onosproject.rest.resources.FlowsWebResource#createFlows@{153-153}
-[$net_svc::flow -> write $var_] org.onosproject.rest.resources.FlowsWebResource#createFlow@{292-292}
-[$net_svc::flow -> write $var_] org.onosproject.rest.resources.FlowsWebResource#deleteFlows@{370-370}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.RegionsWebResource#getRegions@{68-68}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.RegionsWebResource#getRegionById@{83-83}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.RegionsWebResource#getRegionDevices@{100-100}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.RegionsWebResource#createRegion@{120-120}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.RegionsWebResource#updateRegion@{147-148}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.RegionsWebResource#removeRegion@{176-176}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.RegionsWebResource#addDevices@{195-196}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.RegionsWebResource#removeDevices@{223-224}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ComponentConfigWebResource#getComponentConfigs@{59-59}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ComponentConfigWebResource#getComponentConfigs@{76-76}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ComponentConfigWebResource#setConfigs@{105-107}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ComponentConfigWebResource#unsetConfigs@{152-153}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.UiPreferencesWebResource#download@{48-48}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.UiPreferencesWebResource#download@{70-70}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.UiPreferencesWebResource#download@{88-89}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.UiPreferencesWebResource#upload@{106-108}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.UiPreferencesWebResource#remove@{125-126}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DeviceKeyWebResource#getDeviceKeys@{64-64}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DeviceKeyWebResource#getDeviceKey@{80-80}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DeviceKeyWebResource#addDeviceKey@{97-97}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DeviceKeyWebResource#removeDeviceKey@{126-126}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApplicationsWebResource#getApps@{65-65}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApplicationsWebResource#getApp@{81-81}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApplicationsWebResource#installApp@{98-98}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApplicationsWebResource#installApp@{131-133}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApplicationsWebResource#uninstallApp@{155-155}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApplicationsWebResource#activateApp@{174-174}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApplicationsWebResource#deactivateApp@{191-191}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApplicationsWebResource#registerAppId@{210-210}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApplicationsWebResource#getAppBits@{226-226}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApplicationsWebResource#getAppIdByName@{244-245}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApplicationsWebResource#getAppIds@{266-266}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MastershipWebResource#getLocalRole@{78-78}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MastershipWebResource#getMasterFor@{94-94}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MastershipWebResource#getNodesFor@{114-114}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MastershipWebResource#getDeviceOf@{131-131}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MastershipWebResource#requestRoleFor@{154-154}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MastershipWebResource#relinquishMastership@{175-175}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MastershipWebResource#setRole@{191-191}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MastershipWebResource#balanceRoles@{224-224}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DpisWebResource#getDpisLatest@{86-86}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DpisWebResource#getTrafficStatistics@{142-142}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DpisWebResource#getDetectedProtocols@{168-168}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DpisWebResource#getKnownFlows@{209-209}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DpisWebResource#getUnknownFlows@{250-250}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DpisWebResource#addDpiStatistics@{292-292}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.LinksWebResource#getLinks@{52-54}
-[$fs::. -> write $var_] org.onosproject.rest.resources.ApiDocResource#getIndex@{131-131}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApiDocResource#getApiList@{67-67}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApiDocResource#getApi@{82-82}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApiDocResource#getApiModel@{98-98}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApiDocResource#getDefault@{114-114}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApiDocResource#getIndex@{127-127}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ApiDocResource#getResource@{166-166}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ClusterWebResource#getClusterNodes@{60-60}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ClusterWebResource#getClusterNode@{76-76}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.ClusterWebResource#formCluster@{94-94}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MetricsWebResource#getAllMetrics@{62-62}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MetricsWebResource#getMetricByName@{85-85}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.StatisticsWebResource#getLoads@{73-74}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.StatisticsWebResource#getTableStatistics@{114-114}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.StatisticsWebResource#getTableStatisticsByDeviceId@{145-145}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.StatisticsWebResource#getPortStatistics@{170-170}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.StatisticsWebResource#getPortStatisticsByDeviceId@{200-200}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.StatisticsWebResource#getPortStatisticsByDeviceIdAndPort@{229-230}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.StatisticsWebResource#getPortDeltaStatistics@{256-256}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.StatisticsWebResource#getPortDeltaStatisticsByDeviceId@{286-286}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.StatisticsWebResource#getPortDeltaStatisticsByDeviceIdAndPort@{315-316}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.StatisticsWebResource#getActiveEntriesCountPerDevice@{343-343}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.HostsWebResource#getHosts@{83-83}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.HostsWebResource#getHostById@{100-100}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.HostsWebResource#getHostByMacAndVlan@{119-120}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.HostsWebResource#createAndAddHost@{139-139}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.HostsWebResource#removeHost@{179-180}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowObjectiveWebResource#createFilteringObjective@{74-76}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowObjectiveWebResource#createForwardingObjective@{118-120}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowObjectiveWebResource#createNextObjective@{162-164}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowObjectiveWebResource#getNextId@{201-201}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.FlowObjectiveWebResource#initPolicy@{216-216}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.IntentsWebResource#getIntents@{101-101}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.IntentsWebResource#getIntentSummary@{118-118}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.IntentsWebResource#getIntentWithInstallable@{141-142}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.IntentsWebResource#getIntentById@{171-172}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.IntentsWebResource#getIntentFlowsById@{209-210}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.IntentsWebResource.DeleteListener#createIntent@{298-298}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.IntentsWebResource.DeleteListener#deleteIntentById@{326-327}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MetersWebResource#getMeters@{75-75}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MetersWebResource#getMetersByDeviceId@{93-93}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MetersWebResource#getMeterByDeviceIdAndMeterId@{113-114}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MetersWebResource#createMeter@{139-140}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MetersWebResource#deleteMeterByDeviceIdAndMeterId@{179-180}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MulticastRouteWebResource#getRoutes@{60-60}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MulticastRouteWebResource#createRoute@{78-78}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MulticastRouteWebResource#deleteRoute@{111-111}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.MulticastRouteWebResource#addSinks@{138-140}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#getVirtualNetworks@{81-81}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#getVirtualNetworkById@{100-100}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#createVirtualNetwork@{118-118}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#removeVirtualNetwork@{141-141}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#getVirtualDevices@{159-159}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#createVirtualDevice@{178-179}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#removeVirtualDevice@{209-210}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#getVirtualPorts@{230-231}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#createVirtualPort@{251-253}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#removeVirtualPort@{297-299}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#getVirtualLinks@{318-318}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#createVirtualLink@{337-338}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#removeVirtualLink@{370-371}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#getVirtualHosts@{399-399}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#createVirtualHost@{418-419}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.VirtualNetworkWebResource#removeVirtualHost@{452-453}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DevicesWebResource#getDevices@{67-67}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DevicesWebResource#getDevice@{83-83}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DevicesWebResource#removeDevice@{100-100}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DevicesWebResource#getDevicePorts@{119-119}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DevicesWebResource#setPortState@{141-143}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.TenantWebResource#getVirtualNetworkTenantIds@{66-66}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.TenantWebResource#addTenantId@{82-82}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.TenantWebResource#removeTenantId@{106-106}
-[$fs::. -> write $var_] org.onosproject.rest.resources.DiagnosticsWebResource#execute@{63-63}
-[$fs::. -> write $var_] org.onosproject.rest.resources.DiagnosticsWebResource#execute@{64-64}
-[$http_api::. -> write $var_] org.onosproject.rest.resources.DiagnosticsWebResource#getDiagnostics@{50-50}
-[$fs::. -> write $var_] org.onosproject.rest.resources.DiagnosticsWebResource#getDiagnostics@{53-53}
-[$sys_process::. -> exec $var_] org.onosproject.rest.resources.DiagnosticsWebResource#execute@{62-62}
-[$net_svc::flow -> write $var_] org.onosproject.rest.resources.FlowsResourceTest.FlowRuleJsonArrayMatcher#testPostWithoutAppId@{737-737}
-[$net_svc::flow -> write $var_] org.onosproject.rest.resources.FlowsResourceTest.FlowRuleJsonArrayMatcher#testPostWithAppId@{758-758}
-[$net_svc::flow -> write $var_] org.onosproject.rest.resources.FlowsResourceTest.FlowRuleJsonArrayMatcher#testDelete@{781-781}
-[$fs::. -> read $var_] org.onosproject.xmpp.core.ctl.handlers.XmlMerger#initDocBuilder@{62-62}
-[$fs::. -> write $var_] org.onosproject.xmpp.core.ctl.handlers.XmppChannelHandler#write@{286-286}
-[$fs::. -> write $var_] org.onosproject.xmpp.core.ctl.ChannelAdapter#write@{189-189}
-[$fs::. -> write $var_] org.onosproject.xmpp.core.ctl.ChannelAdapter#write@{194-194}
-[$fs::. -> write $var_] org.onosproject.xmpp.core.ctl.ChannelHandlerContextAdapter#write@{173-173}
-[$fs::. -> write $var_] org.onosproject.xmpp.core.ctl.ChannelHandlerContextAdapter#write@{178-178}
-[$fs::. -> write $var_] org.onosproject.xmpp.core.stream.XmppStreamOpen#toXml@{53-53}
-[$fs::. -> write $var_] org.onosproject.xmpp.core.stream.XmppStreamOpen#toXml@{54-54}
-[$fs::. -> write $var_] org.onosproject.xmpp.core.stream.XmppStreamOpen#toXml@{56-56}
-[$fs::. -> write $var_] org.onosproject.xmpp.core.stream.XmppStreamOpen#toXml@{58-58}
-[$fs::. -> write $var_] org.onosproject.xmpp.core.stream.XmppStreamOpen#toXml@{59-59}
-[$fs::. -> write $var_] org.onosproject.xmpp.core.stream.XmppStreamOpen#toXml@{60-60}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.impl.Controller#initSsl@{240-240}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.impl.Controller#initSsl@{245-245}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.impl.OpenFlowControllerImpl#write@{296-296}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.impl.OpenFlowControllerImpl#writeResponse@{302-302}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.impl.OFMessageEncoder#write@{57-59}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.impl.OFMessageEncoder#write@{71-71}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.impl.OFMessageEncoder#write@{75-75}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.impl.OFMessageEncoder#write@{81-81}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.impl.#channelIdle@{1359-1359}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.impl.HandshakeTimeoutHandler#write@{64-66}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.impl.HandshakeTimeoutHandler#write@{68-68}
-[$fs::. -> write $var_] org.onosproject.openflow.ChannelAdapter#write@{229-229}
-[$fs::. -> write $var_] org.onosproject.openflow.ChannelAdapter#write@{235-235}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.impl.ControllerTest.TestDriver#stageTestResource@{82-82}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.impl.ControllerTest.TestDriver#stageTestResource@{81-81}
-[$fs::. -> write $var_] org.onosproject.openflow.ChannelHandlerContextAdapter#write@{211-211}
-[$fs::. -> write $var_] org.onosproject.openflow.ChannelHandlerContextAdapter#write@{217-217}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.#@{130-130}
-[$fs::. -> write $var_] org.onosproject.openflow.controller.OpenflowControllerAdapter#write@{83-83}
-[$fs::. -> write $var_] org.onosproject.p4runtime.ctl.#decodeFieldMatchMsg@{512-512}
-[$fs::. -> write $var_] org.onosproject.p4runtime.ctl.P4RuntimeClientImpl#doWriteTableEntries@{384-384}
-[$fs::. -> write $var_] org.onosproject.p4runtime.ctl.P4RuntimeClientImpl#doWriteActionGroupMembers@{585-585}
-[$fs::. -> write $var_] org.onosproject.p4runtime.ctl.P4RuntimeClientImpl#doWriteActionGroup@{736-736}
-[$fs::. -> write $var_] org.onosproject.p4runtime.ctl.P4RuntimeClientImpl#doWriteMeterCells@{816-816}
-[$fs::. -> write $var_] org.onosproject.p4runtime.ctl.MockP4RuntimeServer#write@{80-80}
-[$fs::. -> write $var_] org.onosproject.p4runtime.ctl.TableEntryEncoderTest#testTableEntryEncoder@{183-183}
-[$fs::. -> write $var_] org.onosproject.p4runtime.ctl.TableEntryEncoderTest#testTableEntryEncoder@{199-199}
-[$fs::. -> write $var_] org.onosproject.p4runtime.ctl.TableEntryEncoderTest#testActopProfileGroup@{226-226}
-[$fs::. -> write $var_] org.onosproject.p4runtime.ctl.TableEntryEncoderTest#testEncodeWithNoAction@{255-255}
-[$fs::. -> write $var_] org.onosproject.pcep.server.impl.PcepClientImpl#sendMessage@{104-104}
-[$fs::. -> write $var_] org.onosproject.pcep.server.impl.PcepClientImpl#sendMessage@{117-117}
-[$fs::. -> write $var_] org.onosproject.pcep.server.impl.#exceptionCaught@{196-196}
-[$fs::. -> write $var_] org.onosproject.pcep.server.impl.#exceptionCaught@{206-206}
-[$fs::. -> write $var_] org.onosproject.pcep.server.impl.#exceptionCaught@{233-233}
-[$fs::. -> write $var_] org.onosproject.pcep.server.impl.#sendHandshakeOpenMessage@{369-369}
-[$fs::. -> write $var_] org.onosproject.pcep.server.impl.#sendKeepAliveMessage@{419-419}
-[$fs::. -> write $var_] org.onosproject.pcep.server.impl.#sendErrMsgForInvalidMsg@{441-441}
-[$fs::. -> write $var_] org.onosproject.pcep.controller.impl.PcepClientControllerImplTest#write@{215-215}
-[$fs::. -> write $var_] org.onosproject.pcep.controller.impl.PcepClientControllerImplTest#write@{299-299}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{79-79}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{150-150}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{85-85}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{121-121}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{115-115}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{34-34}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{104-104}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{39-39}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{43-43}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{121-121}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{57-57}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{57-57}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{104-104}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepOpenMsgVer1.Reader#writeTo@{166-166}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepOpenMsgVer1.Writer#write@{177-177}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepOpenMsgVer1.Writer#write@{190-190}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelRangeObjectVer1#write@{161-161}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelRangeObjectVer1#write@{166-166}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelRangeObjectVer1#packOptionalTlv@{242-242}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#writeTo@{222-222}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{233-233}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{257-257}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{265-265}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{279-279}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{287-287}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{295-295}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorInfoVer1#write@{93-93}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorInfoVer1#write@{104-104}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorInfoVer1#write@{113-113}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorInfoVer1#write@{124-124}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepBandwidthObjectVer1#write@{143-143}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepBandwidthObjectVer1#write@{147-147}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#writeTo@{141-141}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{152-152}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{164-164}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepAttributeVer1#write@{249-249}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepAttributeVer1#write@{253-253}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepAttributeVer1#write@{258-258}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepAttributeVer1#write@{265-265}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepAttributeVer1#write@{271-271}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#writeTo@{237-237}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{248-248}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{273-273}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{281-281}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{289-289}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorObjectVer1#write@{176-176}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorObjectVer1#write@{181-181}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorObjectVer1#packOptionalTlv@{234-234}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv4UnnumberedAdjacencyVer1#write@{173-173}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv4UnnumberedAdjacencyVer1#write@{178-178}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv6Ver1#write@{118-118}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv6Ver1#write@{123-123}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelUpdateVer1#write@{247-247}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelUpdateVer1#write@{268-268}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelUpdateVer1#write@{275-275}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelUpdateVer1#write@{285-285}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelUpdateVer1#write@{300-300}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelUpdateVer1#write@{306-306}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelUpdateVer1#write@{312-312}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelRangeVer1#write@{128-128}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelRangeVer1#write@{133-133}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelRangeVer1#write@{142-142}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv4Ver1#write@{115-115}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv4Ver1#write@{120-120}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepRroObjectVer1#write@{235-235}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepRroObjectVer1#write@{239-239}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepRroObjectVer1#write@{248-248}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLSObjectVer1#write@{231-231}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLSObjectVer1#write@{235-235}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLSObjectVer1#packOptionalTlv@{355-355}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepIroObjectVer1#write@{189-189}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepIroObjectVer1#write@{193-193}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepIroObjectVer1#write@{201-201}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepEroObjectVer1#write@{295-295}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepEroObjectVer1#write@{300-300}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepEroObjectVer1#write@{309-309}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#writeTo@{112-112}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{123-123}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepEndPointsObjectVer1#write@{134-134}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepEndPointsObjectVer1#write@{138-138}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepInterLayerObjectVer1#write@{137-137}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepInterLayerObjectVer1#write@{142-142}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#writeTo@{224-224}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{235-235}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{257-257}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{261-261}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{265-265}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#writeTo@{161-161}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{172-172}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{191-191}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLspObjectVer1#write@{286-286}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLspObjectVer1#write@{291-291}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLspObjectVer1#packOptionalTlv@{411-411}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepMsgPathVer1#write@{105-105}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepMsgPathVer1#write@{110-110}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepMsgPathVer1#write@{113-113}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#writeTo@{253-253}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{264-264}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{276-276}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#packOptionalTlv@{310-310}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#writeTo@{175-175}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{186-186}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.#write@{204-204}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepStateReportVer1.PcepMsgPath#write@{237-237}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepStateReportVer1.PcepMsgPath#write@{242-242}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepStateReportVer1.PcepMsgPath#write@{248-248}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepStateReportVer1.PcepMsgPath#write@{253-253}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepStateReportVer1.PcepMsgPath#write@{256-256}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepOpenObjectVer1#write@{315-315}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepOpenObjectVer1#write@{320-320}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepOpenObjectVer1#packOptionalTlv@{361-361}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv6AdjacencyVer1#write@{129-129}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv6AdjacencyVer1#write@{134-134}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepRPObjectVer1#write@{214-214}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepRPObjectVer1#write@{219-219}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepRPObjectVer1#packOptionalTlv@{271-271}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLspaObjectVer1#write@{239-239}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLspaObjectVer1#write@{244-244}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorMsgVer1.Builder#writeTo@{266-266}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorMsgVer1.Builder#write@{276-276}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorMsgVer1.Builder#write@{295-295}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorMsgVer1.Builder#write@{297-297}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepSrpObjectVer1#write@{194-194}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepSrpObjectVer1#write@{199-199}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepSrpObjectVer1#packOptionalTlv@{294-294}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorVer1#write@{300-300}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorVer1#write@{307-307}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorVer1#write@{315-315}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepErrorVer1#write@{321-321}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepMetricObjectVer1#write@{217-217}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepMetricObjectVer1#write@{221-221}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv4AdjacencyVer1#write@{128-128}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv4AdjacencyVer1#write@{133-133}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelObjectVer1#write@{159-159}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelObjectVer1#write@{163-163}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.ver1.PcepLabelObjectVer1#packOptionalTlv@{261-261}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{51-51}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{91-91}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{63-63}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{36-36}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{94-94}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{43-43}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{64-64}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{52-52}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{50-50}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{34-34}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{50-50}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{62-62}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{80-80}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{48-48}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{77-77}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{72-72}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{135-135}
-[$fs::. -> write $var_] org.onosproject.pcepio.protocol.#@{48-48}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.NexthopIPv6addressTlv#write@{154-154}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.LinkDescriptorsTlv#write@{145-145}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.LinkDescriptorsTlv#write@{157-157}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.LinkAttributesTlv#write@{144-144}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.LinkAttributesTlv#write@{160-160}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.GmplsCapabilityTlv#write@{112-112}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepRsvpIpv4ErrorSpec#write@{94-94}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepRsvpIpv4ErrorSpec#write@{95-95}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.IPv4NeighborAddressSubTlv#write@{111-111}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepNaiIpv4Adjacency#write@{71-71}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepNaiUnnumberedAdjacencyIpv4#write@{75-75}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.MaximumReservableLinkBandwidthSubTlv#write@{110-110}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.StatefulIPv4LspIdentifiersTlv#write@{180-180}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.MplsProtocolMaskSubTlv#write@{156-156}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepNaiIpv6Adjacency#write@{55-55}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.AutonomousSystemSubTlv#write@{110-110}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.IPv6InterfaceAddressSubTlv#write@{145-145}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.LabelSubObject#write@{138-138}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepObjectHeader#write@{178-178}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.#@{54-54}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.IgpMetricSubTlv#write@{113-113}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.OpaqueLinkAttributeSubTlv#write@{119-119}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.IPv6NeighborAddressSubTlv#write@{143-143}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.SrPceCapabilityTlv#write@{114-114}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.IPv6SubObject#write@{186-186}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.BgpLsIdentifierSubTlv#write@{110-110}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepNaiIpv4NodeId#write@{55-55}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.IgpRouterIdSubTlv#write@{118-118}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.NexthopUnnumberedIPv4IDTlv#write@{131-131}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.NodeFlagBitsSubTlv#write@{186-186}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.AdministrativeGroupSubTlv#write@{110-110}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.SharedRiskLinkGroupSubTlv#write@{125-125}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepRsvpObjectHeader#write@{127-127}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepRsvpUserErrorSpec#write@{97-97}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepRsvpUserErrorSpec#write@{98-98}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepRsvpUserErrorSpec#write@{114-114}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PceccCapabilityTlv#write@{147-147}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepNaiIpv6NodeId#write@{61-61}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.LinkLocalRemoteIdentifiersSubTlv#write@{125-125}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.IPv4SubObject#write@{157-157}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.RemoteNodeDescriptorsTlv#write@{144-144}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.RemoteNodeDescriptorsTlv#write@{161-161}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PathKeySubObject#write@{127-127}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.IPv4InterfaceAddressSubTlv#write@{111-111}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.ErrorObjListWithOpen#write@{128-128}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.ErrorObjListWithOpen#write@{136-136}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.ErrorObjListWithOpen#write@{147-147}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.SrEroSubObject#write@{244-244}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.SrEroSubObject#write@{273-273}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.IPv4RouterIdOfRemoteNodeSubTlv#write@{111-111}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.TEDefaultMetricSubTlv#write@{111-111}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.LocalNodeDescriptorsTlv#write@{145-145}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.LocalNodeDescriptorsTlv#write@{160-160}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.UnreservedBandwidthSubTlv#write@{110-110}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.OpaqueNodePropertiesSubTlv#write@{118-118}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepRsvpSpecObjHeader#write@{122-122}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PathSetupTypeTlv#write@{138-138}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.NodeAttributesTlv#write@{145-145}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.NodeAttributesTlv#write@{157-157}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.LsCapabilityTlv#write@{147-147}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.NodeNameSubTlv#write@{118-118}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.SymbolicPathNameTlv#write@{132-132}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.LinkNameAttributeSubTlv#write@{118-118}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepLabelDbVerTlv#write@{111-111}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.StatefulLspDbVerTlv#write@{117-117}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.IPv6RouterIdofLocalNodeSubTlv#write@{143-143}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.LinkProtectionTypeSubTlv#write@{113-113}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.StatefulPceCapabilityTlv#write@{206-206}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.NexthopIPv4addressTlv#write@{117-117}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.IsisAreaIdentifierSubTlv#write@{119-119}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.AutonomousSystemNumberSubObject#write@{126-126}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.MaximumLinkBandwidthSubTlv#write@{111-111}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.OspfAreaIdSubTlv#write@{109-109}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.IPv4RouterIdOfLocalNodeSubTlv#write@{110-110}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.StatefulRsvpErrorSpecTlv#write@{192-192}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.StatefulRsvpErrorSpecTlv#write@{199-199}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.RoutingUniverseTlv#write@{121-121}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.StatefulLspErrorCodeTlv#write@{115-115}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.IPv6RouterIdofRemoteNodeSubTlv#write@{135-135}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.#@{31-31}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepRsvpIpv6ErrorSpec#write@{99-99}
-[$fs::. -> write $var_] org.onosproject.pcepio.types.PcepRsvpIpv6ErrorSpec#write@{100-100}
-[$fs::. -> write $var_] org.onosproject.netconf.ctl.impl.NetconfStreamThread#sendMessage@{114-114}
-[$fs::. -> write $var_] org.onosproject.netconf.ctl.impl.NetconfSshdTestSubsystem.Factory#run@{208-208}
-[$fs::. -> write $var_] org.onosproject.netconf.ctl.impl.NetconfSshdTestSubsystem.Factory#run@{215-215}
-[$fs::. -> write $var_] org.onosproject.netconf.ctl.impl.NetconfSshdTestSubsystem.Factory#run@{223-223}
-[$fs::. -> write $var_] org.onosproject.netconf.ctl.impl.NetconfSshdTestSubsystem.Factory#run@{248-248}
-[$fs::. -> write $var_] org.onosproject.netconf.ctl.impl.NetconfSshdTestSubsystem.Factory#run@{256-256}
-[$fs::. -> read $var_] org.onosproject.netconf.NetconfRpcParserUtil#parseRpcReply@{61-61}
-[$fs::. -> write $var_] org.onosproject.bgpio.util.Validation#validateLen@{116-116}
-[$fs::. -> write $var_] org.onosproject.bgpio.util.Validation#validateType@{131-131}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.flowspec.BgpFlowSpecNlri#writeFlowType@{171-171}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.flowspec.BgpFlowSpecNlri#writeFlowType@{175-175}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.flowspec.BgpFlowSpecNlri#writeFlowType@{179-179}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.flowspec.BgpFlowSpecNlri#writeFlowType@{183-183}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.flowspec.BgpFlowSpecNlri#writeFlowType@{187-187}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.flowspec.BgpFlowSpecNlri#writeFlowType@{191-191}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.flowspec.BgpFlowSpecNlri#writeFlowType@{195-195}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.flowspec.BgpFlowSpecNlri#writeFlowType@{199-199}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.flowspec.BgpFlowSpecNlri#writeFlowType@{203-203}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.flowspec.BgpFlowSpecNlri#writeFlowType@{207-207}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.flowspec.BgpFlowSpecNlri#writeFlowType@{211-211}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.flowspec.BgpFlowSpecNlri#writeFlowType@{215-215}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpOpenMsgVer4.Reader#writeTo@{468-468}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpOpenMsgVer4.Writer#write@{482-482}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpOpenMsgVer4.Writer#write@{490-490}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpOpenMsgVer4.Writer#packCapabilityTlv@{585-585}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpKeepaliveMsgVer4#writeTo@{114-114}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpKeepaliveMsgVer4#write@{125-125}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.#writeTo@{179-179}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.#write@{189-189}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.#write@{191-191}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpUpdateMsgVer4.Writer#write@{220-220}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpUpdateMsgVer4.Writer#write@{227-227}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpUpdateMsgVer4.Writer#write@{263-263}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpUpdateMsgVer4.Writer#writeTo@{361-361}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpPathAttributes#write@{175-176}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpPathAttributes#write@{195-195}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpPathAttributes#write@{199-199}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpPathAttributes#write@{203-203}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpPathAttributes#write@{207-207}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpPathAttributes#write@{211-211}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpPathAttributes#write@{215-215}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpPathAttributes#write@{219-219}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpPathAttributes#write@{223-223}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpPathAttributes#write@{227-227}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpPathAttributes#write@{231-231}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.ver4.BgpPathAttributes#write@{235-235}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.evpn.BgpEvpnNlriImpl#write@{148-148}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.evpn.BgpEvpnNlriImpl#write@{155-155}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.evpn.#@{36-36}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.evpn.BgpEvpnRouteType2Nlri#write@{156-156}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.evpn.BgpEvpnRouteType2Nlri#write@{159-159}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.evpn.BgpEvpnRouteType2Nlri#write@{167-167}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.evpn.BgpEvpnRouteType2Nlri#write@{169-169}
-[$fs::. -> write $var_] org.onosproject.bgpio.protocol.#@{35-35}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.RouteTarget#write@{137-137}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.IsIsPseudonode#write@{96-96}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsPortNum#write@{65-65}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.RpdCapabilityTlv#write@{106-106}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpEvpnEsi#write@{64-64}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.NextHop#write@{113-113}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.IPReachabilityInformationTlv#write@{105-105}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsActionTrafficMarking#write@{67-67}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsActionTrafficRate#write@{67-67}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsIpProtocol#write@{77-77}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.MultiProtocolExtnCapabilityTlv#write@{122-122}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsTcpFlags#write@{66-66}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsIcmpCode#write@{66-66}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsDscpValue#write@{66-66}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.As4Path#write@{165-165}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.MpReachNlri#write@{420-420}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.MpReachNlri#write@{491-491}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpAttrRouterIdV4#write@{124-124}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpPrefixAttrExtRouteTag#write@{129-129}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpLinkAttrSrlg#write@{122-122}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpPrefixAttrOpaqueData#write@{122-122}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpLinkAttrIsIsAdminstGrp#write@{120-120}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpLinkAttrName#write@{118-118}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpLinkAttrIgpMetric#write@{161-161}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpLinkAttrUnRsrvdLinkBandwidth#write@{146-146}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpAttrNodeName#write@{120-120}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpAttrNodeIsIsAreaId#write@{120-120}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpAttrRouterIdV6#write@{127-127}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpAttrNodeMultiTopologyId#write@{126-126}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpLinkAttrProtectionType#write@{157-157}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.WideCommunity#write@{230-230}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.WideCommunity#write@{240-240}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.WideCommunity#write@{254-254}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.WideCommunity#write@{265-265}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.WideCommunity#write@{276-276}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.WideCommunity#encodeWideCommunityTlv@{379-379}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.WideCommunity#encodeWideCommunityTlv@{382-382}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpAttrNodeFlagBitTlv#write@{159-159}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpLinkAttrTeDefaultMetric#write@{122-122}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpLinkAttrMplsProtocolMask#write@{142-142}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpLinkAttrOpaqLnkAttrib#write@{123-123}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpLinkAttrMaxLinkBandwidth#write@{138-138}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpPrefixAttrOspfFwdAddr#write@{172-172}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpPrefixAttrRouteTag#write@{127-127}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpPrefixAttrIgpFlags#write@{161-161}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpAttrOpaqueNode#write@{122-122}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.attr.BgpPrefixAttrMetric#write@{121-121}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsIcmpType#write@{66-66}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.LinkStateAttributes#write@{298-298}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.LinkLocalRemoteIdentifiersTlv#write@{87-87}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.IPv6AddressTlv#write@{81-81}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpExtendedCommunity#write@{153-153}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpExtendedCommunity#write@{169-169}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpExtendedCommunity#write@{173-173}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpExtendedCommunity#write@{176-176}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpExtendedCommunity#write@{179-179}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpExtendedCommunity#write@{182-182}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.OspfNonPseudonode#write@{81-81}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpHeader#write@{134-134}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsSourcePrefix#write@{126-126}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.LocalPref#write@{112-112}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsDestinationPortNum#write@{66-66}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.AsPath#write@{204-204}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.MpUnReachNlri#write@{380-380}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.MpUnReachNlri#write@{442-442}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.WideCommunityInteger#write@{96-96}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.#@{38-38}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.WideCommunityTarget#write@{95-95}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.AutonomousSystemTlv#write@{91-91}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.WideCommunityIpV4Neighbour#write@{88-88}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.IsIsNonPseudonode#write@{80-80}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsActionTrafficAction#write@{67-67}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsActionReDirect#write@{67-67}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpEvpnLabel#write@{60-60}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.WideCommunityExcludeTarget#write@{96-96}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsPacketLength#write@{66-66}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsDestinationPrefix#write@{83-83}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.WideCommunityAttrHeader#write@{161-161}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpLSIdentifierTlv#write@{92-92}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.Origin#write@{134-134}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsFragment#write@{66-66}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.AreaIDTlv#write@{91-91}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.IPv4AddressTlv#write@{81-81}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.FourOctetAsNumCapabilityTlv#write@{90-90}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.OspfRouteTypeTlv#write@{129-129}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.WideCommunityParameter#write@{95-95}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.OspfPseudonode#write@{84-84}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.Med#write@{112-112}
-[$fs::. -> write $var_] org.onosproject.bgpio.types.BgpFsSourcePortNum#write@{66-66}
-[$fs::. -> write $var_] org.onosproject.bgp.controller.impl.BgpPeerImpl#sendFlowSpecUpdateMessageToPeer@{245-245}
-[$fs::. -> write $var_] org.onosproject.bgp.controller.impl.BgpPeerImpl#sendEvpnUpdateMessageToPeer@{319-319}
-[$fs::. -> write $var_] org.onosproject.bgp.controller.impl.BgpPeerImpl#sendMessage@{485-485}
-[$fs::. -> write $var_] org.onosproject.bgp.controller.impl.BgpPeerImpl#sendMessage@{498-498}
-[$fs::. -> write $var_] org.onosproject.bgp.controller.impl.#sendHandshakeOpenMessage@{700-700}
-[$fs::. -> write $var_] org.onosproject.bgp.controller.impl.#sendNotification@{717-717}
-[$fs::. -> write $var_] org.onosproject.bgp.controller.impl.#sendNotification@{730-730}
-[$fs::. -> write $var_] org.onosproject.bgp.controller.impl.#capabilityValidation@{926-926}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{396-396}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{403-403}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{412-412}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{417-417}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{422-422}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{428-428}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{434-434}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{440-440}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{446-446}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{452-452}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{458-458}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{464-464}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{470-470}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{476-476}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{482-482}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{488-488}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{494-494}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{500-500}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{506-506}
-[$fs::. -> write $var_] org.onosproject.bgp.BgpPeerChannelHandlerTest#channelConnected@{512-512}
-[$http_api::. -> write $var_] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handleGetRequest@{89-89}
-[$http_api::. -> write $var_] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handlePostDatastore@{170-170}
-[$http_api::. -> write $var_] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handlePostRequest@{190-191}
-[$http_api::. -> write $var_] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handleRpcRequest@{237-239}
-[$http_api::. -> write $var_] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handlePutRequest@{294-295}
-[$http_api::. -> write $var_] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handleDeleteRequest@{340-340}
-[$http_api::. -> write $var_] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handlePatchRequest@{370-371}
-[$http_api::. -> write $var_] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handlePatchDatastore@{418-418}
-[$fs::. -> write $var_] org.onosproject.isis.controller.impl.IsisHelloPduSender#run@{56-56}
-[$fs::. -> write $var_] org.onosproject.isis.controller.impl.IsisHelloPduSender#run@{62-62}
-[$fs::. -> write $var_] org.onosproject.isis.controller.impl.IsisHelloPduSender#run@{67-67}
-[$fs::. -> write $var_] org.onosproject.isis.controller.impl.IsisHelloPduSender#run@{72-72}
-[$fs::. -> write $var_] org.onosproject.isis.controller.impl.IsisHelloPduSender#run@{76-76}
-[$fs::. -> write $var_] org.onosproject.isis.controller.impl.IsisChannelHandler#sentConfigPacket@{279-279}
-[$fs::. -> write $var_] org.onosproject.isis.controller.impl.DefaultIsisInterface#sendLsp@{802-802}
-[$fs::. -> write $var_] org.onosproject.isis.controller.impl.DefaultIsisInterface#processLsPduMessage@{947-947}
-[$fs::. -> write $var_] org.onosproject.isis.controller.impl.DefaultIsisInterface#sendPsnPduMessage@{1088-1088}
-[$fs::. -> write $var_] org.onosproject.isis.controller.impl.lsdb.IsisLspQueueConsumer#processRefreshLsp@{101-101}
-[$fs::. -> write $var_] org.onosproject.lisp.ctl.impl.ChannelAdapter#write@{213-213}
-[$fs::. -> write $var_] org.onosproject.lisp.ctl.impl.ChannelAdapter#write@{218-218}
-[$fs::. -> write $var_] org.onosproject.lisp.ctl.impl.ChannelHandlerContextAdapter#write@{174-174}
-[$fs::. -> write $var_] org.onosproject.lisp.ctl.impl.ChannelHandlerContextAdapter#write@{179-179}
-[$fs::. -> write $var_] org.onosproject.lisp.ctl.#sendMessage@{123-123}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl#twoWayReceived@{328-328}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl#negotiationDone@{424-424}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl#negotiationDone@{453-453}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl#badLSReq@{610-610}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl#processDdPacket@{667-667}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl#processDdPacket@{709-709}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl#exchangeDone@{771-771}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl#adjOk@{879-879}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl#sendLsa@{1311-1311}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl#directAcknowledge@{1338-1338}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl.InternalRxmtDdPacket#run@{1804-1804}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl.InternalRxmtLsrPacket#run@{1833-1833}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl.InternalFloodingTask#run@{1869-1869}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfNbrImpl.InternalFloodingTask#run@{1886-1886}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.impl.OspfInterfaceChannelHandler#sentConfigPacket@{255-255}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.area.OspfInterfaceImpl#validateMessage@{983-983}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.area.OspfInterfaceImpl#validateMessage@{990-990}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.area.OspfInterfaceImpl#validateMessage@{1004-1004}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.area.OspfInterfaceImpl#validateMessage@{1018-1018}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.area.OspfInterfaceImpl#validateMessage@{1029-1029}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.area.OspfInterfaceImpl#validateMessage@{1039-1039}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.area.OspfInterfaceImpl#validateMessage@{1044-1044}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.area.OspfInterfaceImpl#validateMessage@{1059-1059}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.area.OspfInterfaceImpl#validateMessage@{1136-1136}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.area.OspfInterfaceImpl.InternalHelloTimer#run@{1692-1692}
-[$fs::. -> write $var_] org.onosproject.ospf.controller.area.OspfInterfaceImpl.InternalDelayedAckTimer#run@{1790-1790}
-[$fs::. -> write $var_] org.onosproject.yang.gen.v1.mseaunievcservice.rev20160317.mseaunievcservice.evcperuniextensionattributes.tagmanipulation.#@{32-32}
-[$fs::. -> write $var_] org.onosproject.yang.gen.v1.mseaunievcservice.rev20160317.mseaunievcservice.evcperuniextensionattributes.tagmanipulation.#@{39-39}
-[$fs::. -> write $var_] org.onosproject.yang.gen.v1.mseaunievcservice.rev20160317.mseaunievcservice.evcperuniextensionattributes.tagmanipulation.tagoverwrite.DefaultTagOverwrite#@{84-84}
-[$fs::. -> write $var_] org.onosproject.yang.gen.v1.mseaunievcservice.rev20160317.mseaunievcservice.evcperuniextensionattributes.tagmanipulation.DefaultTagOverwrite#tagOverwrite@{36-36}
-[$fs::. -> write $var_] org.onosproject.yang.gen.v1.mseaunievcservice.rev20160317.mseaunievcservice.evcperuniextensionattributes.tagmanipulation.DefaultTagOverwrite#tagOverwrite@{41-41}
-[$fs::. -> write $var_] org.onosproject.yang.gen.v1.mseaunievcservice.rev20160317.mseaunievcservice.evcperuniextensionattributes.tagmanipulation.DefaultTagOverwrite#@{74-74}
-[$fs::. -> write $var_] org.onosproject.provider.of.device.impl.OpenFlowDeviceProviderTest.TestController#write@{318-318}
-[$net_svc::flow -> write $var_] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider.InternalFlowProvider#handleMessage@{451-451}
-[$net_svc::flow -> write $var_] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider.InternalFlowProvider#pushFlowMetrics@{628-628}
-[$net_svc::flow -> write $var_] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider.InternalFlowProvider#pushFlowMetrics@{646-646}
-[$net_svc::flow -> write $var_] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider.InternalFlowProvider#pushFlowMetrics@{660-660}
-[$net_svc::flow -> write $var_] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider.InternalFlowProvider#pushFlowLightWeightMetrics@{691-691}
-[$net_svc::flow -> write $var_] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider.InternalFlowProvider#pushFlowLightWeightMetrics@{704-704}
-[$net_svc::flow -> write $var_] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider#applyFlowRule@{297-297}
-[$net_svc::flow -> write $var_] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider#applyFlowRule@{299-299}
-[$net_svc::flow -> write $var_] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider#applyRule@{303-303}
-[$fs::. -> write $var_] org.onosproject.provider.of.packet.impl.OpenFlowPacketProviderTest.TestController#write@{328-328}
-[$fs::. -> write $var_] org.onosproject.provider.of.group.impl.OpenFlowGroupProviderTest.TestController#write@{268-268}
-[$net_svc::flow -> write $var_] org.onosproject.provider.nil.StatisticTask#run@{133-133}
-[$net_svc::flow -> write $var_] org.onosproject.provider.nil.#applyFlowRule@{76-76}
-[$fs::. -> read $var_] org.onosproject.provider.netconf.alarm.NetconfAlarmTranslator#createDocFromMessage@{96-96}
-[$net_svc::flow -> write $var_] org.onosproject.provider.bgpcep.flow.impl.BgpcepFlowRuleProvider#applyFlowRule@{71-71}
-[$http_api::. -> write $var_] org.onlab.rest.exceptions.WebApplicationExceptionMapper#toResponse@{36-36}
-[$http_api::. -> write $var_] org.onlab.rest.exceptions.#toResponse@{45-45}
-[$fs::. -> read $var_] org.onlab.util.XmlString#prettyPrintXml@{75-75}
-[$fs::. -> write $var_] org.onlab.util.KryoNamespace#serialize@{313-313}
-[$fs::. -> write $var_] org.onlab.packet.Ethernet#toByteArray@{442-442}
-[$fs::. -> write $var_] org.onlab.packet.RADIUS#decapsulateMessage@{273-273}
-[$fs::. -> write $var_] org.onlab.packet.RADIUS#decapsulateMessage@{279-279}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6RelayTest#deserializeSolicit@{80-80}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6RelayTest#serializeSolicit@{233-234}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6RelayTest#deserializeAdvertise@{244-244}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6RelayTest#serializeAdvertise@{388-389}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6RelayTest#deserializeRequest@{399-399}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6RelayTest#serializeRequest@{581-582}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6RelayTest#deserializeReply@{592-592}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6RelayTest#serializeReply@{733-734}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.DhcpTest#testDeserializeDiscover@{97-97}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.DhcpTest#testDeserializeOffer@{159-159}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.DhcpTest#testDeserializeRequest@{235-235}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.DhcpTest#testDeserializeAck@{302-302}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.DhcpTest#longOptionTest@{378-378}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6Test#testDeserializeSolicit@{94-94}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6Test#serializeSolicit@{217-218}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6Test#deserializeAdvertise@{228-228}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6Test#serializeAdvertise@{353-354}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6Test#deserializeRequest@{364-364}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6Test#serializeRequest@{517-518}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6Test#deserializeReply@{528-528}
-[$fs::. -> write $var_] org.onlab.packet.dhcp.Dhcp6Test#serializeReply@{649-650}
-[$fs::. -> write $var_] org.onlab.osgiwrap.OSGiWrapper#execute@{227-227}
-[$fs::. -> write $var_] org.onlab.osgiwrap.OSGiWrapper#execute@{226-226}
-[$fs::. -> write $var_] org.onlab.junit.TestTools#writeRandomFile@{179-179}
-[$fs::. -> write $var_] org.onlab.junit.TestTools#createTestFiles@{157-157}
-[$http_api::. -> write $var_] org.onosproject.openstacknode.web.OpenstackNodeWebResource#createNodes@{86-86}
-[$http_api::. -> write $var_] org.onosproject.openstacknode.web.OpenstackNodeWebResource#updateNodes@{114-114}
-[$http_api::. -> write $var_] org.onosproject.openstacknode.web.OpenstackNodeWebResource#deleteNodes@{143-143}
-[$http_api::. -> write $var_] org.onosproject.pcerest.PcePathWebResource#queryAllPath@{78-78}
-[$http_api::. -> write $var_] org.onosproject.pcerest.PcePathWebResource#queryPath@{106-106}
-[$http_api::. -> write $var_] org.onosproject.pcerest.PcePathWebResource#setupPath@{131-131}
-[$http_api::. -> write $var_] org.onosproject.pcerest.PcePathWebResource#updatePath@{190-191}
-[$http_api::. -> write $var_] org.onosproject.pcerest.PcePathWebResource#releasePath@{230-230}
-[$http_api::. -> write $var_] org.onosproject.castor.CastorWebResource#getMac@{46-46}
-[$http_api::. -> write $var_] org.onosproject.castor.CastorWebResource#getPeers@{60-60}
-[$http_api::. -> write $var_] org.onosproject.castor.CastorWebResource#addPeer@{77-77}
-[$http_api::. -> write $var_] org.onosproject.castor.CastorWebResource#deletePeer@{114-114}
-[$http_api::. -> write $var_] org.onosproject.castor.CastorWebResource#addRouteServer@{139-139}
-[$http_api::. -> write $var_] org.onosproject.imr.rest.ImrWebResource#getIntentsStats@{73-73}
-[$http_api::. -> write $var_] org.onosproject.imr.rest.ImrWebResource#getIntentsStats@{93-93}
-[$http_api::. -> write $var_] org.onosproject.imr.rest.ImrWebResource#getIntentsStats@{115-117}
-[$http_api::. -> write $var_] org.onosproject.imr.rest.ImrWebResource#getMonitoredIntents@{163-163}
-[$http_api::. -> write $var_] org.onosproject.imr.rest.ImrWebResource#getMonitoredIntents@{183-183}
-[$http_api::. -> write $var_] org.onosproject.imr.rest.ImrWebResource#reRouteIntents@{233-233}
-[$http_api::. -> write $var_] org.onosproject.cordsupport.CordSupportWebResource#queryTopology@{50-50}
-[$net_svc::flow -> write $var_] org.onosproject.acl.impl.AclManager.InternalHostListener#generateAclFlow@{302-302}
-[$net_svc::flow -> write $var_] org.onosproject.acl.impl.AclManager.InternalHostListener#enforceRuleRemoving@{322-322}
-[$http_api::. -> write $var_] org.onosproject.acl.AclWebResource#queryAclRule@{60-60}
-[$http_api::. -> write $var_] org.onosproject.acl.AclWebResource#addAclRule@{108-108}
-[$http_api::. -> write $var_] org.onosproject.acl.AclWebResource#removeAclRule@{123-123}
-[$http_api::. -> write $var_] org.onosproject.acl.AclWebResource#clearAcl@{135-135}
-[$http_api::. -> write $var_] org.onosproject.dhcp.rest.DhcpWebResource#getConfigs@{61-61}
-[$http_api::. -> write $var_] org.onosproject.dhcp.rest.DhcpWebResource#listMappings@{78-78}
-[$http_api::. -> write $var_] org.onosproject.dhcp.rest.DhcpWebResource#listAvailableIPs@{100-100}
-[$http_api::. -> write $var_] org.onosproject.dhcp.rest.DhcpWebResource#setMapping@{119-119}
-[$http_api::. -> write $var_] org.onosproject.dhcp.rest.DhcpWebResource#deleteMapping@{160-160}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.PseudowireWebResource#getPseudowire@{71-71}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.PseudowireWebResource#createPseudowire@{109-109}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.PseudowireWebResource#createPseudowiresBulk@{150-150}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.PseudowireWebResource#removePseudowire@{196-196}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.PseudowireWebResource#removePseudowiresBulk@{235-235}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.PolicyWebResource#getPolicy@{54-54}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.PolicyWebResource#createPolicy@{72-72}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.PolicyWebResource#removePolicy@{95-95}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.TunnelWebResource#getTunnel@{54-54}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.TunnelWebResource#createTunnel@{72-72}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.TunnelWebResource#removeTunnel@{91-91}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.McastWebResource#getMcastTrees@{99-99}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.McastWebResource#getRoute@{113-113}
-[$http_api::. -> write $var_] org.onosproject.segmentrouting.web.McastWebResource#getRoute@{128-129}
-[$fs::. -> write $var_] org.onosproject.p4runtime.test.P4RuntimeTest#testActionProfile@{193-193}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworkingui.web.FlowTraceWebResource#flowTraceResponse@{60-60}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.ClassifierWebResource#getClassifiers@{50-50}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.SubnetWebResource#listSubnets@{80-80}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.SubnetWebResource#getSubnet@{91-91}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.SubnetWebResource#createSubnet@{109-109}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.SubnetWebResource#updateSubnet@{134-135}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.SubnetWebResource#deleteSingleSubnet@{157-158}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.VirtualPortWebResource#getPorts@{86-86}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.VirtualPortWebResource#getportsById@{98-98}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.VirtualPortWebResource#createPorts@{114-114}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.VirtualPortWebResource#deletePorts@{138-138}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.VirtualPortWebResource#updatePorts@{163-163}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.TenantNetworkWebResource#getNetworks@{84-93}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.TenantNetworkWebResource#getNetwork@{152-152}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.TenantNetworkWebResource#createNetworks@{171-171}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.TenantNetworkWebResource#updateNetworks@{208-208}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.TenantNetworkWebResource#deleteNetworks@{247-247}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortPairGroupWebResource#getPortPairGroups@{69-69}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortPairGroupWebResource#getPortPairGroup@{91-91}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortPairGroupWebResource#createPortPairGroup@{111-111}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortPairGroupWebResource#updatePortPairGroup@{139-140}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortPairGroupWebResource#deletePortPairGroup@{165-165}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortChainDeviceMapWebResource#getPortChainDeviceMap@{67-67}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortChainWebResource#getPortChains@{67-67}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortChainWebResource#getPortPain@{89-89}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortChainWebResource#createPortChain@{108-108}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortChainWebResource#updatePortPain@{133-134}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortChainWebResource#deletePortPain@{158-158}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortPairWebResource#getPortPairs@{67-67}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortPairWebResource#getPortPair@{89-89}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortPairWebResource#createPortPair@{107-107}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortPairWebResource#updatePortPair@{132-133}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortPairWebResource#deletePortPair@{157-157}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.FlowClassifierWebResource#getFlowClassifiers@{65-65}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.FlowClassifierWebResource#getFlowClassifier@{88-88}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.FlowClassifierWebResource#createFlowClassifier@{109-109}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.FlowClassifierWebResource#updateFlowClassifier@{137-137}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.FlowClassifierWebResource#deleteFlowClassifier@{162-162}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.PortChainSfMapWebResource#getPortChainSfMap@{57-57}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.FloatingIpWebResource#listFloatingIps@{80-80}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.FloatingIpWebResource#getFloatingIp@{93-94}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.FloatingIpWebResource#createFloatingIp@{115-115}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.FloatingIpWebResource#updateFloatingIp@{137-138}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.FloatingIpWebResource#deleteSingleFloatingIp@{158-159}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.RouterWebResource#listRouters@{88-88}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.RouterWebResource#getRouter@{99-100}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.RouterWebResource#createRouter@{122-122}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.RouterWebResource#updateRouter@{144-145}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.RouterWebResource#deleteSingleRouter@{165-166}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.RouterWebResource#addRouterInterface@{181-182}
-[$http_api::. -> write $var_] org.onosproject.vtnweb.resources.RouterWebResource#removeRouterInterface@{230-231}
-[$net_svc::flow -> write $var_] org.onosproject.flowanalyzer.FlowAnalyzerTest#basic@{54-54}
-[$net_svc::flow -> write $var_] org.onosproject.flowanalyzer.FlowAnalyzerTest#basic@{55-55}
-[$net_svc::flow -> write $var_] org.onosproject.flowanalyzer.FlowAnalyzerTest#basic@{56-56}
-[$net_svc::flow -> write $var_] org.onosproject.flowanalyzer.FlowAnalyzerTest#basic@{57-57}
-[$net_svc::flow -> write $var_] org.onosproject.flowanalyzer.FlowAnalyzerTest#basic@{58-58}
-[$net_svc::flow -> write $var_] org.onosproject.flowanalyzer.FlowAnalyzerTest#basic@{59-59}
-[$net_svc::flow -> write $var_] org.onosproject.flowanalyzer.FlowAnalyzerTest#basic@{60-60}
-[$net_svc::flow -> write $var_] org.onosproject.flowanalyzer.MockFlowRuleService#applyFlowRules@{90-90}
-[$net_svc::flow -> write $var_] org.onosproject.flowanalyzer.MockFlowRuleService#removeFlowRules@{97-97}
-[$http_api::. -> write $var_] org.onosproject.cpman.rest.SystemMetricsCollectorWebResource#cpuMetrics@{90-90}
-[$http_api::. -> write $var_] org.onosproject.cpman.rest.SystemMetricsCollectorWebResource#memoryMetrics@{151-151}
-[$http_api::. -> write $var_] org.onosproject.cpman.rest.SystemMetricsCollectorWebResource#diskMetrics@{206-206}
-[$http_api::. -> write $var_] org.onosproject.cpman.rest.SystemMetricsCollectorWebResource#networkMetrics@{252-252}
-[$http_api::. -> write $var_] org.onosproject.cpman.rest.SystemMetricsCollectorWebResource#systemInfo@{315-315}
-[$http_api::. -> write $var_] org.onosproject.cpman.rest.ControlMetricsWebResource#controlMessageMetrics@{68-68}
-[$http_api::. -> write $var_] org.onosproject.cpman.rest.ControlMetricsWebResource#controlMessageMetrics@{96-96}
-[$http_api::. -> write $var_] org.onosproject.cpman.rest.ControlMetricsWebResource#cpuMetrics@{113-113}
-[$http_api::. -> write $var_] org.onosproject.cpman.rest.ControlMetricsWebResource#memoryMetrics@{128-128}
-[$http_api::. -> write $var_] org.onosproject.cpman.rest.ControlMetricsWebResource#diskMetrics@{143-143}
-[$http_api::. -> write $var_] org.onosproject.cpman.rest.ControlMetricsWebResource#networkMetrics@{169-169}
-[$net_svc::flow -> write $var_] org.onosproject.fwd.ReactiveForwarding.InternalTopologyListener#cleanFlowRules@{818-818}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#getRoutes@{78-78}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#getRoute@{94-95}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#getSources@{114-115}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#getSinks@{139-140}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#getHostSinks@{169-171}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#createRoutes@{197-197}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#createRoute@{244-244}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#addSources@{292-294}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#addSinks@{331-333}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#addHostSinks@{373-376}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#deleteRoutes@{404-404}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#deleteRoutes@{419-419}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#deleteRoute@{442-443}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#deleteSources@{462-463}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#deleteSource@{481-483}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#deleteHostsSinks@{500-501}
-[$http_api::. -> write $var_] org.onosproject.mcast.web.McastRouteWebResource#deleteHostSinks@{519-521}
-[$http_api::. -> write $var_] org.onosproject.net.optical.rest.OpticalIntentsWebResource#createIntent@{93-93}
-[$http_api::. -> write $var_] org.onosproject.routeservice.rest.RouteServiceWebResource#getRoutes@{62-62}
-[$http_api::. -> write $var_] org.onosproject.routeservice.rest.RouteServiceWebResource#createRoute@{89-89}
-[$http_api::. -> write $var_] org.onosproject.routeservice.rest.RouteServiceWebResource#createRoutes@{119-119}
-[$http_api::. -> write $var_] org.onosproject.routeservice.rest.RouteServiceWebResource#deleteRoute@{147-147}
-[$http_api::. -> write $var_] org.onosproject.routeservice.rest.RouteServiceWebResource#deleteRoutes@{169-169}
-[$fs::. -> write $var_] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#announceSubPrefixes@{59-59}
-[$fs::. -> write $var_] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#write@{105-105}
-[$fs::. -> write $var_] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#announcePrefix@{121-121}
-[$fs::. -> write $var_] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#announcePrefix@{123-123}
-[$fs::. -> write $var_] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#announcePrefix@{125-125}
-[$fs::. -> write $var_] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#announcePrefix@{128-128}
-[$fs::. -> write $var_] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#announcePrefix@{131-131}
-[$fs::. -> write $var_] org.onosproject.kafkaintegration.converter.DeviceEventConverter#convertToProtoMessage@{49-49}
-[$fs::. -> write $var_] org.onosproject.kafkaintegration.converter.LinkEventConverter#convertToProtoMessage@{48-48}
-[$http_api::. -> write $var_] org.onosproject.kafkaintegration.rest.EventExporterWebResource#registerKafkaListener@{73-73}
-[$http_api::. -> write $var_] org.onosproject.kafkaintegration.rest.EventExporterWebResource#removeKafkaListener@{98-98}
-[$http_api::. -> write $var_] org.onosproject.kafkaintegration.rest.EventExporterWebResource#subscribe@{117-117}
-[$http_api::. -> write $var_] org.onosproject.kafkaintegration.rest.EventExporterWebResource#unsubscribe@{161-161}
-[$net_svc::flow -> write $var_] org.onosproject.roadm.RoadmManager#createConnection@{312-312}
-[$net_svc::flow -> write $var_] org.onosproject.roadm.RoadmManager#removeConnection@{338-338}
-[$net_svc::flow -> write $var_] org.onosproject.ofagent.impl.DefaultOFSwitch#processFlowMod@{291-291}
-[$http_api::. -> write $var_] org.onosproject.ofagent.rest.OFAgentWebResource#listOFAgents@{68-68}
-[$http_api::. -> write $var_] org.onosproject.ofagent.rest.OFAgentWebResource#listOFAgent@{94-94}
-[$http_api::. -> write $var_] org.onosproject.ofagent.rest.OFAgentWebResource#createOFAgent@{118-118}
-[$http_api::. -> write $var_] org.onosproject.ofagent.rest.OFAgentWebResource#startOFAgent@{142-142}
-[$http_api::. -> write $var_] org.onosproject.ofagent.rest.OFAgentWebResource#updateOFAgent@{171-171}
-[$http_api::. -> write $var_] org.onosproject.ofagent.rest.OFAgentWebResource#stopOFAgent@{200-200}
-[$http_api::. -> write $var_] org.onosproject.ofagent.rest.OFAgentWebResource#removeOFAgent@{225-225}
-[$net_svc::flow -> write $var_] org.onosproject.mobility.HostMobility.InternalHostListener#cleanup@{123-123}
-[$fs::. -> write $var_] org.onosproject.cip.ClusterIpManager#execute@{174-174}
-[$fs::. -> write $var_] org.onosproject.cip.ClusterIpManager#execute@{175-175}
-[$sys_process::. -> exec $var_] org.onosproject.cip.ClusterIpManager#execute@{173-173}
-[$fs::. -> read $var_] org.onosproject.odtn.utils.YangToolUtil#toDocument@{199-200}
-[$fs::. -> read $var_] org.onosproject.odtn.utils.YangToolUtil#toDocument@{216-217}
-[$fs::. -> read $var_] org.onosproject.odtn.cli.impl.OdtnManualTestCommand#execute@{172-172}
-[$http_api::. -> write $var_] org.onosproject.virtualbng.VbngResource#@{96-97}
-[$http_api::. -> write $var_] org.onosproject.virtualbng.VbngResource#@{128-128}
-[$fs::. -> write $var_] org.onosproject.t3.impl.Subnet#bigInteger2IpString@{115-115}
-[$net_svc::flow -> write $var_] org.onosproject.learningswitch.LearningSwitchSolution.SwitchPacketProcessor#actLikeSwitch@{188-188}
-[$http_api::. -> write $var_] org.onosproject.simplefabric.SimpleFabricWebResource#queryStatus@{40-40}
-[$http_api::. -> write $var_] org.onosproject.simplefabric.SimpleFabricWebResource#queryShow@{51-51}
-[$http_api::. -> write $var_] org.onosproject.simplefabric.SimpleFabricWebResource#queryIntents@{64-64}
-[$http_api::. -> write $var_] org.onosproject.simplefabric.SimpleFabricWebResource#queryReactiveIntents@{77-77}
-[$http_api::. -> write $var_] org.onosproject.simplefabric.SimpleFabricWebResource#triggerRefresh@{90-90}
-[$http_api::. -> write $var_] org.onosproject.simplefabric.SimpleFabricWebResource#triggerFlush@{102-102}
-[$net_svc::flow -> write $var_] org.onosproject.simplefabric.SimpleFabricReactiveRouting#refreshIntercepts@{254-254}
-[$net_svc::flow -> write $var_] org.onosproject.simplefabric.SimpleFabricReactiveRouting#refreshIntercepts@{247-247}
-[$net_svc::flow -> write $var_] org.onosproject.p4tutorial.mytunnel.MyTunnelApp#insertPiFlowRule@{285-285}
-[$net_svc::flow -> write $var_] org.onosproject.flowperf.FlowPerfApp#runTest@{156-156}
-[$net_svc::flow -> write $var_] org.onosproject.flowperf.FlowPerfApp#runTest@{186-186}
-[$http_api::. -> write $var_] org.onosproject.demo.DemoResource#flowTest@{51-51}
-[$http_api::. -> write $var_] org.onosproject.demo.DemoResource#flowObjTest@{69-69}
-[$http_api::. -> write $var_] org.onosproject.demo.DemoResource#setup@{87-87}
-[$http_api::. -> write $var_] org.onosproject.demo.DemoResource#tearDown@{112-112}
-[$net_svc::flow -> write $var_] org.onosproject.openstacknetworking.impl.OpenstackFlowRuleManager#setRule@{124-124}
-[$net_svc::flow -> write $var_] org.onosproject.openstacknetworking.impl.OpenstackFlowRuleManager#applyRule@{127-127}
-[$net_svc::flow -> write $var_] org.onosproject.openstacknetworking.impl.OpenstackFlowRuleManager#connectTables@{168-168}
-[$net_svc::flow -> write $var_] org.onosproject.openstacknetworking.impl.OpenstackFlowRuleManager#setUpTableMissEntry@{188-188}
-[$net_svc::flow -> write $var_] org.onosproject.openstacknetworking.impl.OpenstackFlowRuleManager#setupJumpTable@{208-208}
-[$net_svc::flow -> write $var_] org.onosproject.openstacknetworking.impl.OpenstackFlowRuleManager#setupJumpTable@{225-225}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackFloatingIpWebResource#createFloatingIp@{71-71}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackFloatingIpWebResource#updateFloatingIp@{99-99}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackFloatingIpWebResource#deleteFloatingIp@{119-119}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackSecurityGroupWebResource#createSecurityGroups@{69-69}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackSecurityGroupWebResource#updateSecurityGroups@{94-94}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackSecurityGroupWebResource#removeSecurityGroup@{112-112}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackSecurityGroupRuleWebResource#createSecurityGroupRules@{68-68}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackSecurityGroupRuleWebResource#deleteSecurityGroupRule@{92-92}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackSubnetWebResource#createSubnet@{71-71}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackSubnetWebResource#updateSubnet@{99-99}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackSubnetWebResource#deleteSubnet@{120-120}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackPortWebResource#createPorts@{70-70}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackPortWebResource#updatePort@{97-97}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackPortWebResource#deletePorts@{118-118}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackNetworkWebResource#createNetwork@{70-70}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackNetworkWebResource#updateNetwork@{98-98}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackNetworkWebResource#deleteNetwork@{119-119}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackRouterWebResource#createRouter@{73-73}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackRouterWebResource#updateRouter@{101-101}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackRouterWebResource#addRouterInterface@{126-126}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackRouterWebResource#deleteRouterInterface@{150-150}
-[$http_api::. -> write $var_] org.onosproject.openstacknetworking.web.OpenstackRouterWebResource#deleteRouter@{170-170}
-[$fs::. -> write $var_] org.onosproject.pcep.tools.#toByteArray@{45-45}
-[$http_api::. -> write $var_] org.onosproject.faultmanagement.web.AlarmsWebResource#getAlarms@{68-70}
-[$http_api::. -> write $var_] org.onosproject.faultmanagement.web.AlarmsWebResource#getAlarm@{98-98}
-[$http_api::. -> write $var_] org.onosproject.faultmanagement.web.AlarmsWebResource#update@{121-121}
-[$http_api::. -> write $var_] org.onosproject.soam.rest.DmWebResource#getAllDmsForMep@{78-80}
-[$http_api::. -> write $var_] org.onosproject.soam.rest.DmWebResource#getDm@{111-113}
-[$http_api::. -> write $var_] org.onosproject.soam.rest.DmWebResource#abortDm@{154-157}
-[$http_api::. -> write $var_] org.onosproject.soam.rest.DmWebResource#createDm@{188-190}
-[$http_api::. -> write $var_] org.onosproject.soam.rest.DmWebResource#clearDmHistory@{238-241}
-[$http_api::. -> write $var_] org.onosproject.soam.rest.LmWebResource#getAllLmsForMep@{76-78}
-[$http_api::. -> write $var_] org.onosproject.soam.rest.LmWebResource#getLm@{110-112}
-[$http_api::. -> write $var_] org.onosproject.soam.rest.LmWebResource#abortLm@{152-155}
-[$http_api::. -> write $var_] org.onosproject.soam.rest.LmWebResource#createLm@{186-188}
-[$http_api::. -> write $var_] org.onosproject.soam.rest.LmWebResource#clearLmHistory@{236-239}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.DeviceMepWebResource#getAllMepsForDevice@{54-54}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MepWebResource#getAllMepsForMa@{78-79}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MepWebResource#getMep@{108-110}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MepWebResource#deleteMep@{143-145}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MepWebResource#createMep@{179-180}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MepWebResource#transmitLoopback@{230-234}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MepWebResource#abortLoopback@{293-296}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MepWebResource#transmitLinktrace@{352-356}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MdWebResource#getMds@{63-63}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MdWebResource#getMd@{82-82}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MdWebResource#deleteMd@{110-110}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MdWebResource#createMaintenanceDomain@{137-137}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MaWebResource#getMa@{70-71}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MaWebResource#deleteMa@{101-102}
-[$http_api::. -> write $var_] org.onosproject.cfm.rest.MaWebResource#createMaintenanceAssociation@{135-136}
-[$http_api::. -> write $var_] org.onosproject.powermanagement.PowerConfigWebResource#getDevices@{95-95}
-[$http_api::. -> write $var_] org.onosproject.powermanagement.PowerConfigWebResource#setTargetPower@{122-122}
-[$http_api::. -> write $var_] org.onosproject.powermanagement.PowerConfigWebResource#getDevice@{143-143}
-[$http_api::. -> write $var_] org.onosproject.powermanagement.PowerConfigWebResource#getDevicePorts@{173-175}
-[$fs::. -> write $var_] org.onosproject.routing.fpm.FpmManager#sendRouteUpdateToChannel@{604-604}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#@{65-65}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#@{91-91}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#@{126-126}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#@{161-161}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#@{205-205}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#@{220-220}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#@{223-223}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#@{76-76}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#actionsBgpUpdateInvalidNetworkField@{1320-1320}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#actionsBgpUpdateMalformedAttributeList@{1346-1346}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#actionsBgpUpdateMissingWellKnownAttribute@{1377-1377}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#actionsBgpUpdateInvalidOriginAttribute@{1416-1416}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#actionsBgpUpdateAttributeFlagsError@{1453-1453}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#actionsBgpUpdateInvalidNextHopAttribute@{1493-1493}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#actionsBgpUpdateUnrecognizedWellKnownAttribute@{1533-1533}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#actionsBgpUpdateOptionalAttributeError@{1572-1572}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#actionsBgpUpdateAttributeLengthError@{1609-1609}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#actionsBgpUpdateMalformedAsPath@{1635-1635}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#@{65-65}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.BgpSession.TransmitKeepaliveTask#run@{415-415}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.BgpSession.SessionTimeoutTask#run@{473-473}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#decode@{96-96}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#decode@{119-119}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#decode@{172-172}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#channelConnected@{65-65}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.#channelConnected@{69-69}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.BgpSessionManagerTest.TestBgpPeer#testProcessedBgpUpdateMessages@{564-564}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.BgpSessionManagerTest.TestBgpPeer#testProcessedBgpUpdateMessages@{643-643}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.BgpSessionManagerTest.TestBgpPeer#testBgpRoutePreference@{726-726}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.BgpSessionManagerTest.TestBgpPeer#testBgpRoutePreference@{744-744}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.BgpSessionManagerTest.TestBgpPeer#testBgpRoutePreference@{778-778}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.BgpSessionManagerTest.TestBgpPeer#testBgpRoutePreference@{813-813}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.BgpSessionManagerTest.TestBgpPeer#testBgpRoutePreference@{834-834}
-[$fs::. -> write $var_] org.onosproject.routing.bgp.BgpSessionManagerTest.TestBgpPeer#testBgpRoutePreference@{869-869}
-[$http_api::. -> write $var_] org.onosproject.yang.web.YangWebResource#upload@{69-70}
-[$http_api::. -> write $var_] org.onosproject.yang.web.YangWebResource#getModels@{115-115}
-[$http_api::. -> write $var_] org.onosproject.yang.web.YangWebResource#getModules@{140-141}
-[$fs::. -> write $var_] org.onosproject.yang.impl.YangLiveCompilerManager#extractZipArchive@{127-127}
-[$fs::. -> write $var_] org.onosproject.yang.impl.YangLiveCompilerManager#writeResource@{203-203}
-[$fs::. -> write $var_] org.onosproject.yang.impl.YangLiveCompilerManager#unpackYangSources@{100-100}
-[$fs::. -> write $var_] org.onosproject.yang.impl.YangLiveCompilerManager#extractZipArchive@{123-123}
-[$fs::. -> write $var_] org.onosproject.yang.impl.YangLiveCompilerManager#writeResource@{203-203}
-[$fs::. -> write $var_] org.onosproject.yang.impl.YangLiveCompilerManager#execute@{221-221}
-[$fs::. -> write $var_] org.onosproject.yang.impl.YangLiveCompilerManager#execute@{222-222}
-[$fs::. -> write $var_] org.onosproject.yang.impl.YangLiveCompilerManager#extractYangFile@{114-114}
-[$fs::. -> write $var_] org.onosproject.yang.impl.YangLiveCompilerManager#compileYangFiles@{92-92}
-[$sys_process::. -> exec $var_] org.onosproject.yang.impl.YangLiveCompilerManager#execute@{220-220}
-[$http_api::. -> write $var_] org.onosproject.mapping.web.api.MappingsWebResource#getMappings@{66-66}
-[$http_api::. -> write $var_] org.onosproject.mapping.web.api.MappingsWebResource#getMappingsByDeviceId@{94-95}
-[$fs::. -> write $var_] org.onosproject.incubator.protobuf.models.core.ApplicationProtoTranslator#translate@{58-64}
-[$fs::. -> write $var_] org.onosproject.incubator.store.virtual.impl.SimpleVirtualIntentStore#write@{116-116}
-[$fs::. -> write $var_] org.onosproject.incubator.store.virtual.impl.SimpleVirtualIntentStore#batchWrite@{146-146}
-[$fs::. -> write $var_] org.onosproject.incubator.net.virtual.#@{84-84}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.provider.#@{36-36}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.provider.#@{46-46}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager#applyFlowRules@{142-142}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager#removeFlowRules@{156-156}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager#removeFlowRulesById@{166-166}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager.InternalFlowRuleProviderService#flowAdded@{409-409}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager.InternalFlowRuleProviderService#pushFlowMetrics@{455-455}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager.InternalFlowRuleProviderService#flowRemoved@{338-338}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager.InternalFlowRuleProviderService#flowMissing@{369-369}
-[$fs::. -> write $var_] org.onosproject.incubator.net.virtual.impl.intent.VirtualIntentInstallCoordinator#finish@{190-190}
-[$fs::. -> write $var_] org.onosproject.incubator.net.virtual.impl.intent.VirtualIntentInstallCoordinator#finish@{207-207}
-[$fs::. -> write $var_] org.onosproject.incubator.net.virtual.impl.intent.VirtualIntentInstallCoordinator#finish@{215-215}
-[$fs::. -> write $var_] org.onosproject.incubator.net.virtual.impl.intent.VirtualIntentInstallCoordinator#finish@{222-222}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.provider.DefaultVirtualFlowRuleProvider#applyFlowRule@{165-165}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.provider.DefaultVirtualFlowRuleProvider#removeFlowRule@{173-173}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.provider.DefaultVirtualFlowRuleProvider.InternalFlowRuleListener#event@{633-633}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.provider.DefaultVirtualFlowRuleProvider#applyFlowRule@{162-162}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkPacketManagerTest.TestFlowRuleProvider#applyFlowRule@{402-402}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.provider.DefaultVirtualFlowRuleProviderTest.TestFlowRuleService#applyFlowRules@{371-371}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.provider.DefaultVirtualFlowRuleProviderTest.TestFlowRuleService#removeFlowRules@{376-376}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.provider.DefaultVirtualFlowRuleProviderTest#devirtualizeFlowRuleWithInPort@{163-163}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.provider.DefaultVirtualFlowRuleProviderTest#devirtualizeFlowRuleWithoutInPort@{211-211}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#addFlowRule@{178-178}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#applyFlowRules@{220-220}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#applyFlowRules@{227-227}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#flowRemoved@{303-303}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#extraneousFlow@{317-317}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#flowMissingRemove@{342-342}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#removeByAppId@{356-356}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#removeFlowRules@{253-253}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#removeFlowRules@{266-266}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#removeFlowRules@{276-276}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#flowRemoved@{288-288}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#flowMissingRemove@{344-344}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#getFlowEntries@{206-206}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#getFlowEntries@{215-215}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#purgeFlowRules@{245-245}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#removeFlowRules@{262-262}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#flowRemoved@{287-287}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#flowRemoved@{305-305}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#extraneousFlow@{324-324}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest#flowMissingRemove@{346-346}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManagerTest.TestProvider#applyFlowRule@{519-519}
-[$net_svc::flow -> write $var_] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowObjectiveManagerTest.TestProvider#applyFlowRule@{234-234}
-[$fs::. -> write $var_] org.onosproject.store.serializers.ProviderIdSerializer#write@{39-39}
-[$fs::. -> write $var_] org.onosproject.store.serializers.Ip4PrefixSerializer#write@{41-42}
-[$fs::. -> write $var_] org.onosproject.store.serializers.Ip6AddressSerializer#write@{40-40}
-[$fs::. -> write $var_] org.onosproject.store.serializers.ExtensionCriterionSerializer#write@{50-50}
-[$fs::. -> write $var_] org.onosproject.store.serializers.AnnotationsSerializer#write@{58-58}
-[$fs::. -> write $var_] org.onosproject.store.serializers.HostLocationSerializer#write@{41-41}
-[$fs::. -> write $var_] org.onosproject.store.serializers.DefaultOutboundPacketSerializer#write@{52-52}
-[$fs::. -> write $var_] org.onosproject.store.serializers.ImmutableListSerializer#write@{37-37}
-[$fs::. -> write $var_] org.onosproject.store.serializers.Ip4AddressSerializer#write@{40-40}
-[$fs::. -> write $var_] org.onosproject.store.serializers.ImmutableByteSequenceSerializer#write@{39-39}
-[$fs::. -> write $var_] org.onosproject.store.serializers.ImmutableByteSequenceSerializer#write@{42-42}
-[$fs::. -> write $var_] org.onosproject.store.serializers.IpAddressSerializer#write@{40-40}
-[$fs::. -> write $var_] org.onosproject.store.serializers.DefaultLinkSerializer#write@{42-42}
-[$fs::. -> write $var_] org.onosproject.store.serializers.BitSetSerializer#write@{38-38}
-[$fs::. -> write $var_] org.onosproject.store.serializers.BitSetSerializer#write@{43-43}
-[$fs::. -> write $var_] org.onosproject.store.serializers.BitSetSerializer#write@{45-45}
-[$fs::. -> write $var_] org.onosproject.store.serializers.UriSerializer#write@{38-38}
-[$fs::. -> write $var_] org.onosproject.store.serializers.DeviceIdSerializer#write@{45-45}
-[$fs::. -> write $var_] org.onosproject.store.serializers.Ip6PrefixSerializer#write@{41-42}
-[$fs::. -> write $var_] org.onosproject.store.serializers.FilteredConnectPointSerializer#write@{40-40}
-[$fs::. -> write $var_] org.onosproject.store.serializers.LinkKeySerializer#write@{40-40}
-[$fs::. -> write $var_] org.onosproject.store.serializers.DefaultPortSerializer#write@{44-44}
-[$fs::. -> write $var_] org.onosproject.store.serializers.DefaultApplicationIdSerializer#write@{38-38}
-[$fs::. -> write $var_] org.onosproject.store.serializers.IpPrefixSerializer#write@{42-43}
-[$fs::. -> write $var_] org.onosproject.store.serializers.PortNumberSerializer#write@{39-39}
-[$fs::. -> write $var_] org.onosproject.store.serializers.ImmutableMapSerializer#write@{41-41}
-[$fs::. -> write $var_] org.onosproject.store.serializers.MacAddressSerializer#write@{38-38}
-[$fs::. -> write $var_] org.onosproject.store.serializers.ArraysAsListSerializer#write@{33-33}
-[$fs::. -> write $var_] org.onosproject.store.serializers.MastershipTermSerializer#write@{49-49}
-[$fs::. -> write $var_] org.onosproject.store.serializers.ImmutableSetSerializer#write@{38-38}
-[$fs::. -> write $var_] org.onosproject.store.serializers.ConnectPointSerializer#write@{40-40}
-[$fs::. -> write $var_] org.onosproject.store.serializers.ExtensionInstructionSerializer#write@{50-50}
-[$fs::. -> write $var_] org.onosproject.store.serializers.NodeIdSerializer#write@{45-45}
-[$fs::. -> write $var_] org.onosproject.store.serializers.custom.MastershipBasedTimestampSerializer#write@{40-40}
-[$fs::. -> write $var_] org.onosproject.store.device.impl.InternalPortStatusEventSerializer#write@{44-44}
-[$fs::. -> write $var_] org.onosproject.store.device.impl.InternalDeviceEventSerializer#write@{43-43}
-[$fs::. -> write $var_] org.onosproject.store.device.impl.InternalDeviceStatusChangeEventSerializer#write@{41-41}
-[$fs::. -> write $var_] org.onosproject.store.device.impl.InternalPortEventSerializer#write@{46-46}
-[$fs::. -> write $var_] org.onosproject.store.app.DistributedApplicationStore#activate@{161-161}
-[$fs::. -> write $var_] org.onosproject.store.intent.impl.GossipIntentStore#write@{298-298}
-[$fs::. -> write $var_] org.onosproject.store.resource.impl.#write@{37-37}
-[$fs::. -> write $var_] org.onosproject.store.resource.impl.#write@{35-35}
-[$fs::. -> write $var_] org.onosproject.store.cluster.messaging.impl.NettyMessagingManager#loadKeyStores@{215-215}
-[$fs::. -> write $var_] org.onosproject.store.cluster.messaging.impl.NettyMessagingManager#loadKeyStores@{220-220}
-[$fs::. -> write $var_] org.onosproject.store.intent.impl.GossipIntentStoreTest#testAddAndWithdrawIntent@{134-134}
-[$fs::. -> write $var_] org.onosproject.store.intent.impl.GossipIntentStoreTest#testAddAndWithdrawIntent@{181-181}
-[$fs::. -> write $var_] org.onosproject.store.intent.impl.IntentStoreAdapter#write@{58-58}
-[$fs::. -> write $var_] org.onosproject.store.primitives.resources.impl.AtomixDocumentTreeService#write@{98-98}
-[$fs::. -> write $var_] org.onosproject.store.primitives.resources.impl.AtomixDocumentTreeService#write@{120-120}
-[$fs::. -> write $var_] org.onosproject.store.primitives.resources.impl.AtomixConsistentSetMultimapService#write@{102-102}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchive#expandZippedApplication@{364-364}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchive#stageSelfContainedJar@{401-401}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchive#expandPlainApplication@{433-433}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchive#saveApplication@{441-441}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchive#saveApplication@{193-193}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchive#parseZippedAppDescription@{280-280}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchive#expandZippedApplication@{359-359}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchive#stageSelfContainedJar@{401-401}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchive#saveApplication@{441-441}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchive#getApplicationIcon@{548-548}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchive#setActive@{463-463}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchive#getApplicationInputStream@{266-266}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchive#getApplicationIcon@{543-543}
-[$fs::. -> write $var_] org.onosproject.store.trivial.SimpleIntentStore#write@{107-107}
-[$fs::. -> write $var_] org.onosproject.store.trivial.SimpleIntentStore#batchWrite@{137-137}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchiveTest#getAppZipStream@{127-127}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchiveTest#getAppZipStream@{128-128}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchiveTest#getAppXmlStream@{137-137}
-[$fs::. -> write $var_] org.onosproject.common.app.ApplicationArchiveTest#getAppXmlStream@{138-138}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.#@{35-35}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.#@{41-41}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.#@{49-49}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.#@{43-43}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.#@{98-98}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.#@{113-113}
-[$fs::. -> write $var_] org.onosproject.net.intent.#@{76-76}
-[$fs::. -> write $var_] org.onosproject.ui.UiExtensionTest#basics@{62-62}
-[$fs::. -> write $var_] org.onosproject.ui.UiExtensionTest#basics@{64-64}
-[$fs::. -> write $var_] org.onosproject.ui.UiExtensionTest#withPath@{84-84}
-[$fs::. -> write $var_] org.onosproject.ui.UiExtensionTest#withPath@{86-86}
-[$fs::. -> write $var_] org.onosproject.core.netty.ChannelAdapter#write@{84-84}
-[$fs::. -> write $var_] org.onosproject.core.netty.ChannelAdapter#write@{89-89}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.FlowRuleServiceAdapter#applyFlowRules@{37-37}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.FlowRuleServiceAdapter#removeFlowRules@{45-45}
-[$fs::. -> write $var_] org.onosproject.cfg.impl.ConfigPropertyDefinitions#write@{53-53}
-[$fs::. -> write $var_] org.onosproject.cluster.impl.ConfigFileBasedClusterMetadataProvider#fetchMetadata@{210-210}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManager#applyFlowRules@{249-249}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManager#removeFlowRules@{267-267}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManager#removeFlowRulesById@{280-280}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManager.InternalFlowRuleProviderService#flowAdded@{474-474}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManager.InternalFlowRuleProviderService#pushFlowMetrics@{520-520}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManager.InternalFlowRuleProviderService#flowRemoved@{394-394}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManager.InternalFlowRuleProviderService#flowMissing@{433-433}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.#executeBatch@{148-148}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.#applyFlowRules@{171-171}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.#applyFlowRules@{173-173}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.#executeBatch@{152-152}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.#removeFlowRules@{176-176}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.#removeFlowRules@{178-178}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.#pollDeviceFlowEntries@{193-193}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.#applyFlowRule@{117-117}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.installer.FlowRuleIntentInstaller#reallocate@{258-258}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.InstallCoordinator#finish@{186-186}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.InstallCoordinator#finish@{204-204}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.InstallCoordinator#finish@{210-210}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.InstallCoordinator#finish@{215-215}
-[$fs::. -> write $var_] org.onosproject.cfg.impl.ConfigPropertyDefinitionsTest#basics@{44-44}
-[$fs::. -> write $var_] org.onosproject.cfg.impl.ConfigPropertyDefinitionsTest#basics@{45-45}
-[$fs::. -> write $var_] org.onosproject.cfg.impl.ComponentConfigLoaderTest#badConfig@{93-93}
-[$fs::. -> write $var_] org.onosproject.cfg.impl.ComponentConfigLoaderTest#badConfig@{92-92}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#addFlowRule@{183-183}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#applyFlowRules@{247-247}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#applyFlowRules@{255-255}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#flowRemoved@{331-331}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#flowMetrics@{346-346}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#extraneousFlow@{371-371}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#flowMissingRemove@{402-402}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#getByAppId@{417-417}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#removeByAppId@{427-427}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#fallbackBasics@{443-443}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#fallbackFlowRemoved@{454-454}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#fallbackPoll@{472-472}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest.TestFlowRuleProgrammable#applyFlowRules@{731-731}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#removeFlowRules@{281-281}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#removeFlowRules@{294-294}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#removeFlowRules@{304-304}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#flowRemoved@{316-316}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#flowMissingRemove@{404-404}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#fallbackBasics@{447-447}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest.TestFlowRuleProgrammable#removeFlowRules@{737-737}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#getFlowEntries@{222-222}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#getFlowEntries@{230-230}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#purgeFlowRules@{273-273}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#removeFlowRules@{290-290}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#flowRemoved@{315-315}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#flowRemoved@{333-333}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#flowMetrics@{354-354}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#extraneousFlow@{381-381}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#flowMissingRemove@{406-406}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest#fallbackExtraFlow@{464-464}
-[$net_svc::flow -> write $var_] org.onosproject.net.flow.impl.FlowRuleManagerTest.TestProvider#applyFlowRule@{522-522}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.IntentCleanupTest.MockIntentService#process@{108-108}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.IntentCleanupTest.MockIntentService#process@{163-163}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.IntentCleanupTest.MockIntentService#process@{193-193}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.IntentCleanupTest.MockIntentService#process@{224-224}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.IntentCleanupTest.MockIntentService#process@{253-253}
-[$net_svc::flow -> write $var_] org.onosproject.net.intent.impl.MockFlowRuleService#applyFlowRules@{87-87}
-[$net_svc::flow -> write $var_] org.onosproject.net.intent.impl.MockFlowRuleService#removeFlowRules@{92-92}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.InstallCoordinatorTest#write@{234-234}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.IntentCleanupTestMock#process@{82-82}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.IntentCleanupTestMock#process@{145-145}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.IntentCleanupTestMock#process@{178-178}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.IntentCleanupTestMock#process@{216-216}
-[$fs::. -> write $var_] org.onosproject.net.intent.impl.IntentCleanupTestMock#process@{250-250}
-[$fs::. -> write $var_] org.onosproject.onosjar.SwaggerGenerator#genRegistrator@{509-509}
-[$fs::. -> write $var_] org.onosproject.onosjar.SwaggerGenerator#genRegistrator@{502-502}
-[$fs::. -> write $var_] org.onosproject.libgen.BuckLibGenerator#main@{83-83}
-[$fs::. -> write $var_] org.onosproject.libgen.BuckLibGenerator#resolve@{173-173}
-[$fs::. -> write $var_] org.onosproject.libgen.BuckLibGenerator#resolve@{180-182}
-[$fs::. -> write $var_] org.onosproject.libgen.BuckLibGenerator#resolve@{183-183}
-[$fs::. -> write $var_] org.onosproject.libgen.BuckLibGenerator#resolve@{186-191}
-[$fs::. -> write $var_] org.onosproject.libgen.BuckLibGenerator#main@{77-77}
-[$fs::. -> write $var_] org.onosproject.libgen.BuckLibGenerator#resolve@{229-229}
-[$fs::. -> write $var_] org.onosproject.buckdaemon.BuckDaemon#startServer@{145-145}
-[$fs::. -> write $var_] org.onosproject.buckdaemon.BuckDaemon.BuckTaskRunner#send@{219-219}
-[$sys_process::. -> exec $var_] org.onosproject.buckdaemon.BuckDaemon#run@{96-96}
-[$fs::. -> write $var_] org.onosproject.maven.OnosSwaggerMojo#genRegistrator@{483-483}
-[$fs::. -> write $var_] org.onosproject.maven.OnosSwaggerMojo#genRegistrator@{477-477}
-[$fs::. -> write $var_] org.onosproject.maven.OnosAppMojo#zipDirectory@{482-482}
-[$fs::. -> write $var_] org.onosproject.maven.OnosAppMojo#processAppXml@{291-291}
-[$fs::. -> write $var_] org.onosproject.maven.OnosAppMojo#processFeaturesXml@{337-337}
-[$fs::. -> write $var_] org.onosproject.maven.OnosAppMojo#generateAppPackage@{384-384}
-[$fs::. -> write $var_] org.onosproject.maven.OnosAppMojo#loadAppFile@{259-259}
-[$fs::. -> write $var_] org.onosproject.maven.OnosAppMojo#processFeaturesXml@{320-320}
-[$fs::. -> write $var_] org.onosproject.maven.OnosAppMojo#zipDirectory@{478-478}
-[$net_svc::flow -> write $var_] org.onosproject.cli.net.FlowsListCommand#removeFlowsInteractive@{168-168}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.polatis.netconf.PolatisFlowRuleProgrammable#applyFlowRules@{78-78}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.polatis.netconf.PolatisFlowRuleProgrammable#removeFlowRules@{83-83}
-[$fs::. -> write $var_] org.onosproject.drivers.barefoot.TofinoPipelineProgrammable#extensionBuffer@{85-85}
-[$net_svc::flow -> write $var_] org.onosproject.driver.pipeline.OltPipeline#processMulticastRule@{357-357}
-[$net_svc::flow -> write $var_] org.onosproject.driver.pipeline.OltPipeline#buildAndApplyRule@{598-598}
-[$net_svc::flow -> write $var_] org.onosproject.driver.pipeline.OltPipeline#applyRules@{619-619}
-[$net_svc::flow -> write $var_] org.onosproject.driver.pipeline.OltPipeline#applyFlowRules@{622-623}
-[$net_svc::flow -> write $var_] org.onosproject.driver.pipeline.NokiaOltPipeline#processMulticastRule@{391-391}
-[$net_svc::flow -> write $var_] org.onosproject.driver.pipeline.NokiaOltPipeline#buildAndApplyRule@{664-664}
-[$net_svc::flow -> write $var_] org.onosproject.driver.pipeline.NokiaOltPipeline#applyRules@{685-685}
-[$net_svc::flow -> write $var_] org.onosproject.driver.pipeline.NokiaOltPipeline#applyFlowRules@{688-689}
-[$net_svc::flow -> write $var_] org.onosproject.driver.pipeline.SpringOpenTTP#populateTableMissEntry@{1108-1108}
-[$net_svc::flow -> write $var_] org.onosproject.driver.optical.protection.OplinkSwitchProtection#addFlow@{327-327}
-[$net_svc::flow -> write $var_] org.onosproject.driver.optical.power.OplinkPowerConfigUtil#setChannelAttenuation@{476-476}
-[$net_svc::flow -> write $var_] org.onosproject.driver.optical.power.OplinkPowerConfigUtil#addAttenuation@{566-566}
-[$net_svc::flow -> write $var_] org.onosproject.driver.optical.config.ConfigFlowRuleProgrammable#applyFlowRules@{64-64}
-[$net_svc::flow -> write $var_] org.onosproject.driver.optical.config.ConfigFlowRuleProgrammable#removeFlowRules@{77-77}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.lumentum.LumentumSdnRoadmFlowRuleProgrammable#applyFlowRules@{136-136}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.lumentum.LumentumSdnRoadmFlowRuleProgrammable#removeFlowRules@{167-167}
-[$fs::. -> write $var_] org.onosproject.drivers.bmv2.Bmv2PipelineProgrammable#createDeviceDataBuffer@{44-44}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.p4runtime.P4RuntimeFlowRuleProgrammable#applyFlowRules@{205-205}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.p4runtime.P4RuntimeFlowRuleProgrammable#removeFlowRules@{210-210}
-[$fs::. -> write $var_] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammable#treatmentForUniSde@{813-815}
-[$fs::. -> write $var_] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammable#getTagManipulation@{869-869}
-[$fs::. -> write $var_] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammable#getTagManipulation@{875-875}
-[$fs::. -> write $var_] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammable#getTagManipulation@{877-877}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammable#applyFlowRules@{233-233}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammable#applyFlowRules@{244-244}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammable#removeFlowRules@{342-342}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammable#removeFlowRules@{350-350}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammableTest#testSetFlowEntries@{240-240}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammableTest#testRemoveFlowEntries@{355-355}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.juniper.FlowRuleJuniperImpl#applyFlowRules@{166-166}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.juniper.FlowRuleJuniperImpl#removeFlowRules@{171-171}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.ciena.waveserver.rest.CienaFlowRuleProgrammable#applyFlowRules@{56-56}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.ciena.waveserver.rest.CienaFlowRuleProgrammable#removeFlowRules@{74-74}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.oplink.OplinkOpticalFlowRuleProgrammable#applyFlowRules@{59-59}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.oplink.OplinkOpticalFlowRuleProgrammable#removeFlowRules@{64-64}
-[$net_svc::flow -> write $var_] org.onosproject.drivers.oplink.OplinkOpticalPowerConfig#setChannelTargetPower@{223-230}
+[Files] org.onosproject.libgen.BuckLibGenerator#resolve@{173-173}
+[FileInputStream] org.onosproject.libgen.BuckLibGenerator#main@{77-77}
+[FileInputStream] org.onosproject.libgen.BuckLibGenerator#resolve@{229-229}
+[toByteArray] org.onosproject.onosjar.SwaggerGenerator#genRegistrator@{502-502}
+[getRuntime] org.onosproject.buckdaemon.BuckDaemon#run@{96-96}
+[toByteArray] org.onosproject.maven.OnosSwaggerMojo#genRegistrator@{477-477}
+[toByteArray] org.onosproject.maven.OnosAppMojo#processAppXml@{291-291}
+[toByteArray] org.onosproject.maven.OnosAppMojo#processFeaturesXml@{337-337}
+[createNewFile] org.onosproject.maven.OnosAppMojo#generateAppPackage@{384-384}
+[FileInputStream] org.onosproject.maven.OnosAppMojo#loadAppFile@{259-259}
+[FileInputStream] org.onosproject.maven.OnosAppMojo#processFeaturesXml@{320-320}
+[FileInputStream] org.onosproject.maven.OnosAppMojo#zipDirectory@{478-478}
+[applyflows] org.onosproject.drivers.polatis.netconf.PolatisFlowRuleProgrammable#applyFlowRules@{78-78}
+[removeflows] org.onosproject.drivers.polatis.netconf.PolatisFlowRuleProgrammable#removeFlowRules@{83-83}
+[applyflows] org.onosproject.drivers.oplink.OplinkOpticalPowerConfig#setChannelTargetPower@{223-230}
+[applyflows] org.onosproject.drivers.oplink.OplinkOpticalFlowRuleProgrammable#applyFlowRules@{59-59}
+[removeflows] org.onosproject.drivers.oplink.OplinkOpticalFlowRuleProgrammable#removeFlowRules@{64-64}
+[applyflows] org.onosproject.drivers.ciena.waveserver.rest.CienaFlowRuleProgrammable#applyFlowRules@{56-56}
+[removeflows] org.onosproject.drivers.ciena.waveserver.rest.CienaFlowRuleProgrammable#removeFlowRules@{74-74}
+[applyflows] org.onosproject.drivers.p4runtime.P4RuntimeFlowRuleProgrammable#applyFlowRules@{205-205}
+[removeflows] org.onosproject.drivers.p4runtime.P4RuntimeFlowRuleProgrammable#removeFlowRules@{210-210}
+[applyflows] org.onosproject.driver.pipeline.SpringOpenTTP#populateTableMissEntry@{1108-1108}
+[applyflows] org.onosproject.driver.pipeline.NokiaOltPipeline#processMulticastRule@{391-391}
+[applyflows] org.onosproject.driver.pipeline.NokiaOltPipeline#buildAndApplyRule@{664-664}
+[applyflows] org.onosproject.driver.pipeline.NokiaOltPipeline#applyRules@{685-685}
+[applyflows] org.onosproject.driver.pipeline.NokiaOltPipeline#applyFlowRules@{688-689}
+[applyflows] org.onosproject.driver.pipeline.OltPipeline#processMulticastRule@{357-357}
+[applyflows] org.onosproject.driver.pipeline.OltPipeline#buildAndApplyRule@{598-598}
+[applyflows] org.onosproject.driver.pipeline.OltPipeline#applyRules@{619-619}
+[applyflows] org.onosproject.driver.pipeline.OltPipeline#applyFlowRules@{622-623}
+[applyflows] org.onosproject.drivers.lumentum.LumentumSdnRoadmFlowRuleProgrammable#applyFlowRules@{136-136}
+[removeflows] org.onosproject.drivers.lumentum.LumentumSdnRoadmFlowRuleProgrammable#removeFlowRules@{167-167}
+[applyflows] org.onosproject.driver.optical.power.OplinkPowerConfigUtil#setChannelAttenuation@{476-476}
+[applyflows] org.onosproject.driver.optical.power.OplinkPowerConfigUtil#addAttenuation@{566-566}
+[applyflows] org.onosproject.driver.optical.config.ConfigFlowRuleProgrammable#applyFlowRules@{64-64}
+[removeflows] org.onosproject.driver.optical.config.ConfigFlowRuleProgrammable#removeFlowRules@{77-77}
+[applyflows] org.onosproject.driver.optical.protection.OplinkSwitchProtection#addFlow@{327-327}
+[applyflows] org.onosproject.drivers.juniper.FlowRuleJuniperImpl#applyFlowRules@{166-166}
+[removeflows] org.onosproject.drivers.juniper.FlowRuleJuniperImpl#removeFlowRules@{171-171}
+[applyflows] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammable#applyFlowRules@{233-233}
+[applyflows] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammable#applyFlowRules@{244-244}
+[removeflows] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammable#removeFlowRules@{342-342}
+[removeflows] org.onosproject.drivers.microsemi.EA1000FlowRuleProgrammable#removeFlowRules@{350-350}
+[toByteArray] org.onosproject.drivers.bmv2.Bmv2PipelineProgrammable#createDeviceDataBuffer@{44-44}
+[toByteArray] org.onosproject.drivers.barefoot.TofinoPipelineProgrammable#extensionBuffer@{85-85}
+[FileInputStream] org.onosproject.cluster.impl.ConfigFileBasedClusterMetadataProvider#fetchMetadata@{210-210}
+[applyflows] org.onosproject.net.flow.impl.FlowRuleManager#applyFlowRules@{249-249}
+[removeflows] org.onosproject.net.flow.impl.FlowRuleManager#removeFlowRules@{267-267}
+[removeflows] org.onosproject.net.flow.impl.FlowRuleManager#removeFlowRulesById@{280-280}
+[removeflows] org.onosproject.net.flow.impl.FlowRuleManager.InternalFlowRuleProviderService#flowAdded@{474-474}
+[pushflow] org.onosproject.net.flow.impl.FlowRuleManager.InternalFlowRuleProviderService#pushFlowMetrics@{520-520}
+[applyflow] org.onosproject.net.flow.impl.FlowRuleManager.InternalFlowRuleProviderService#flowRemoved@{394-394}
+[applyflow] org.onosproject.net.flow.impl.FlowRuleManager.InternalFlowRuleProviderService#flowMissing@{433-433}
+[Files] org.onosproject.cfg.impl.ConfigPropertyDefinitions#write@{53-53}
+[Files] org.onosproject.common.app.ApplicationArchive#expandZippedApplication@{364-364}
+[Files] org.onosproject.common.app.ApplicationArchive#expandPlainApplication@{433-433}
+[toByteArray] org.onosproject.common.app.ApplicationArchive#saveApplication@{193-193}
+[toByteArray] org.onosproject.common.app.ApplicationArchive#parseZippedAppDescription@{280-280}
+[toByteArray] org.onosproject.common.app.ApplicationArchive#expandZippedApplication@{359-359}
+[toByteArray] org.onosproject.common.app.ApplicationArchive#stageSelfContainedJar@{401-401}
+[toByteArray] org.onosproject.common.app.ApplicationArchive#saveApplication@{441-441}
+[toByteArray] org.onosproject.common.app.ApplicationArchive#getApplicationIcon@{548-548}
+[createNewFile] org.onosproject.common.app.ApplicationArchive#setActive@{463-463}
+[FileInputStream] org.onosproject.common.app.ApplicationArchive#getApplicationInputStream@{266-266}
+[FileInputStream] org.onosproject.common.app.ApplicationArchive#getApplicationIcon@{543-543}
+[FileInputStream] org.onosproject.store.cluster.messaging.impl.NettyMessagingManager#loadKeyStores@{215-215}
+[FileInputStream] org.onosproject.store.cluster.messaging.impl.NettyMessagingManager#loadKeyStores@{220-220}
+[toByteArray] org.onosproject.store.app.DistributedApplicationStore#activate@{161-161}
+[Files] org.onosproject.store.serializers.custom.MastershipBasedTimestampSerializer#write@{40-40}
+[Files] org.onosproject.store.intent.impl.GossipIntentStore#write@{298-298}
+[Files] org.onosproject.store.device.impl.InternalDeviceStatusChangeEventSerializer#write@{41-41}
+[Files] org.onosproject.store.device.impl.InternalPortEventSerializer#write@{46-46}
+[Files] org.onosproject.store.device.impl.InternalPortStatusEventSerializer#write@{44-44}
+[Files] org.onosproject.store.device.impl.InternalDeviceEventSerializer#write@{43-43}
+[Files] org.onosproject.store.primitives.resources.impl.AtomixConsistentSetMultimapService#write@{102-102}
+[Files] org.onosproject.store.primitives.resources.impl.AtomixDocumentTreeService#write@{98-98}
+[Files] org.onosproject.store.primitives.resources.impl.AtomixDocumentTreeService#write@{120-120}
+[Files] org.onosproject.store.serializers.ArraysAsListSerializer#write@{33-33}
+[Files] org.onosproject.store.serializers.FilteredConnectPointSerializer#write@{40-40}
+[Files] org.onosproject.store.serializers.DefaultOutboundPacketSerializer#write@{52-52}
+[Files] org.onosproject.store.serializers.DefaultPortSerializer#write@{44-44}
+[Files] org.onosproject.store.serializers.MacAddressSerializer#write@{38-38}
+[Files] org.onosproject.store.serializers.DefaultLinkSerializer#write@{42-42}
+[Files] org.onosproject.store.serializers.DeviceIdSerializer#write@{45-45}
+[Files] org.onosproject.store.serializers.UriSerializer#write@{38-38}
+[Files] org.onosproject.store.serializers.IpAddressSerializer#write@{40-40}
+[Files] org.onosproject.store.serializers.NodeIdSerializer#write@{45-45}
+[Files] org.onosproject.store.serializers.Ip6PrefixSerializer#write@{41-42}
+[Files] org.onosproject.store.serializers.ExtensionInstructionSerializer#write@{50-50}
+[Files] org.onosproject.store.serializers.IpPrefixSerializer#write@{42-43}
+[Files] org.onosproject.store.serializers.AnnotationsSerializer#write@{58-58}
+[Files] org.onosproject.store.serializers.PortNumberSerializer#write@{39-39}
+[Files] org.onosproject.store.serializers.BitSetSerializer#write@{38-38}
+[toByteArray] org.onosproject.store.serializers.BitSetSerializer#write@{43-43}
+[toByteArray] org.onosproject.store.serializers.BitSetSerializer#write@{45-45}
+[Files] org.onosproject.store.serializers.ImmutableMapSerializer#write@{41-41}
+[Files] org.onosproject.store.serializers.ConnectPointSerializer#write@{40-40}
+[Files] org.onosproject.store.serializers.LinkKeySerializer#write@{40-40}
+[Files] org.onosproject.store.serializers.ProviderIdSerializer#write@{39-39}
+[Files] org.onosproject.store.serializers.HostLocationSerializer#write@{41-41}
+[Files] org.onosproject.store.serializers.DefaultApplicationIdSerializer#write@{38-38}
+[Files] org.onosproject.store.serializers.ImmutableListSerializer#write@{37-37}
+[Files] org.onosproject.store.serializers.MastershipTermSerializer#write@{49-49}
+[Files] org.onosproject.store.serializers.ImmutableByteSequenceSerializer#write@{39-39}
+[Files] org.onosproject.store.serializers.Ip6AddressSerializer#write@{40-40}
+[Files] org.onosproject.store.serializers.ImmutableSetSerializer#write@{38-38}
+[Files] org.onosproject.store.serializers.ExtensionCriterionSerializer#write@{50-50}
+[Files] org.onosproject.store.serializers.Ip4PrefixSerializer#write@{41-42}
+[Files] org.onosproject.store.serializers.Ip4AddressSerializer#write@{40-40}
+[toByteArray] org.onosproject.ui.impl.MainNavResource#getNavigation@{68-68}
+[GET] org.onosproject.ui.impl.MainNavResource#getNavigation@{64-64}
+[toByteArray] org.onosproject.ui.impl.MainModuleResource#getMainModule@{55-55}
+[GET] org.onosproject.ui.impl.MainModuleResource#getMainModule@{52-52}
+[toByteArray] org.onosproject.ui.impl.FooResource#decodeAndMark@{72-72}
+[toByteArray] org.onosproject.ui.impl.FooResource#getBinResource@{89-89}
+[GET] org.onosproject.ui.impl.FooResource#getBinResource@{78-79}
+[GET] org.onosproject.ui.impl.MainViewResource#getViewResource@{43-44}
+[GET] org.onosproject.ui.impl.LogoutResource#logout@{39-39}
+[GET] org.onosproject.ui.impl.TopologyResource#getGeoLocations@{64-64}
+[GET] org.onosproject.ui.impl.TopologyResource#setSprites@{117-117}
+[GET] org.onosproject.ui.impl.ApplicationResource#upload@{51-52}
+[GET] org.onosproject.ui.impl.ApplicationResource#download@{74-74}
+[GET] org.onosproject.ui.impl.ApplicationResource#getIcon@{87-87}
+[toByteArray] org.onosproject.ui.impl.MainIndexResource#getMainIndex@{83-83}
+[GET] org.onosproject.ui.impl.MainIndexResource#getMainIndex@{69-69}
+[GET] org.onosproject.rest.resources.ComponentConfigWebResource#getComponentConfigs@{59-59}
+[GET] org.onosproject.rest.resources.ComponentConfigWebResource#getComponentConfigs@{76-76}
+[GET] org.onosproject.rest.resources.ComponentConfigWebResource#setConfigs@{105-107}
+[GET] org.onosproject.rest.resources.ComponentConfigWebResource#unsetConfigs@{152-153}
+[GET] org.onosproject.rest.resources.FlowsWebResource#getFlows@{87-87}
+[GET] org.onosproject.rest.resources.FlowsWebResource#getPendingFlows@{110-110}
+[GET] org.onosproject.rest.resources.FlowsWebResource#createFlows@{141-141}
+[GET] org.onosproject.rest.resources.FlowsWebResource#getFlowByDeviceId@{178-178}
+[GET] org.onosproject.rest.resources.FlowsWebResource#getFlowByDeviceIdAndFlowId@{203-204}
+[GET] org.onosproject.rest.resources.FlowsWebResource#getFlowByAppId@{230-230}
+[GET] org.onosproject.rest.resources.FlowsWebResource#removeFlowByAppId@{250-250}
+[GET] org.onosproject.rest.resources.FlowsWebResource#createFlow@{274-276}
+[GET] org.onosproject.rest.resources.FlowsWebResource#deleteFlowByDeviceIdAndFlowId@{315-316}
+[GET] org.onosproject.rest.resources.FlowsWebResource#deleteFlows@{337-337}
+[applyflows] org.onosproject.rest.resources.FlowsWebResource#createFlows@{153-153}
+[applyflows] org.onosproject.rest.resources.FlowsWebResource#createFlow@{292-292}
+[removeflows] org.onosproject.rest.resources.FlowsWebResource#deleteFlows@{370-370}
+[GET] org.onosproject.rest.resources.GroupsWebResource#getGroups@{91-91}
+[GET] org.onosproject.rest.resources.GroupsWebResource#getGroupsByDeviceId@{113-113}
+[GET] org.onosproject.rest.resources.GroupsWebResource#getGroupByDeviceIdAndAppCookie@{132-133}
+[GET] org.onosproject.rest.resources.GroupsWebResource#createGroup@{159-160}
+[GET] org.onosproject.rest.resources.GroupsWebResource#deleteGroupByDeviceIdAndAppCookie@{197-198}
+[GET] org.onosproject.rest.resources.GroupsWebResource#addBucket@{252-254}
+[GET] org.onosproject.rest.resources.GroupsWebResource#deleteBuckets@{308-310}
+[GET] org.onosproject.rest.resources.ApplicationsWebResource#getApps@{65-65}
+[GET] org.onosproject.rest.resources.ApplicationsWebResource#getApp@{81-81}
+[GET] org.onosproject.rest.resources.ApplicationsWebResource#installApp@{98-98}
+[GET] org.onosproject.rest.resources.ApplicationsWebResource#installApp@{131-133}
+[GET] org.onosproject.rest.resources.ApplicationsWebResource#uninstallApp@{155-155}
+[GET] org.onosproject.rest.resources.ApplicationsWebResource#activateApp@{174-174}
+[GET] org.onosproject.rest.resources.ApplicationsWebResource#deactivateApp@{191-191}
+[GET] org.onosproject.rest.resources.ApplicationsWebResource#registerAppId@{210-210}
+[GET] org.onosproject.rest.resources.ApplicationsWebResource#getAppBits@{226-226}
+[GET] org.onosproject.rest.resources.ApplicationsWebResource#getAppIdByName@{244-245}
+[GET] org.onosproject.rest.resources.ApplicationsWebResource#getAppIds@{266-266}
+[GET] org.onosproject.rest.resources.TopologyWebResource#getTopology@{57-57}
+[GET] org.onosproject.rest.resources.TopologyWebResource#getClusters@{72-72}
+[GET] org.onosproject.rest.resources.TopologyWebResource#getCluster@{90-90}
+[GET] org.onosproject.rest.resources.TopologyWebResource#getClusterDevices@{114-114}
+[GET] org.onosproject.rest.resources.TopologyWebResource#getClusterLinks@{138-138}
+[GET] org.onosproject.rest.resources.TopologyWebResource#getConnectPointBroadcast@{188-188}
+[GET] org.onosproject.rest.resources.TopologyWebResource#getConnectPointInfrastructure@{213-213}
+[GET] org.onosproject.rest.resources.MetricsWebResource#getAllMetrics@{62-62}
+[GET] org.onosproject.rest.resources.MetricsWebResource#getMetricByName@{85-85}
+[GET] org.onosproject.rest.resources.SystemInfoWebResource#getSystemInfo@{64-64}
+[GET] org.onosproject.rest.resources.PathsWebResource#getPath@{71-72}
+[GET] org.onosproject.rest.resources.PathsWebResource#getDisjointPath@{90-91}
+[GET] org.onosproject.rest.resources.FlowObjectiveWebResource#createFilteringObjective@{74-76}
+[GET] org.onosproject.rest.resources.FlowObjectiveWebResource#createForwardingObjective@{118-120}
+[GET] org.onosproject.rest.resources.FlowObjectiveWebResource#createNextObjective@{162-164}
+[GET] org.onosproject.rest.resources.FlowObjectiveWebResource#getNextId@{201-201}
+[GET] org.onosproject.rest.resources.FlowObjectiveWebResource#initPolicy@{216-216}
+[GET] org.onosproject.rest.resources.StatisticsWebResource#getLoads@{73-74}
+[GET] org.onosproject.rest.resources.StatisticsWebResource#getTableStatistics@{114-114}
+[GET] org.onosproject.rest.resources.StatisticsWebResource#getTableStatisticsByDeviceId@{145-145}
+[GET] org.onosproject.rest.resources.StatisticsWebResource#getPortStatistics@{170-170}
+[GET] org.onosproject.rest.resources.StatisticsWebResource#getPortStatisticsByDeviceId@{200-200}
+[GET] org.onosproject.rest.resources.StatisticsWebResource#getPortStatisticsByDeviceIdAndPort@{229-230}
+[GET] org.onosproject.rest.resources.StatisticsWebResource#getPortDeltaStatistics@{256-256}
+[GET] org.onosproject.rest.resources.StatisticsWebResource#getPortDeltaStatisticsByDeviceId@{286-286}
+[GET] org.onosproject.rest.resources.StatisticsWebResource#getPortDeltaStatisticsByDeviceIdAndPort@{315-316}
+[GET] org.onosproject.rest.resources.StatisticsWebResource#getActiveEntriesCountPerDevice@{343-343}
+[toByteArray] org.onosproject.rest.resources.ApiDocResource#getIndex@{131-131}
+[GET] org.onosproject.rest.resources.ApiDocResource#getApiList@{67-67}
+[GET] org.onosproject.rest.resources.ApiDocResource#getApi@{82-82}
+[GET] org.onosproject.rest.resources.ApiDocResource#getApiModel@{98-98}
+[GET] org.onosproject.rest.resources.ApiDocResource#getDefault@{114-114}
+[GET] org.onosproject.rest.resources.ApiDocResource#getIndex@{127-127}
+[GET] org.onosproject.rest.resources.ApiDocResource#getResource@{166-166}
+[GET] org.onosproject.rest.resources.MulticastRouteWebResource#getRoutes@{60-60}
+[GET] org.onosproject.rest.resources.MulticastRouteWebResource#createRoute@{78-78}
+[GET] org.onosproject.rest.resources.MulticastRouteWebResource#deleteRoute@{111-111}
+[GET] org.onosproject.rest.resources.MulticastRouteWebResource#addSinks@{138-140}
+[GET] org.onosproject.rest.resources.DevicesWebResource#getDevices@{67-67}
+[GET] org.onosproject.rest.resources.DevicesWebResource#getDevice@{83-83}
+[GET] org.onosproject.rest.resources.DevicesWebResource#removeDevice@{100-100}
+[GET] org.onosproject.rest.resources.DevicesWebResource#getDevicePorts@{119-119}
+[GET] org.onosproject.rest.resources.DevicesWebResource#setPortState@{141-143}
+[GET] org.onosproject.rest.resources.UiPreferencesWebResource#download@{48-48}
+[GET] org.onosproject.rest.resources.UiPreferencesWebResource#download@{70-70}
+[GET] org.onosproject.rest.resources.UiPreferencesWebResource#download@{88-89}
+[GET] org.onosproject.rest.resources.UiPreferencesWebResource#upload@{106-108}
+[GET] org.onosproject.rest.resources.UiPreferencesWebResource#remove@{125-126}
+[GET] org.onosproject.rest.resources.RegionsWebResource#getRegions@{68-68}
+[GET] org.onosproject.rest.resources.RegionsWebResource#getRegionById@{83-83}
+[GET] org.onosproject.rest.resources.RegionsWebResource#getRegionDevices@{100-100}
+[GET] org.onosproject.rest.resources.RegionsWebResource#createRegion@{120-120}
+[GET] org.onosproject.rest.resources.RegionsWebResource#updateRegion@{147-148}
+[GET] org.onosproject.rest.resources.RegionsWebResource#removeRegion@{176-176}
+[GET] org.onosproject.rest.resources.RegionsWebResource#addDevices@{195-196}
+[GET] org.onosproject.rest.resources.RegionsWebResource#removeDevices@{223-224}
+[GET] org.onosproject.rest.resources.TenantWebResource#getVirtualNetworkTenantIds@{66-66}
+[GET] org.onosproject.rest.resources.TenantWebResource#addTenantId@{82-82}
+[GET] org.onosproject.rest.resources.TenantWebResource#removeTenantId@{106-106}
+[GET] org.onosproject.rest.resources.IntentsWebResource#getIntents@{101-101}
+[GET] org.onosproject.rest.resources.IntentsWebResource#getIntentSummary@{118-118}
+[GET] org.onosproject.rest.resources.IntentsWebResource#getIntentWithInstallable@{141-142}
+[GET] org.onosproject.rest.resources.IntentsWebResource#getIntentById@{171-172}
+[GET] org.onosproject.rest.resources.IntentsWebResource#getIntentFlowsById@{209-210}
+[GET] org.onosproject.rest.resources.IntentsWebResource.DeleteListener#createIntent@{298-298}
+[GET] org.onosproject.rest.resources.IntentsWebResource.DeleteListener#deleteIntentById@{326-327}
+[GET] org.onosproject.rest.resources.HostsWebResource#getHosts@{83-83}
+[GET] org.onosproject.rest.resources.HostsWebResource#getHostById@{100-100}
+[GET] org.onosproject.rest.resources.HostsWebResource#getHostByMacAndVlan@{119-120}
+[GET] org.onosproject.rest.resources.HostsWebResource#createAndAddHost@{139-139}
+[GET] org.onosproject.rest.resources.HostsWebResource#removeHost@{179-180}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#getVirtualNetworks@{81-81}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#getVirtualNetworkById@{100-100}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#createVirtualNetwork@{118-118}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#removeVirtualNetwork@{141-141}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#getVirtualDevices@{159-159}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#createVirtualDevice@{178-179}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#removeVirtualDevice@{209-210}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#getVirtualPorts@{230-231}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#createVirtualPort@{251-253}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#removeVirtualPort@{297-299}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#getVirtualLinks@{318-318}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#createVirtualLink@{337-338}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#removeVirtualLink@{370-371}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#getVirtualHosts@{399-399}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#createVirtualHost@{418-419}
+[GET] org.onosproject.rest.resources.VirtualNetworkWebResource#removeVirtualHost@{452-453}
+[GET] org.onosproject.rest.resources.MastershipWebResource#getLocalRole@{78-78}
+[GET] org.onosproject.rest.resources.MastershipWebResource#getMasterFor@{94-94}
+[GET] org.onosproject.rest.resources.MastershipWebResource#getNodesFor@{114-114}
+[GET] org.onosproject.rest.resources.MastershipWebResource#getDeviceOf@{131-131}
+[GET] org.onosproject.rest.resources.MastershipWebResource#requestRoleFor@{154-154}
+[GET] org.onosproject.rest.resources.MastershipWebResource#relinquishMastership@{175-175}
+[GET] org.onosproject.rest.resources.MastershipWebResource#setRole@{191-191}
+[GET] org.onosproject.rest.resources.MastershipWebResource#balanceRoles@{224-224}
+[GET] org.onosproject.rest.resources.ClusterWebResource#getClusterNodes@{60-60}
+[GET] org.onosproject.rest.resources.ClusterWebResource#getClusterNode@{76-76}
+[GET] org.onosproject.rest.resources.ClusterWebResource#formCluster@{94-94}
+[GET] org.onosproject.rest.resources.LinksWebResource#getLinks@{52-54}
+[toByteArray] org.onosproject.rest.resources.DiagnosticsWebResource#execute@{63-63}
+[toByteArray] org.onosproject.rest.resources.DiagnosticsWebResource#execute@{64-64}
+[GET] org.onosproject.rest.resources.DiagnosticsWebResource#getDiagnostics@{50-50}
+[FileInputStream] org.onosproject.rest.resources.DiagnosticsWebResource#getDiagnostics@{53-53}
+[getRuntime] org.onosproject.rest.resources.DiagnosticsWebResource#execute@{62-62}
+[GET] org.onosproject.rest.resources.DpisWebResource#getDpisLatest@{86-86}
+[GET] org.onosproject.rest.resources.DpisWebResource#getTrafficStatistics@{142-142}
+[GET] org.onosproject.rest.resources.DpisWebResource#getDetectedProtocols@{168-168}
+[GET] org.onosproject.rest.resources.DpisWebResource#getKnownFlows@{209-209}
+[GET] org.onosproject.rest.resources.DpisWebResource#getUnknownFlows@{250-250}
+[GET] org.onosproject.rest.resources.DpisWebResource#addDpiStatistics@{292-292}
+[GET] org.onosproject.rest.resources.MetersWebResource#getMeters@{75-75}
+[GET] org.onosproject.rest.resources.MetersWebResource#getMetersByDeviceId@{93-93}
+[GET] org.onosproject.rest.resources.MetersWebResource#getMeterByDeviceIdAndMeterId@{113-114}
+[GET] org.onosproject.rest.resources.MetersWebResource#createMeter@{139-140}
+[GET] org.onosproject.rest.resources.MetersWebResource#deleteMeterByDeviceIdAndMeterId@{179-180}
+[GET] org.onosproject.rest.resources.DeviceKeyWebResource#getDeviceKeys@{64-64}
+[GET] org.onosproject.rest.resources.DeviceKeyWebResource#getDeviceKey@{80-80}
+[GET] org.onosproject.rest.resources.DeviceKeyWebResource#addDeviceKey@{97-97}
+[GET] org.onosproject.rest.resources.DeviceKeyWebResource#removeDeviceKey@{126-126}
+[GET] org.onosproject.rest.resources.NetworkConfigWebResource#download@{90-90}
+[GET] org.onosproject.rest.resources.NetworkConfigWebResource#download@{111-111}
+[GET] org.onosproject.rest.resources.NetworkConfigWebResource#download@{132-133}
+[GET] org.onosproject.rest.resources.NetworkConfigWebResource#download@{157-159}
+[GET] org.onosproject.rest.resources.NetworkConfigWebResource#upload@{209-209}
+[GET] org.onosproject.rest.resources.NetworkConfigWebResource#upload@{242-243}
+[GET] org.onosproject.rest.resources.NetworkConfigWebResource#upload@{269-271}
+[GET] org.onosproject.rest.resources.NetworkConfigWebResource#upload@{300-303}
+[GET] org.onosproject.rest.resources.NetworkConfigWebResource#delete@{357-357}
+[GET] org.onosproject.rest.resources.NetworkConfigWebResource#delete@{372-372}
+[GET] org.onosproject.rest.resources.NetworkConfigWebResource#delete@{392-393}
+[GET] org.onosproject.rest.resources.NetworkConfigWebResource#delete@{413-415}
+[DocumentBuilder] org.onosproject.provider.netconf.alarm.NetconfAlarmTranslator#createDocFromMessage@{96-96}
+[pushflow] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider.InternalFlowProvider#handleMessage@{451-451}
+[pushflow] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider.InternalFlowProvider#pushFlowMetrics@{628-628}
+[pushflow] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider.InternalFlowProvider#pushFlowMetrics@{646-646}
+[pushflow] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider.InternalFlowProvider#pushFlowMetrics@{660-660}
+[pushflow] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider.InternalFlowProvider#pushFlowLightWeightMetrics@{691-691}
+[pushflow] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider.InternalFlowProvider#pushFlowLightWeightMetrics@{704-704}
+[applyflow] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider#applyFlowRule@{297-297}
+[applyrule] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider#applyFlowRule@{299-299}
+[applyrule] org.onosproject.provider.of.flow.impl.OpenFlowRuleProvider#applyRule@{303-303}
+[pushflow] org.onosproject.provider.nil.StatisticTask#run@{133-133}
+[applyflow] org.onosproject.provider.bgpcep.flow.impl.BgpcepFlowRuleProvider#applyFlowRule@{71-71}
+[toByteArray] org.onlab.util.KryoNamespace#serialize@{313-313}
+[DocumentBuilder] org.onlab.util.XmlString#prettyPrintXml@{75-75}
+[toByteArray] org.onlab.packet.Ethernet#toByteArray@{442-442}
+[toByteArray] org.onlab.packet.RADIUS#decapsulateMessage@{279-279}
+[createNewFile] org.onlab.junit.TestTools#createTestFiles@{157-157}
+[createNewFile] org.onlab.osgiwrap.OSGiWrapper#execute@{226-226}
+[GET] org.onlab.rest.exceptions.WebApplicationExceptionMapper#toResponse@{36-36}
+[removeflows] org.onosproject.cli.net.FlowsListCommand#removeFlowsInteractive@{168-168}
+[removeflows] org.onosproject.fwd.ReactiveForwarding.InternalTopologyListener#cleanFlowRules@{818-818}
+[GET] org.onosproject.virtualbng.VbngResource#@{96-97}
+[GET] org.onosproject.virtualbng.VbngResource#@{128-128}
+[applyrule] org.onosproject.openstacknetworking.impl.OpenstackFlowRuleManager#setRule@{124-124}
+[applyrule] org.onosproject.openstacknetworking.impl.OpenstackFlowRuleManager#applyRule@{127-127}
+[applyrule] org.onosproject.openstacknetworking.impl.OpenstackFlowRuleManager#connectTables@{168-168}
+[applyrule] org.onosproject.openstacknetworking.impl.OpenstackFlowRuleManager#setUpTableMissEntry@{188-188}
+[applyrule] org.onosproject.openstacknetworking.impl.OpenstackFlowRuleManager#setupJumpTable@{208-208}
+[applyrule] org.onosproject.openstacknetworking.impl.OpenstackFlowRuleManager#setupJumpTable@{225-225}
+[GET] org.onosproject.openstacknetworking.web.OpenstackNetworkWebResource#createNetwork@{70-70}
+[GET] org.onosproject.openstacknetworking.web.OpenstackNetworkWebResource#updateNetwork@{98-98}
+[GET] org.onosproject.openstacknetworking.web.OpenstackNetworkWebResource#deleteNetwork@{119-119}
+[GET] org.onosproject.openstacknetworking.web.OpenstackFloatingIpWebResource#createFloatingIp@{71-71}
+[GET] org.onosproject.openstacknetworking.web.OpenstackFloatingIpWebResource#updateFloatingIp@{99-99}
+[GET] org.onosproject.openstacknetworking.web.OpenstackFloatingIpWebResource#deleteFloatingIp@{119-119}
+[GET] org.onosproject.openstacknetworking.web.OpenstackSecurityGroupRuleWebResource#createSecurityGroupRules@{68-68}
+[GET] org.onosproject.openstacknetworking.web.OpenstackSecurityGroupRuleWebResource#deleteSecurityGroupRule@{92-92}
+[GET] org.onosproject.openstacknetworking.web.OpenstackSubnetWebResource#createSubnet@{71-71}
+[GET] org.onosproject.openstacknetworking.web.OpenstackSubnetWebResource#updateSubnet@{99-99}
+[GET] org.onosproject.openstacknetworking.web.OpenstackSubnetWebResource#deleteSubnet@{120-120}
+[GET] org.onosproject.openstacknetworking.web.OpenstackSecurityGroupWebResource#createSecurityGroups@{69-69}
+[GET] org.onosproject.openstacknetworking.web.OpenstackSecurityGroupWebResource#updateSecurityGroups@{94-94}
+[GET] org.onosproject.openstacknetworking.web.OpenstackSecurityGroupWebResource#removeSecurityGroup@{112-112}
+[GET] org.onosproject.openstacknetworking.web.OpenstackRouterWebResource#createRouter@{73-73}
+[GET] org.onosproject.openstacknetworking.web.OpenstackRouterWebResource#updateRouter@{101-101}
+[GET] org.onosproject.openstacknetworking.web.OpenstackRouterWebResource#addRouterInterface@{126-126}
+[GET] org.onosproject.openstacknetworking.web.OpenstackRouterWebResource#deleteRouterInterface@{150-150}
+[GET] org.onosproject.openstacknetworking.web.OpenstackRouterWebResource#deleteRouter@{170-170}
+[GET] org.onosproject.openstacknetworking.web.OpenstackPortWebResource#createPorts@{70-70}
+[GET] org.onosproject.openstacknetworking.web.OpenstackPortWebResource#updatePort@{97-97}
+[GET] org.onosproject.openstacknetworking.web.OpenstackPortWebResource#deletePorts@{118-118}
+[GET] org.onosproject.cpman.rest.ControlMetricsWebResource#controlMessageMetrics@{68-68}
+[GET] org.onosproject.cpman.rest.ControlMetricsWebResource#controlMessageMetrics@{96-96}
+[GET] org.onosproject.cpman.rest.ControlMetricsWebResource#cpuMetrics@{113-113}
+[GET] org.onosproject.cpman.rest.ControlMetricsWebResource#memoryMetrics@{128-128}
+[GET] org.onosproject.cpman.rest.ControlMetricsWebResource#diskMetrics@{143-143}
+[GET] org.onosproject.cpman.rest.ControlMetricsWebResource#networkMetrics@{169-169}
+[GET] org.onosproject.cpman.rest.SystemMetricsCollectorWebResource#cpuMetrics@{90-90}
+[GET] org.onosproject.cpman.rest.SystemMetricsCollectorWebResource#memoryMetrics@{151-151}
+[GET] org.onosproject.cpman.rest.SystemMetricsCollectorWebResource#diskMetrics@{206-206}
+[GET] org.onosproject.cpman.rest.SystemMetricsCollectorWebResource#networkMetrics@{252-252}
+[GET] org.onosproject.cpman.rest.SystemMetricsCollectorWebResource#systemInfo@{315-315}
+[GET] org.onosproject.simplefabric.SimpleFabricWebResource#queryStatus@{40-40}
+[GET] org.onosproject.simplefabric.SimpleFabricWebResource#queryShow@{51-51}
+[GET] org.onosproject.simplefabric.SimpleFabricWebResource#queryIntents@{64-64}
+[GET] org.onosproject.simplefabric.SimpleFabricWebResource#queryReactiveIntents@{77-77}
+[GET] org.onosproject.simplefabric.SimpleFabricWebResource#triggerRefresh@{90-90}
+[GET] org.onosproject.simplefabric.SimpleFabricWebResource#triggerFlush@{102-102}
+[applyflows] org.onosproject.simplefabric.SimpleFabricReactiveRouting#refreshIntercepts@{254-254}
+[removeflows] org.onosproject.simplefabric.SimpleFabricReactiveRouting#refreshIntercepts@{247-247}
+[GET] org.onosproject.powermanagement.PowerConfigWebResource#getDevices@{95-95}
+[GET] org.onosproject.powermanagement.PowerConfigWebResource#setTargetPower@{122-122}
+[GET] org.onosproject.powermanagement.PowerConfigWebResource#getDevice@{143-143}
+[GET] org.onosproject.powermanagement.PowerConfigWebResource#getDevicePorts@{173-175}
+[GET] org.onosproject.yang.web.YangWebResource#upload@{69-70}
+[GET] org.onosproject.yang.web.YangWebResource#getModels@{115-115}
+[GET] org.onosproject.yang.web.YangWebResource#getModules@{140-141}
+[Files] org.onosproject.yang.impl.YangLiveCompilerManager#extractZipArchive@{127-127}
+[Files] org.onosproject.yang.impl.YangLiveCompilerManager#writeResource@{203-203}
+[toByteArray] org.onosproject.yang.impl.YangLiveCompilerManager#unpackYangSources@{100-100}
+[toByteArray] org.onosproject.yang.impl.YangLiveCompilerManager#extractZipArchive@{123-123}
+[toByteArray] org.onosproject.yang.impl.YangLiveCompilerManager#writeResource@{203-203}
+[toByteArray] org.onosproject.yang.impl.YangLiveCompilerManager#execute@{221-221}
+[toByteArray] org.onosproject.yang.impl.YangLiveCompilerManager#execute@{222-222}
+[createNewFile] org.onosproject.yang.impl.YangLiveCompilerManager#extractYangFile@{114-114}
+[FileInputStream] org.onosproject.yang.impl.YangLiveCompilerManager#compileYangFiles@{92-92}
+[getRuntime] org.onosproject.yang.impl.YangLiveCompilerManager#execute@{220-220}
+[applyflows] org.onosproject.p4tutorial.mytunnel.MyTunnelApp#insertPiFlowRule@{285-285}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#getRoutes@{78-78}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#getRoute@{94-95}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#getSources@{114-115}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#getSinks@{139-140}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#getHostSinks@{169-171}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#createRoutes@{197-197}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#createRoute@{244-244}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#addSources@{292-294}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#addSinks@{331-333}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#addHostSinks@{373-376}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#deleteRoutes@{404-404}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#deleteRoutes@{419-419}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#deleteRoute@{442-443}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#deleteSources@{462-463}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#deleteSource@{481-483}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#deleteHostsSinks@{500-501}
+[GET] org.onosproject.mcast.web.McastRouteWebResource#deleteHostSinks@{519-521}
+[GET] org.onosproject.vtnweb.resources.RouterWebResource#listRouters@{88-88}
+[GET] org.onosproject.vtnweb.resources.RouterWebResource#getRouter@{99-100}
+[GET] org.onosproject.vtnweb.resources.RouterWebResource#createRouter@{122-122}
+[GET] org.onosproject.vtnweb.resources.RouterWebResource#updateRouter@{144-145}
+[GET] org.onosproject.vtnweb.resources.RouterWebResource#deleteSingleRouter@{165-166}
+[GET] org.onosproject.vtnweb.resources.RouterWebResource#addRouterInterface@{181-182}
+[GET] org.onosproject.vtnweb.resources.RouterWebResource#removeRouterInterface@{230-231}
+[GET] org.onosproject.vtnweb.resources.FlowClassifierWebResource#getFlowClassifiers@{65-65}
+[GET] org.onosproject.vtnweb.resources.FlowClassifierWebResource#getFlowClassifier@{88-88}
+[GET] org.onosproject.vtnweb.resources.FlowClassifierWebResource#createFlowClassifier@{109-109}
+[GET] org.onosproject.vtnweb.resources.FlowClassifierWebResource#updateFlowClassifier@{137-137}
+[GET] org.onosproject.vtnweb.resources.FlowClassifierWebResource#deleteFlowClassifier@{162-162}
+[GET] org.onosproject.vtnweb.resources.PortChainWebResource#getPortChains@{67-67}
+[GET] org.onosproject.vtnweb.resources.PortChainWebResource#getPortPain@{89-89}
+[GET] org.onosproject.vtnweb.resources.PortChainWebResource#createPortChain@{108-108}
+[GET] org.onosproject.vtnweb.resources.PortChainWebResource#updatePortPain@{133-134}
+[GET] org.onosproject.vtnweb.resources.PortChainWebResource#deletePortPain@{158-158}
+[GET] org.onosproject.vtnweb.resources.FloatingIpWebResource#listFloatingIps@{80-80}
+[GET] org.onosproject.vtnweb.resources.FloatingIpWebResource#getFloatingIp@{93-94}
+[GET] org.onosproject.vtnweb.resources.FloatingIpWebResource#createFloatingIp@{115-115}
+[GET] org.onosproject.vtnweb.resources.FloatingIpWebResource#updateFloatingIp@{137-138}
+[GET] org.onosproject.vtnweb.resources.FloatingIpWebResource#deleteSingleFloatingIp@{158-159}
+[GET] org.onosproject.vtnweb.resources.PortChainSfMapWebResource#getPortChainSfMap@{57-57}
+[GET] org.onosproject.vtnweb.resources.PortChainDeviceMapWebResource#getPortChainDeviceMap@{67-67}
+[GET] org.onosproject.vtnweb.resources.SubnetWebResource#listSubnets@{80-80}
+[GET] org.onosproject.vtnweb.resources.SubnetWebResource#getSubnet@{91-91}
+[GET] org.onosproject.vtnweb.resources.SubnetWebResource#createSubnet@{109-109}
+[GET] org.onosproject.vtnweb.resources.SubnetWebResource#updateSubnet@{134-135}
+[GET] org.onosproject.vtnweb.resources.SubnetWebResource#deleteSingleSubnet@{157-158}
+[GET] org.onosproject.vtnweb.resources.TenantNetworkWebResource#getNetworks@{84-93}
+[GET] org.onosproject.vtnweb.resources.TenantNetworkWebResource#getNetwork@{152-152}
+[GET] org.onosproject.vtnweb.resources.TenantNetworkWebResource#createNetworks@{171-171}
+[GET] org.onosproject.vtnweb.resources.TenantNetworkWebResource#updateNetworks@{208-208}
+[GET] org.onosproject.vtnweb.resources.TenantNetworkWebResource#deleteNetworks@{247-247}
+[GET] org.onosproject.vtnweb.resources.PortPairGroupWebResource#getPortPairGroups@{69-69}
+[GET] org.onosproject.vtnweb.resources.PortPairGroupWebResource#getPortPairGroup@{91-91}
+[GET] org.onosproject.vtnweb.resources.PortPairGroupWebResource#createPortPairGroup@{111-111}
+[GET] org.onosproject.vtnweb.resources.PortPairGroupWebResource#updatePortPairGroup@{139-140}
+[GET] org.onosproject.vtnweb.resources.PortPairGroupWebResource#deletePortPairGroup@{165-165}
+[GET] org.onosproject.vtnweb.resources.ClassifierWebResource#getClassifiers@{50-50}
+[GET] org.onosproject.vtnweb.resources.PortPairWebResource#getPortPairs@{67-67}
+[GET] org.onosproject.vtnweb.resources.PortPairWebResource#getPortPair@{89-89}
+[GET] org.onosproject.vtnweb.resources.PortPairWebResource#createPortPair@{107-107}
+[GET] org.onosproject.vtnweb.resources.PortPairWebResource#updatePortPair@{132-133}
+[GET] org.onosproject.vtnweb.resources.PortPairWebResource#deletePortPair@{157-157}
+[GET] org.onosproject.vtnweb.resources.VirtualPortWebResource#getPorts@{86-86}
+[GET] org.onosproject.vtnweb.resources.VirtualPortWebResource#getportsById@{98-98}
+[GET] org.onosproject.vtnweb.resources.VirtualPortWebResource#createPorts@{114-114}
+[GET] org.onosproject.vtnweb.resources.VirtualPortWebResource#deletePorts@{138-138}
+[GET] org.onosproject.vtnweb.resources.VirtualPortWebResource#updatePorts@{163-163}
+[Files] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#announceSubPrefixes@{59-59}
+[Files] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#write@{105-105}
+[Files] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#announcePrefix@{121-121}
+[Files] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#announcePrefix@{123-123}
+[Files] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#announcePrefix@{125-125}
+[Files] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#announcePrefix@{128-128}
+[Files] org.onosproject.artemis.impl.bgpspeakers.QuaggaBgpSpeakers#announcePrefix@{131-131}
+[GET] org.onosproject.castor.CastorWebResource#getMac@{46-46}
+[GET] org.onosproject.castor.CastorWebResource#getPeers@{60-60}
+[GET] org.onosproject.castor.CastorWebResource#addPeer@{77-77}
+[GET] org.onosproject.castor.CastorWebResource#deletePeer@{114-114}
+[GET] org.onosproject.castor.CastorWebResource#addRouteServer@{139-139}
+[applyflows] org.onosproject.roadm.RoadmManager#createConnection@{312-312}
+[removeflows] org.onosproject.roadm.RoadmManager#removeConnection@{338-338}
+[DocumentBuilder] org.onosproject.odtn.utils.YangToolUtil#toDocument@{199-200}
+[DocumentBuilder] org.onosproject.odtn.utils.YangToolUtil#toDocument@{216-217}
+[DocumentBuilder] org.onosproject.odtn.cli.impl.OdtnManualTestCommand#execute@{172-172}
+[toByteArray] org.onosproject.cip.ClusterIpManager#execute@{174-174}
+[toByteArray] org.onosproject.cip.ClusterIpManager#execute@{175-175}
+[getRuntime] org.onosproject.cip.ClusterIpManager#execute@{173-173}
+[applyflows] org.onosproject.learningswitch.LearningSwitchSolution.SwitchPacketProcessor#actLikeSwitch@{188-188}
+[toByteArray] org.onosproject.t3.impl.Subnet#bigInteger2IpString@{115-115}
+[GET] org.onosproject.imr.rest.ImrWebResource#getIntentsStats@{73-73}
+[GET] org.onosproject.imr.rest.ImrWebResource#getIntentsStats@{93-93}
+[GET] org.onosproject.imr.rest.ImrWebResource#getIntentsStats@{115-117}
+[GET] org.onosproject.imr.rest.ImrWebResource#getMonitoredIntents@{163-163}
+[GET] org.onosproject.imr.rest.ImrWebResource#getMonitoredIntents@{183-183}
+[GET] org.onosproject.imr.rest.ImrWebResource#reRouteIntents@{233-233}
+[toByteArray] org.onosproject.kafkaintegration.converter.LinkEventConverter#convertToProtoMessage@{48-48}
+[toByteArray] org.onosproject.kafkaintegration.converter.DeviceEventConverter#convertToProtoMessage@{49-49}
+[GET] org.onosproject.kafkaintegration.rest.EventExporterWebResource#registerKafkaListener@{73-73}
+[GET] org.onosproject.kafkaintegration.rest.EventExporterWebResource#removeKafkaListener@{98-98}
+[GET] org.onosproject.kafkaintegration.rest.EventExporterWebResource#subscribe@{117-117}
+[GET] org.onosproject.kafkaintegration.rest.EventExporterWebResource#unsubscribe@{161-161}
+[GET] org.onosproject.pcerest.PcePathWebResource#queryAllPath@{78-78}
+[GET] org.onosproject.pcerest.PcePathWebResource#queryPath@{106-106}
+[GET] org.onosproject.pcerest.PcePathWebResource#setupPath@{131-131}
+[GET] org.onosproject.pcerest.PcePathWebResource#updatePath@{190-191}
+[GET] org.onosproject.pcerest.PcePathWebResource#releasePath@{230-230}
+[GET] org.onosproject.mapping.web.api.MappingsWebResource#getMappings@{66-66}
+[GET] org.onosproject.mapping.web.api.MappingsWebResource#getMappingsByDeviceId@{94-95}
+[GET] org.onosproject.routeservice.rest.RouteServiceWebResource#getRoutes@{62-62}
+[GET] org.onosproject.routeservice.rest.RouteServiceWebResource#createRoute@{89-89}
+[GET] org.onosproject.routeservice.rest.RouteServiceWebResource#createRoutes@{119-119}
+[GET] org.onosproject.routeservice.rest.RouteServiceWebResource#deleteRoute@{147-147}
+[GET] org.onosproject.routeservice.rest.RouteServiceWebResource#deleteRoutes@{169-169}
+[removeflows] org.onosproject.mobility.HostMobility.InternalHostListener#cleanup@{123-123}
+[GET] org.onosproject.dhcp.rest.DhcpWebResource#getConfigs@{61-61}
+[GET] org.onosproject.dhcp.rest.DhcpWebResource#listMappings@{78-78}
+[GET] org.onosproject.dhcp.rest.DhcpWebResource#listAvailableIPs@{100-100}
+[GET] org.onosproject.dhcp.rest.DhcpWebResource#setMapping@{119-119}
+[GET] org.onosproject.dhcp.rest.DhcpWebResource#deleteMapping@{160-160}
+[GET] org.onosproject.openstacknode.web.OpenstackNodeWebResource#createNodes@{86-86}
+[GET] org.onosproject.openstacknode.web.OpenstackNodeWebResource#updateNodes@{114-114}
+[GET] org.onosproject.openstacknode.web.OpenstackNodeWebResource#deleteNodes@{143-143}
+[GET] org.onosproject.net.optical.rest.OpticalIntentsWebResource#createIntent@{93-93}
+[applyflows] org.onosproject.ofagent.impl.DefaultOFSwitch#processFlowMod@{291-291}
+[GET] org.onosproject.ofagent.rest.OFAgentWebResource#listOFAgents@{68-68}
+[GET] org.onosproject.ofagent.rest.OFAgentWebResource#listOFAgent@{94-94}
+[GET] org.onosproject.ofagent.rest.OFAgentWebResource#createOFAgent@{118-118}
+[GET] org.onosproject.ofagent.rest.OFAgentWebResource#startOFAgent@{142-142}
+[GET] org.onosproject.ofagent.rest.OFAgentWebResource#updateOFAgent@{171-171}
+[GET] org.onosproject.ofagent.rest.OFAgentWebResource#stopOFAgent@{200-200}
+[GET] org.onosproject.ofagent.rest.OFAgentWebResource#removeOFAgent@{225-225}
+[GET] org.onosproject.cordsupport.CordSupportWebResource#queryTopology@{50-50}
+[GET] org.onosproject.segmentrouting.web.McastWebResource#getMcastTrees@{99-99}
+[GET] org.onosproject.segmentrouting.web.McastWebResource#getRoute@{113-113}
+[GET] org.onosproject.segmentrouting.web.McastWebResource#getRoute@{128-129}
+[GET] org.onosproject.segmentrouting.web.PseudowireWebResource#getPseudowire@{71-71}
+[GET] org.onosproject.segmentrouting.web.PseudowireWebResource#createPseudowire@{109-109}
+[GET] org.onosproject.segmentrouting.web.PseudowireWebResource#createPseudowiresBulk@{150-150}
+[GET] org.onosproject.segmentrouting.web.PseudowireWebResource#removePseudowire@{196-196}
+[GET] org.onosproject.segmentrouting.web.PseudowireWebResource#removePseudowiresBulk@{235-235}
+[GET] org.onosproject.segmentrouting.web.PolicyWebResource#getPolicy@{54-54}
+[GET] org.onosproject.segmentrouting.web.PolicyWebResource#createPolicy@{72-72}
+[GET] org.onosproject.segmentrouting.web.PolicyWebResource#removePolicy@{95-95}
+[GET] org.onosproject.segmentrouting.web.TunnelWebResource#getTunnel@{54-54}
+[GET] org.onosproject.segmentrouting.web.TunnelWebResource#createTunnel@{72-72}
+[GET] org.onosproject.segmentrouting.web.TunnelWebResource#removeTunnel@{91-91}
+[GET] org.onosproject.faultmanagement.web.AlarmsWebResource#getAlarms@{68-70}
+[GET] org.onosproject.faultmanagement.web.AlarmsWebResource#getAlarm@{98-98}
+[GET] org.onosproject.faultmanagement.web.AlarmsWebResource#update@{121-121}
+[applyflows] org.onosproject.acl.impl.AclManager.InternalHostListener#generateAclFlow@{302-302}
+[removeflows] org.onosproject.acl.impl.AclManager.InternalHostListener#enforceRuleRemoving@{322-322}
+[GET] org.onosproject.acl.AclWebResource#queryAclRule@{60-60}
+[GET] org.onosproject.acl.AclWebResource#addAclRule@{108-108}
+[GET] org.onosproject.acl.AclWebResource#removeAclRule@{123-123}
+[GET] org.onosproject.acl.AclWebResource#clearAcl@{135-135}
+[GET] org.onosproject.soam.rest.LmWebResource#getAllLmsForMep@{76-78}
+[GET] org.onosproject.soam.rest.LmWebResource#getLm@{110-112}
+[GET] org.onosproject.soam.rest.LmWebResource#abortLm@{152-155}
+[GET] org.onosproject.soam.rest.LmWebResource#createLm@{186-188}
+[GET] org.onosproject.soam.rest.LmWebResource#clearLmHistory@{236-239}
+[GET] org.onosproject.soam.rest.DmWebResource#getAllDmsForMep@{78-80}
+[GET] org.onosproject.soam.rest.DmWebResource#getDm@{111-113}
+[GET] org.onosproject.soam.rest.DmWebResource#abortDm@{154-157}
+[GET] org.onosproject.soam.rest.DmWebResource#createDm@{188-190}
+[GET] org.onosproject.soam.rest.DmWebResource#clearDmHistory@{238-241}
+[GET] org.onosproject.cfm.rest.MdWebResource#getMds@{63-63}
+[GET] org.onosproject.cfm.rest.MdWebResource#getMd@{82-82}
+[GET] org.onosproject.cfm.rest.MdWebResource#deleteMd@{110-110}
+[GET] org.onosproject.cfm.rest.MdWebResource#createMaintenanceDomain@{137-137}
+[GET] org.onosproject.cfm.rest.MaWebResource#getMa@{70-71}
+[GET] org.onosproject.cfm.rest.MaWebResource#deleteMa@{101-102}
+[GET] org.onosproject.cfm.rest.MaWebResource#createMaintenanceAssociation@{135-136}
+[GET] org.onosproject.cfm.rest.DeviceMepWebResource#getAllMepsForDevice@{54-54}
+[GET] org.onosproject.cfm.rest.MepWebResource#getAllMepsForMa@{78-79}
+[GET] org.onosproject.cfm.rest.MepWebResource#getMep@{108-110}
+[GET] org.onosproject.cfm.rest.MepWebResource#deleteMep@{143-145}
+[GET] org.onosproject.cfm.rest.MepWebResource#createMep@{179-180}
+[GET] org.onosproject.cfm.rest.MepWebResource#transmitLoopback@{230-234}
+[GET] org.onosproject.cfm.rest.MepWebResource#abortLoopback@{293-296}
+[GET] org.onosproject.cfm.rest.MepWebResource#transmitLinktrace@{352-356}
+[GET] org.onosproject.openstacknetworkingui.web.FlowTraceWebResource#flowTraceResponse@{60-60}
+[XMLStreamReader] org.onosproject.netconf.NetconfRpcParserUtil#parseRpcReply@{61-61}
+[GET] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handleGetRequest@{89-89}
+[GET] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handlePostDatastore@{170-170}
+[GET] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handlePostRequest@{190-191}
+[GET] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handleRpcRequest@{237-239}
+[GET] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handlePutRequest@{294-295}
+[GET] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handleDeleteRequest@{340-340}
+[GET] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handlePatchRequest@{370-371}
+[GET] org.onosproject.protocol.restconf.server.rpp.RestconfWebResource#handlePatchDatastore@{418-418}
+[FileInputStream] org.onosproject.openflow.controller.impl.Controller#initSsl@{240-240}
+[FileInputStream] org.onosproject.openflow.controller.impl.Controller#initSsl@{245-245}
+[Files] org.onosproject.openflow.controller.impl.HandshakeTimeoutHandler#write@{64-66}
+[Files] org.onosproject.openflow.controller.impl.OpenFlowControllerImpl#write@{296-296}
+[Files] org.onosproject.openflow.controller.impl.OpenFlowControllerImpl#writeResponse@{302-302}
+[Files] org.onosproject.openflow.controller.impl.OFMessageEncoder#write@{57-59}
+[Files] org.onosproject.pcepio.types.PcepRsvpSpecObjHeader#write@{122-122}
+[Files] org.onosproject.pcepio.types.StatefulLspErrorCodeTlv#write@{115-115}
+[Files] org.onosproject.pcepio.types.PcepRsvpObjectHeader#write@{127-127}
+[Files] org.onosproject.pcepio.types.NodeNameSubTlv#write@{118-118}
+[Files] org.onosproject.pcepio.types.PcepRsvpIpv4ErrorSpec#write@{94-94}
+[Files] org.onosproject.pcepio.types.GmplsCapabilityTlv#write@{112-112}
+[Files] org.onosproject.pcepio.types.PcepObjectHeader#write@{178-178}
+[Files] org.onosproject.pcepio.types.NodeAttributesTlv#write@{145-145}
+[Files] org.onosproject.pcepio.types.PcepRsvpUserErrorSpec#write@{97-97}
+[Files] org.onosproject.pcepio.types.AdministrativeGroupSubTlv#write@{110-110}
+[Files] org.onosproject.pcepio.types.StatefulPceCapabilityTlv#write@{206-206}
+[Files] org.onosproject.pcepio.types.OpaqueNodePropertiesSubTlv#write@{118-118}
+[Files] org.onosproject.pcepio.types.IPv4NeighborAddressSubTlv#write@{111-111}
+[Files] org.onosproject.pcepio.types.IgpMetricSubTlv#write@{113-113}
+[Files] org.onosproject.pcepio.types.IsisAreaIdentifierSubTlv#write@{119-119}
+[Files] org.onosproject.pcepio.types.TEDefaultMetricSubTlv#write@{111-111}
+[Files] org.onosproject.pcepio.types.AutonomousSystemSubTlv#write@{110-110}
+[Files] org.onosproject.pcepio.types.IPv6SubObject#write@{186-186}
+[Files] org.onosproject.pcepio.types.IPv4InterfaceAddressSubTlv#write@{111-111}
+[Files] org.onosproject.pcepio.types.MaximumLinkBandwidthSubTlv#write@{111-111}
+[Files] org.onosproject.pcepio.types.RoutingUniverseTlv#write@{121-121}
+[Files] org.onosproject.pcepio.types.OpaqueLinkAttributeSubTlv#write@{119-119}
+[Files] org.onosproject.pcepio.types.LinkNameAttributeSubTlv#write@{118-118}
+[Files] org.onosproject.pcepio.types.IPv6NeighborAddressSubTlv#write@{143-143}
+[Files] org.onosproject.pcepio.types.PcepNaiIpv4Adjacency#write@{71-71}
+[Files] org.onosproject.pcepio.types.IPv6RouterIdofLocalNodeSubTlv#write@{143-143}
+[Files] org.onosproject.pcepio.types.PcepLabelDbVerTlv#write@{111-111}
+[Files] org.onosproject.pcepio.types.NexthopUnnumberedIPv4IDTlv#write@{131-131}
+[Files] org.onosproject.pcepio.types.MaximumReservableLinkBandwidthSubTlv#write@{110-110}
+[Files] org.onosproject.pcepio.types.PceccCapabilityTlv#write@{147-147}
+[Files] org.onosproject.pcepio.types.ErrorObjListWithOpen#write@{128-128}
+[Files] org.onosproject.pcepio.types.IPv6RouterIdofRemoteNodeSubTlv#write@{135-135}
+[Files] org.onosproject.pcepio.types.PcepNaiIpv6Adjacency#write@{55-55}
+[Files] org.onosproject.pcepio.types.NodeFlagBitsSubTlv#write@{186-186}
+[Files] org.onosproject.pcepio.types.LinkProtectionTypeSubTlv#write@{113-113}
+[Files] org.onosproject.pcepio.types.UnreservedBandwidthSubTlv#write@{110-110}
+[Files] org.onosproject.pcepio.types.LsCapabilityTlv#write@{147-147}
+[Files] org.onosproject.pcepio.types.PcepNaiIpv6NodeId#write@{61-61}
+[Files] org.onosproject.pcepio.types.LinkDescriptorsTlv#write@{145-145}
+[Files] org.onosproject.pcepio.types.BgpLsIdentifierSubTlv#write@{110-110}
+[Files] org.onosproject.pcepio.types.NexthopIPv4addressTlv#write@{117-117}
+[Files] org.onosproject.pcepio.types.AutonomousSystemNumberSubObject#write@{126-126}
+[Files] org.onosproject.pcepio.types.StatefulIPv4LspIdentifiersTlv#write@{180-180}
+[Files] org.onosproject.pcepio.types.SymbolicPathNameTlv#write@{132-132}
+[Files] org.onosproject.pcepio.types.StatefulLspDbVerTlv#write@{117-117}
+[Files] org.onosproject.pcepio.types.SrEroSubObject#write@{244-244}
+[Files] org.onosproject.pcepio.types.MplsProtocolMaskSubTlv#write@{156-156}
+[Files] org.onosproject.pcepio.types.SrPceCapabilityTlv#write@{114-114}
+[Files] org.onosproject.pcepio.types.LinkAttributesTlv#write@{144-144}
+[Files] org.onosproject.pcepio.types.LabelSubObject#write@{138-138}
+[Files] org.onosproject.pcepio.types.OspfAreaIdSubTlv#write@{109-109}
+[Files] org.onosproject.pcepio.types.SharedRiskLinkGroupSubTlv#write@{125-125}
+[Files] org.onosproject.pcepio.types.PcepRsvpIpv6ErrorSpec#write@{99-99}
+[Files] org.onosproject.pcepio.types.StatefulRsvpErrorSpecTlv#write@{192-192}
+[Files] org.onosproject.pcepio.types.PcepNaiIpv4NodeId#write@{55-55}
+[Files] org.onosproject.pcepio.types.RemoteNodeDescriptorsTlv#write@{144-144}
+[Files] org.onosproject.pcepio.types.PathSetupTypeTlv#write@{138-138}
+[Files] org.onosproject.pcepio.types.LocalNodeDescriptorsTlv#write@{145-145}
+[Files] org.onosproject.pcepio.types.IPv4SubObject#write@{157-157}
+[Files] org.onosproject.pcepio.types.IPv4RouterIdOfLocalNodeSubTlv#write@{110-110}
+[Files] org.onosproject.pcepio.types.IPv4RouterIdOfRemoteNodeSubTlv#write@{111-111}
+[Files] org.onosproject.pcepio.types.NexthopIPv6addressTlv#write@{154-154}
+[Files] org.onosproject.pcepio.types.LinkLocalRemoteIdentifiersSubTlv#write@{125-125}
+[Files] org.onosproject.pcepio.types.IgpRouterIdSubTlv#write@{118-118}
+[Files] org.onosproject.pcepio.types.PcepNaiUnnumberedAdjacencyIpv4#write@{75-75}
+[Files] org.onosproject.pcepio.types.IPv6InterfaceAddressSubTlv#write@{145-145}
+[Files] org.onosproject.pcepio.types.PathKeySubObject#write@{127-127}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepLspaObjectVer1#write@{239-239}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv4AdjacencyVer1#write@{128-128}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepInterLayerObjectVer1#write@{137-137}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepLabelRangeVer1#write@{128-128}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv4UnnumberedAdjacencyVer1#write@{173-173}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepErrorVer1#write@{300-300}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepRroObjectVer1#write@{235-235}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepLabelObjectVer1#write@{159-159}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv6AdjacencyVer1#write@{129-129}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv6Ver1#write@{118-118}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepIroObjectVer1#write@{189-189}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepErrorObjectVer1#write@{176-176}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepLabelRangeObjectVer1#write@{161-161}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepEndPointsObjectVer1#write@{134-134}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepErrorInfoVer1#write@{93-93}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepLSObjectVer1#write@{231-231}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepMetricObjectVer1#write@{217-217}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepEroObjectVer1#write@{295-295}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepStateReportVer1.PcepMsgPath#write@{237-237}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepOpenObjectVer1#write@{315-315}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepRPObjectVer1#write@{214-214}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepErrorMsgVer1.Builder#write@{276-276}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepSrpObjectVer1#write@{194-194}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepLabelUpdateVer1#write@{247-247}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepLspObjectVer1#write@{286-286}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepFecObjectIPv4Ver1#write@{115-115}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepOpenMsgVer1.Writer#write@{177-177}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepAttributeVer1#write@{249-249}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepMsgPathVer1#write@{105-105}
+[Files] org.onosproject.pcepio.protocol.ver1.PcepBandwidthObjectVer1#write@{143-143}
+[Files] org.onosproject.xmpp.core.ctl.handlers.XmppChannelHandler#write@{286-286}
+[DocumentBuilder] org.onosproject.xmpp.core.ctl.handlers.XmlMerger#initDocBuilder@{62-62}
+[Files] org.onosproject.bgpio.types.MpReachNlri#write@{420-420}
+[Files] org.onosproject.bgpio.types.BgpFsPortNum#write@{65-65}
+[Files] org.onosproject.bgpio.types.WideCommunityParameter#write@{95-95}
+[Files] org.onosproject.bgpio.types.BgpFsDestinationPortNum#write@{66-66}
+[Files] org.onosproject.bgpio.types.AutonomousSystemTlv#write@{91-91}
+[Files] org.onosproject.bgpio.types.IPv6AddressTlv#write@{81-81}
+[Files] org.onosproject.bgpio.types.BgpFsDestinationPrefix#write@{83-83}
+[Files] org.onosproject.bgpio.types.Med#write@{112-112}
+[Files] org.onosproject.bgpio.types.BgpExtendedCommunity#write@{153-153}
+[Files] org.onosproject.bgpio.types.BgpFsIcmpType#write@{66-66}
+[Files] org.onosproject.bgpio.types.OspfRouteTypeTlv#write@{129-129}
+[Files] org.onosproject.bgpio.types.BgpFsActionTrafficAction#write@{67-67}
+[Files] org.onosproject.bgpio.types.RouteTarget#write@{137-137}
+[Files] org.onosproject.bgpio.types.LocalPref#write@{112-112}
+[Files] org.onosproject.bgpio.types.BgpEvpnLabel#write@{60-60}
+[Files] org.onosproject.bgpio.types.BgpFsActionReDirect#write@{67-67}
+[Files] org.onosproject.bgpio.types.BgpFsIpProtocol#write@{77-77}
+[Files] org.onosproject.bgpio.types.BgpFsTcpFlags#write@{66-66}
+[Files] org.onosproject.bgpio.types.LinkStateAttributes#write@{298-298}
+[Files] org.onosproject.bgpio.types.NextHop#write@{113-113}
+[Files] org.onosproject.bgpio.types.BgpFsDscpValue#write@{66-66}
+[Files] org.onosproject.bgpio.types.BgpFsPacketLength#write@{66-66}
+[Files] org.onosproject.bgpio.types.IPv4AddressTlv#write@{81-81}
+[Files] org.onosproject.bgpio.types.BgpFsActionTrafficRate#write@{67-67}
+[Files] org.onosproject.bgpio.types.FourOctetAsNumCapabilityTlv#write@{90-90}
+[Files] org.onosproject.bgpio.types.BgpEvpnEsi#write@{64-64}
+[Files] org.onosproject.bgpio.types.WideCommunityTarget#write@{95-95}
+[Files] org.onosproject.bgpio.types.BgpLSIdentifierTlv#write@{92-92}
+[Files] org.onosproject.bgpio.types.As4Path#write@{165-165}
+[Files] org.onosproject.bgpio.types.attr.BgpAttrNodeName#write@{120-120}
+[Files] org.onosproject.bgpio.types.attr.BgpLinkAttrIgpMetric#write@{161-161}
+[Files] org.onosproject.bgpio.types.attr.BgpLinkAttrIsIsAdminstGrp#write@{120-120}
+[Files] org.onosproject.bgpio.types.attr.BgpPrefixAttrRouteTag#write@{127-127}
+[Files] org.onosproject.bgpio.types.attr.BgpAttrRouterIdV4#write@{124-124}
+[Files] org.onosproject.bgpio.types.attr.BgpLinkAttrMaxLinkBandwidth#write@{138-138}
+[Files] org.onosproject.bgpio.types.attr.BgpPrefixAttrOpaqueData#write@{122-122}
+[Files] org.onosproject.bgpio.types.attr.WideCommunity#write@{230-230}
+[Files] org.onosproject.bgpio.types.attr.BgpLinkAttrUnRsrvdLinkBandwidth#write@{146-146}
+[Files] org.onosproject.bgpio.types.attr.BgpPrefixAttrExtRouteTag#write@{129-129}
+[Files] org.onosproject.bgpio.types.attr.BgpAttrRouterIdV6#write@{127-127}
+[Files] org.onosproject.bgpio.types.attr.BgpLinkAttrProtectionType#write@{157-157}
+[Files] org.onosproject.bgpio.types.attr.BgpPrefixAttrIgpFlags#write@{161-161}
+[Files] org.onosproject.bgpio.types.attr.BgpPrefixAttrOspfFwdAddr#write@{172-172}
+[Files] org.onosproject.bgpio.types.attr.BgpLinkAttrOpaqLnkAttrib#write@{123-123}
+[Files] org.onosproject.bgpio.types.attr.BgpLinkAttrName#write@{118-118}
+[Files] org.onosproject.bgpio.types.attr.BgpAttrNodeMultiTopologyId#write@{126-126}
+[Files] org.onosproject.bgpio.types.attr.BgpAttrNodeIsIsAreaId#write@{120-120}
+[Files] org.onosproject.bgpio.types.attr.BgpLinkAttrSrlg#write@{122-122}
+[Files] org.onosproject.bgpio.types.attr.BgpLinkAttrMplsProtocolMask#write@{142-142}
+[Files] org.onosproject.bgpio.types.attr.BgpLinkAttrTeDefaultMetric#write@{122-122}
+[Files] org.onosproject.bgpio.types.attr.BgpAttrOpaqueNode#write@{122-122}
+[Files] org.onosproject.bgpio.types.attr.BgpAttrNodeFlagBitTlv#write@{159-159}
+[Files] org.onosproject.bgpio.types.attr.BgpPrefixAttrMetric#write@{121-121}
+[Files] org.onosproject.bgpio.types.BgpFsFragment#write@{66-66}
+[Files] org.onosproject.bgpio.types.BgpFsSourcePortNum#write@{66-66}
+[Files] org.onosproject.bgpio.types.BgpFsSourcePrefix#write@{126-126}
+[Files] org.onosproject.bgpio.types.IsIsNonPseudonode#write@{80-80}
+[Files] org.onosproject.bgpio.types.BgpFsIcmpCode#write@{66-66}
+[Files] org.onosproject.bgpio.types.LinkLocalRemoteIdentifiersTlv#write@{87-87}
+[Files] org.onosproject.bgpio.types.AsPath#write@{204-204}
+[Files] org.onosproject.bgpio.types.IsIsPseudonode#write@{96-96}
+[Files] org.onosproject.bgpio.types.OspfPseudonode#write@{84-84}
+[Files] org.onosproject.bgpio.types.BgpFsActionTrafficMarking#write@{67-67}
+[Files] org.onosproject.bgpio.types.MultiProtocolExtnCapabilityTlv#write@{122-122}
+[Files] org.onosproject.bgpio.types.OspfNonPseudonode#write@{81-81}
+[Files] org.onosproject.bgpio.types.AreaIDTlv#write@{91-91}
+[Files] org.onosproject.bgpio.types.Origin#write@{134-134}
+[Files] org.onosproject.bgpio.types.MpUnReachNlri#write@{380-380}
+[Files] org.onosproject.bgpio.types.BgpHeader#write@{134-134}
+[Files] org.onosproject.bgpio.types.WideCommunityAttrHeader#write@{161-161}
+[Files] org.onosproject.bgpio.types.RpdCapabilityTlv#write@{106-106}
+[Files] org.onosproject.bgpio.types.WideCommunityExcludeTarget#write@{96-96}
+[Files] org.onosproject.bgpio.types.WideCommunityInteger#write@{96-96}
+[Files] org.onosproject.bgpio.types.IPReachabilityInformationTlv#write@{105-105}
+[Files] org.onosproject.bgpio.types.WideCommunityIpV4Neighbour#write@{88-88}
+[toByteArray] org.onosproject.bgpio.util.Validation#validateLen@{116-116}
+[toByteArray] org.onosproject.bgpio.util.Validation#validateType@{131-131}
+[Files] org.onosproject.bgpio.protocol.evpn.BgpEvpnNlriImpl#write@{148-148}
+[Files] org.onosproject.bgpio.protocol.evpn.BgpEvpnRouteType2Nlri#write@{156-156}
+[Files] org.onosproject.bgpio.protocol.ver4.BgpUpdateMsgVer4.Writer#write@{220-220}
+[Files] org.onosproject.bgpio.protocol.ver4.BgpPathAttributes#write@{175-176}
+[Files] org.onosproject.bgpio.protocol.ver4.BgpKeepaliveMsgVer4#write@{125-125}
+[Files] org.onosproject.bgpio.protocol.ver4.BgpOpenMsgVer4.Writer#write@{482-482}
+[applyflows] org.onosproject.incubator.net.virtual.impl.provider.DefaultVirtualFlowRuleProvider#applyFlowRule@{165-165}
+[removeflows] org.onosproject.incubator.net.virtual.impl.provider.DefaultVirtualFlowRuleProvider#removeFlowRule@{173-173}
+[pushflow] org.onosproject.incubator.net.virtual.impl.provider.DefaultVirtualFlowRuleProvider.InternalFlowRuleListener#event@{633-633}
+[applyflow] org.onosproject.incubator.net.virtual.impl.provider.DefaultVirtualFlowRuleProvider#applyFlowRule@{162-162}
+[applyflows] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager#applyFlowRules@{142-142}
+[removeflows] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager#removeFlowRules@{156-156}
+[removeflows] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager#removeFlowRulesById@{166-166}
+[removeflows] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager.InternalFlowRuleProviderService#flowAdded@{409-409}
+[pushflow] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager.InternalFlowRuleProviderService#pushFlowMetrics@{455-455}
+[applyflow] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager.InternalFlowRuleProviderService#flowRemoved@{338-338}
+[applyflow] org.onosproject.incubator.net.virtual.impl.VirtualNetworkFlowRuleManager.InternalFlowRuleProviderService#flowMissing@{369-369}
+[toByteArray] org.onosproject.incubator.protobuf.models.core.ApplicationProtoTranslator#translate@{58-64}
+[Files] org.onosproject.incubator.store.virtual.impl.SimpleVirtualIntentStore#write@{116-116}
+[Files] org.onosproject.incubator.store.virtual.impl.SimpleVirtualIntentStore#batchWrite@{146-146}
