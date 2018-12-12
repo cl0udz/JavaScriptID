@@ -29,7 +29,7 @@
             </rule>
         </function>
         <function>
-            <rule name='$db::row -> write $var_'>
+            <rule name='$net_svc::flow -> write $var_'>
                 <regmatch>
                     <regexp>applyFlowRules\(</regexp>
                 </regmatch>
