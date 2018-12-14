@@ -3,7 +3,7 @@
         <function>
             <rule name='$fs::. -> write $var_'>
                 <regmatch>
-                    <regexp>\s+write\(</regexp>
+                    <regexp>[^\w]\s+write\(</regexp>
                 </regmatch>
             </rule>
         </function>
@@ -14,13 +14,13 @@
                 </regmatch>
             </rule>
         </function>
-        <function>
+        <!-- <function>
             <rule name='$http_api::. -> write $var_'>
                 <regmatch>
                     <regexp>.*public Response .*</regexp>
                 </regmatch>
             </rule>
-        </function>
+        </function> -->
         <function>
             <rule name='$db::row -> write $var_'>
                 <regmatch>
@@ -73,7 +73,21 @@
             </rule>
         </function>
         <function>
+            <rule name='$http_api::. -> write $var_'>
+                <regmatch>
+                    <regexp>new\s+SAXReader\(\)</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <function>
             <rule name='$fs::. -> read $var_'>
+                <regmatch>
+                    <regexp>new\s+SAXBuilder\(\)</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <function>
+            <rule name='$http_api::. -> write $var_'>
                 <regmatch>
                     <regexp>new\s+SAXBuilder\(\)</regexp>
                 </regmatch>
@@ -87,7 +101,21 @@
             </rule>
         </function>
         <function>
+            <rule name='$http_api::. -> write $var_'>
+                <regmatch>
+                    <regexp>new\s+SAXParser\(</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <function>
             <rule name='$fs::. -> read $var_'>
+                <regmatch>
+                    <regexp>createXMLReader\(</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <function>
+            <rule name='$http_api::. -> write $var_'>
                 <regmatch>
                     <regexp>createXMLReader\(</regexp>
                 </regmatch>
@@ -101,7 +129,21 @@
             </rule>
         </function>
         <function>
+            <rule name='$http_api::. -> write $var_'>
+                <regmatch>
+                    <regexp>newDocumentBuilder\(</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <function>
             <rule name='$fs::. -> read $var_'>
+                <regmatch>
+                    <regexp>createXMLStreamReader\(</regexp>
+                </regmatch>
+            </rule>
+        </function>
+        <function>
+        <rule name='$http_api::. -> write $var_'>
                 <regmatch>
                     <regexp>createXMLStreamReader\(</regexp>
                 </regmatch>
@@ -145,67 +187,14 @@
             </rule>
         </function>
     </javaid> -->
-    <!-- <javaid vultype='SSRF'>
-        <function>
-            <rule name='HttpURLConnection'>
-                <regmatch>
-                    <regexp>openConnection\(|getInputStream\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='URL'>
-                <regmatch>
-                    <regexp>URL\(|openStream\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-	    <function>
-            <rule name='ImageIO'>
-                <regmatch>
-                    <regexp>ImageIO\.read\(</regexp>
-                </regmatch>
-            </rule>
-        </function>    
-        <function>
-            <rule name='HttpClient'>
-                <regmatch>
-                    <regexp>HttpClient\(|executeMethod\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-	    <function>
-            <rule name='Socket'>
-                <regmatch>
-                    <regexp>new\sSocket\(</regexp>
-                </regmatch>
-            </rule>
-        </function>    
-        <function>
-            <rule name='OkHttpClient'>
-                <regmatch>
-                    <regexp>\.newCall\(|Request.Builder\(\)</regexp>
-                </regmatch>
-            </rule>
-        </function> 
-    </javaid> -->
-    <!-- <javaid vultype='FileUpload'>
-        <function>
-            <rule name='MultipartFile'>
-                <regmatch>
-                    <regexp>\.getOriginalFilename\(|MultipartFile\s</regexp>
-                </regmatch>
-            </rule>
-        </function>
-    </javaid> -->
     <javaid vultype='File'>
-        <function>
+        <!-- <function>
             <rule name='$fs::. -> write $var_'>
                 <regmatch>
                     <regexp>\.createNewFile\(|FileOutputStream\(</regexp>
                 </regmatch>
             </rule>
-        </function>
+        </function> -->
         <function>
             <rule name='$fs::. -> write $var_'>
                 <regmatch>
@@ -221,22 +210,6 @@
             </rule>
         </function>
     </javaid>
-    <!-- <javaid vultype='Autobinding'>
-        <function>
-            <rule name='SessionAttributes'>
-                <regmatch>
-                    <regexp>@SessionAttributes</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='ModelAttribute'>
-                <regmatch>
-                    <regexp>@ModelAttribute</regexp>
-                </regmatch>
-            </rule>
-        </function>
-    </javaid> -->
     <javaid vultype='EXEC'>
         <function>
             <rule name='$sys_process::. -> exec $var_'>
@@ -255,15 +228,4 @@
             </rule>
         </function>
     </javaid>
-	<!--
-	<javaid vultype='XXE'>
-        <function>
-            <rule name='SAXReader'>
-                <regmatch>
-                    <regexp>new\s+SAXReader\(\)</regexp>
-                </regmatch>
-            </rule>
-        </function>
-    </javaid>
-	-->
 </root>
