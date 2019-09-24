@@ -1,231 +1,84 @@
 <root>
-    <javaid vultype='JID'>
-        <function>
-            <rule name='$fs::. -> write $var_'>
-                <regmatch>
-                    <regexp>[^\w]\s+write\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$fs::. -> write $var_'>
-                <regmatch>
-                    <regexp>toByteArray\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <!-- <function>
-            <rule name='$http_api::. -> write $var_'>
-                <regmatch>
-                    <regexp>.*public Response .*</regexp>
-                </regmatch>
-            </rule>
-        </function> -->
-        <function>
-            <rule name='$db::row -> write $var_'>
-                <regmatch>
-                    <regexp>executeQuery\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$net_svc::flow -> write $var_'>
-                <regmatch>
-                    <regexp>applyFlowRules\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$net_svc::flow -> write $var_'>
-                <regmatch>
-                    <regexp>removeFlowRules\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$net_svc::flow -> write $var_'>
-                <regmatch>
-                    <regexp>pushFlowMetrics\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$net_svc::flow -> write $var_'>
-                <regmatch>
-                    <regexp>applyFlowRule\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$net_svc::flow -> write $var_'>
-                <regmatch>
-                    <regexp>applyRule\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-    </javaid>
-    <javaid vultype='XXE'>
-        <function>
-            <rule name='$fs::. -> read $var_'>
-                <regmatch>
-                    <regexp>new\s+SAXReader\(\)</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$http_api::. -> write $var_'>
-                <regmatch>
-                    <regexp>new\s+SAXReader\(\)</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$fs::. -> read $var_'>
-                <regmatch>
-                    <regexp>new\s+SAXBuilder\(\)</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$http_api::. -> write $var_'>
-                <regmatch>
-                    <regexp>new\s+SAXBuilder\(\)</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$fs::. -> read $var_'>
-                <regmatch>
-                    <regexp>new\s+SAXParser\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$http_api::. -> write $var_'>
-                <regmatch>
-                    <regexp>new\s+SAXParser\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$fs::. -> read $var_'>
-                <regmatch>
-                    <regexp>createXMLReader\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$http_api::. -> write $var_'>
-                <regmatch>
-                    <regexp>createXMLReader\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$fs::. -> read $var_'>
-                <regmatch>
-                    <regexp>newDocumentBuilder\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$http_api::. -> write $var_'>
-                <regmatch>
-                    <regexp>newDocumentBuilder\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$fs::. -> read $var_'>
-                <regmatch>
-                    <regexp>createXMLStreamReader\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
+    <jsid vultype='JID'>
+        <rule name='$fs::. -> write $var_'>
+            <regexp>[^\w]\s+write\(</regexp>
+        </rule>
+        <rule name='$fs::. -> write $var_'>
+            <regexp>toByteArray\(</regexp>
+        </rule>
+        <rule name='$db::row -> write $var_'>
+            <regexp>executeQuery\(</regexp>
+        </rule>
+        <rule name='$net_svc::flow -> write $var_'>
+            <regexp>applyFlowRules\(</regexp>
+        </rule>
+        <rule name='$net_svc::flow -> write $var_'>
+            <regexp>removeFlowRules\(</regexp>
+        </rule>
+        <rule name='$net_svc::flow -> write $var_'>
+            <regexp>pushFlowMetrics\(</regexp>
+        </rule>
+        <rule name='$net_svc::flow -> write $var_'>
+            <regexp>applyFlowRule\(</regexp>
+        </rule>
+        <rule name='$net_svc::flow -> write $var_'>
+            <regexp>applyRule\(</regexp>
+        </rule>
+    </jsid>
+    <jsid vultype='XXE'>
+        <rule name='$fs::. -> read $var_'>
+            <regexp>new\s+SAXReader\(\)</regexp>
+        </rule>
         <rule name='$http_api::. -> write $var_'>
-                <regmatch>
-                    <regexp>createXMLStreamReader\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-    </javaid>
-    <!-- <javaid vultype='ObjectDeserialization'>
-        <function>
-            <rule name='readObject'>
-                <regmatch>
-                    <regexp>\.readObject\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='parseObject'>
-                <regmatch>
-                    <regexp>JSON\.parseObject\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='readValue'>
-                <regmatch>
-                    <regexp>ObjectMapper\.readValue</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='fromXML'>
-                <regmatch>
-                    <regexp>fromXML\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='readUnshared'>
-                <regmatch>
-                    <regexp>readUnshared\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-    </javaid> -->
-    <javaid vultype='File'>
-        <!-- <function>
-            <rule name='$fs::. -> write $var_'>
-                <regmatch>
-                    <regexp>\.createNewFile\(|FileOutputStream\(</regexp>
-                </regmatch>
-            </rule>
-        </function> -->
-        <function>
-            <rule name='$fs::. -> write $var_'>
-                <regmatch>
-                    <regexp>new\sFileInputStream\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-        <function>
-            <rule name='$fs::. -> write $var_'>
-                <regmatch>
-                    <regexp>new\sBufferedInputStream</regexp>
-                </regmatch>
-            </rule>
-        </function>
-    </javaid>
-    <javaid vultype='EXEC'>
-        <function>
-            <rule name='$sys_process::. -> exec $var_'>
-                <regmatch>
-                    <regexp>getRuntime\(\)\.exec\(</regexp>
-                </regmatch>
-            </rule>
-        </function>
-    </javaid>
-    <javaid vultype='SQLi'>
-        <function>
-            <rule name='$sys_process::. -> exec $var_'>
-                <regmatch>
-                    <regexp>(into|where)[^\$]*(\$\{[^,#=\s]+\})</regexp>
-                </regmatch>
-            </rule>
-        </function>
-    </javaid>
+            <regexp>new\s+SAXReader\(\)</regexp>
+        </rule>
+        <rule name='$fs::. -> read $var_'>
+            <regexp>new\s+SAXBuilder\(\)</regexp>
+        </rule>
+        <rule name='$http_api::. -> write $var_'>
+            <regexp>new\s+SAXBuilder\(\)</regexp>
+        </rule>
+        <rule name='$fs::. -> read $var_'>
+            <regexp>new\s+SAXParser\(</regexp>
+        </rule>
+        <rule name='$http_api::. -> write $var_'>
+            <regexp>new\s+SAXParser\(</regexp>
+        </rule>
+        <rule name='$fs::. -> read $var_'>
+            <regexp>createXMLReader\(</regexp>
+        </rule>
+        <rule name='$http_api::. -> write $var_'>
+            <regexp>createXMLReader\(</regexp>
+        </rule>
+        <rule name='$fs::. -> read $var_'>
+            <regexp>newDocumentBuilder\(</regexp>
+        </rule>
+        <rule name='$http_api::. -> write $var_'>
+            <regexp>newDocumentBuilder\(</regexp>
+        </rule>
+        <rule name='$fs::. -> read $var_'>
+            <regexp>createXMLStreamReader\(</regexp>
+        </rule>
+        <rule name='$http_api::. -> write $var_'>
+            <regexp>createXMLStreamReader\(</regexp>
+        </rule>
+    </jsid>
+    <jsid vultype='File'>
+        <rule name='$fs::. -> write $var_'>
+            <regexp>new\sFileInputStream\(</regexp>
+        </rule>
+        <rule name='$fs::. -> write $var_'>
+            <regexp>new\sBufferedInputStream</regexp>
+        </rule>
+    </jsid>
+    <jsid vultype='EXEC'>
+        <rule name='$sys_process::. -> exec $var_'>
+            <regexp>getRuntime\(\)\.exec\(</regexp>
+        </rule>
+    </jsid>
+    <jsid vultype='SQLi'>
+        <rule name='$sys_process::. -> exec $var_'>
+            <regexp>(into|where)[^\$]*(\$\{[^,#=\s]+\})</regexp>
+        </rule>
+    </jsid>
 </root>
