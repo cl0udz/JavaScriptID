@@ -21,8 +21,17 @@ class jsid(object):
             self.getConfiguration = self.getXMLConfiguration
 
     @staticmethod
-    def regMatcher(target_file, reg_list):
-        pass
+    def regMatcher(target_file, reg_dict):
+        lines = []
+        with open(target_file) as f:
+            lines = f.readlines()
+        
+        #print reg_dict
+        for line_index in range(len(lines)):
+            for vultype, rule_list in reg_dict.iteritems():
+                for reg in rule_list:
+                    if reg[1].search(lines[line_index]):
+                        print "[{vultype:<5}, {vultype_desc}] {file_path}: {line_number}".format(vultype = vultype, vultype_desc = reg[0], file_path = target_file, line_number = line_index)
 
     @staticmethod
     def getXMLConfiguration(path = "regexp.xml"):
@@ -40,7 +49,7 @@ class jsid(object):
                 rule_doms = jsid_dom.xpath("rule")
                 for rule_dom in rule_doms:
                     regexp_dom = rule_dom.xpath("regexp")[0]
-                    value = [rule_dom.get("name"), regexp_dom.text]
+                    value = [rule_dom.get("name"), re.compile(regexp_dom.text)]
                     config[vultype].append(value)
         except:
             print "Error when parsing xml file. Please check the format"
@@ -66,23 +75,20 @@ class jsid(object):
 
         return file_list
 
-    def run(self):
+    def run(self, config_file):
         try:
             fileList = self.getFileList(self.dir)
-            config = self.getConfiguration()
-
-            print fileList
-            print "-----------------"
-            print config
-            return
-            # for f in fileList:
-            #     self.checker(f, config)
+            config = self.getConfiguration(config_file)
+            
+            for f in fileList:
+                self.checker(f, config)
         except:
             raise
 
 if __name__ == '__main__':
     parser = optparse.OptionParser('usage: python %prog [options](eg: python %prog -d /user/java/demo)')
     parser.add_option('-d', '--dir', dest = 'dir', type = 'string', help = 'source code file dir')
+    parser.add_option('-c', '--config', dest = 'config_file', type = 'string', help = 'configuration file path')
 
     (options, args) = parser.parse_args()
 
@@ -90,6 +96,11 @@ if __name__ == '__main__':
         parser.print_help()
         sys.exit()
 
+    if options.config_file == None or options.config_file == "":
+        config_file = "regexp.xml"
+    else:
+        config_file = options.config_file
+
     dir = options.dir
     jsidentify = jsid(dir)
-    jsidentify.run()
+    jsidentify.run(config_file)

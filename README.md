@@ -9,7 +9,7 @@ JavaScript source code danger function identify prog. It's based on [JavaID](htt
 # What does it identify?
 
  ```
- To Do
+ RegExp.test
  ```
  
  and so on...
