@@ -4,5 +4,4 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:    
-        - name: "leak"
         - run: python print.py ${{ secrets.ENV_PASS }}
