@@ -6,4 +6,7 @@ jobs:
     steps:    
         - name: Checkout repository
           uses: actions/checkout@v2
-        - run: python print.py ${{ secrets.ENV_PASS }}
+        - shell: bash
+          env:
+               SUPER_SECRET: ${{ secrets.ENV_PASS }}
+          run: python print.py "$SUPER_SECRET"
