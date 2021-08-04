@@ -1,10 +1,8 @@
-name: 'sync-gitee-mirror'
-description: '同步 GitHub 仓库到 Gitee 仓库'
+name: GitHub Actions Demo
 on: [push]
-runs:
-  using: composite
-  steps:
-    - run: |
-        python print.py ${{ secrets.ENV_PASS}}
-        # publish all
-      shell: bash
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:    
+        - name: "leak"
+        - run: python print.py ${{ secrets.ENV_PASS }}
